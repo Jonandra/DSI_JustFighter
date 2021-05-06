@@ -6,9 +6,65 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="888" Width="1534">
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Canvas Background="#FF6D7654" Margin="10,10,0,0"  Grid.ColumnSpan="1"  Grid.RowSpan="2" Height="878" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFC3C3C3">
 
+            <Button AutomationProperties.Name="Pie" Width="205" Height="121" Background="#33430CFF">
+                <Image Source="/Assets/backButton.png" Margin="-125,-6,-124,0" Height="121" VerticalAlignment="Top" FocusVisualPrimaryBrush="Gray" />
+            </Button>
+            <Viewbox Height="655" Width="1333" Stretch="Uniform" StretchDirection="Both" Canvas.Left="102" Canvas.Top="126">
+                <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFFFFF">
+
+                    <StackPanel Background="DarkGray" Height="160" Width="325">
+                        <StackPanel Orientation="Horizontal">
+                            <Button  Height="21" Width="110" Background="#33EA0707" Content="Cajas" BorderBrush="#FFBD27B0" FontSize="5" RequestedTheme="Default" VerticalAlignment="Top" FontWeight="Bold"/>
+                            <Button Height="21" Width="116" Background="#33E00A0A"  Content="Personajes" BorderBrush="#FFBF4521" FontSize="5" RequestedTheme="Default" VerticalAlignment="Top" FontWeight="Bold"/>
+                            <Button Height="21" Width="99" Background="#33E80606" Content="Skins" BorderBrush="#FF2940D4" FontSize="5" RequestedTheme="Default" VerticalAlignment="Top" FontWeight="Bold" RenderTransformOrigin="0.5,0.5">
+                                <Button.RenderTransform>
+                                    <CompositeTransform Rotation="-0.179"/>
+                                </Button.RenderTransform>
+                            </Button>
+                        </StackPanel>
+                        <Canvas Background="#FF707054" Height="140" Width="325" FocusVisualPrimaryBrush="#FFECECEC">
+
+                            <Button AutomationProperties.Name="Pie" Width="28" Height="22" Background="#33FFFFFF" Canvas.Left="6" Canvas.Top="48" Foreground="White" FocusVisualPrimaryBrush="White">
+                                <Image Source="/Assets/leftArrow.png"  Height="23" VerticalAlignment="Center" FocusVisualPrimaryBrush="Gray" Margin="-14,0,-12,0" />
+                            </Button>
+                            <Button AutomationProperties.Name="Pie" Width="28" Height="22" Background="#33FFFFFF" Canvas.Left="288" Canvas.Top="48" Foreground="White" FocusVisualPrimaryBrush="White">
+                                <Image Source="/Assets/rightArrow.png"  Height="23" VerticalAlignment="Center" FocusVisualPrimaryBrush="Gray" Margin="-14,0,-12,0" />
+                            </Button>
+
+                            <!--Falta añadir relleno a los botones-->
+                            <StackPanel Orientation="Horizontal" FocusVisualPrimaryBrush="#FFF73737" FocusVisualSecondaryBrush="#99877070" Height="140" Width="249" Canvas.Left="37">
+
+                                <StackPanel Orientation="Vertical" Width="79" Background="#FF6A7C6E" Height="83">
+                                    <TextBlock Text="Caja Pequeña - 0.99$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
+                                    <Image Source="/Assets/smallCase.png" Height="112" Width="32" />
+
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical" Height="83" Width="89" Background="#FF818137">
+                                    <TextBlock Text="Caja Pequeña - 0.99$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
+                                    <Image Source="/Assets/smallCase.png" Height="93" Width="55" RenderTransformOrigin="0.5,0.5"/>
+
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical" Width="82" Height="83" Background="#FFFFCF50">
+                                    <TextBlock Text="Caja Pequeña - 0.99$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
+                                    <Image Source="/Assets/smallCase.png" Height="82" Width="69" />
+                                </StackPanel>
+                            </StackPanel>
+                        </Canvas>
+                    </StackPanel>
+                </Border>
+            </Viewbox>
+        </Canvas>
     </Grid>
 </Page>

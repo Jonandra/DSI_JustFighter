@@ -26,5 +26,7 @@ namespace DSI_JustFighter
         {
             this.InitializeComponent();
         }
+
+       
     }
 }
