@@ -1,17 +1,12 @@
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\DSI_JustFighter.csprojAssemblyReference.cache
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\App.g.i.cs
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\App.g.cs
-C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\MainPage.g.i.cs
-C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\MainPage.g.cs
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\App.xaml
-C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\MainPage.xaml
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\App.xbf
-C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\MainPage.xbf
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\XamlTypeInfo.g.cs
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\XamlSaveStateFile.xml
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\DSI_JustFighter.csproj.CoreCompileInputs.cache
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x64\Debug\App.xbf
-C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x64\Debug\MainPage.xbf
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x64\Debug\DSI_JustFighter.xr.xml
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x64\Debug\DSI_JustFighter.exe
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x64\Debug\DSI_JustFighter.pdb
@@ -43,3 +38,8 @@ C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\qualifiers.txt.in
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\Tienda.g.i.cs
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\Tienda.g.cs
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\Tienda.xaml
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\Tienda.xbf
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x64\Debug\Tienda.xbf

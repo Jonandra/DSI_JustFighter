@@ -4,38 +4,17 @@
     <RootType FullName="Windows.UI.Xaml.Application" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
-      <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
-      <RootMethod Name="GetColumnSpan" />
-      <RootMethod Name="SetColumnSpan" />
-      <RootMethod Name="GetRowSpan" />
-      <RootMethod Name="SetRowSpan" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
-      <RootProperty Name="Width" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
-      <RootProperty Name="Background" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="FocusVisualPrimaryBrush" />
-      <RootProperty Name="Children" />
-      <RootProperty Name="Width" />
-      <RootMethod Name="GetLeft" />
-      <RootMethod Name="SetLeft" />
-      <RootMethod Name="GetTop" />
-      <RootMethod Name="SetTop" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Width" />
@@ -57,8 +36,6 @@
       <RootMethod Name="SetName" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
       <RootProperty Name="Stretch" />
       <RootProperty Name="StretchDirection" />
       <RootProperty Name="Child" />
@@ -77,6 +54,17 @@
       <RootProperty Name="Orientation" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="FocusVisualSecondaryBrush" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="FocusVisualPrimaryBrush" />
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetLeft" />
+      <RootMethod Name="SetLeft" />
+      <RootMethod Name="GetTop" />
+      <RootMethod Name="SetTop" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
@@ -98,6 +86,6 @@
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
       <RootProperty Name="Rotation" />
     </RootType>
-    <RootType FullName="DSI_JustFighter.MainPage" />
+    <RootType FullName="DSI_JustFighter.Tienda" />
   </Roots.RootTypes>
 </Roots>

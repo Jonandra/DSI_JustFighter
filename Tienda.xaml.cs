@@ -20,13 +20,17 @@ namespace DSI_JustFighter
     /// <summary>
     /// Página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class Tienda : Page
     {
-        public MainPage()
+        public Tienda()
         {
             this.InitializeComponent();
         }
 
-       
+        private void Page_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            Vbox.Width = e.NewSize.Width;
+            Vbox.Height = e.NewSize.Height;
+        }
     }
 }
