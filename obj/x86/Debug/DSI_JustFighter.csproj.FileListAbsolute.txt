@@ -103,3 +103,8 @@ C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sist
 C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\MenuSeleccionPj.xbf
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuSeleccionPj.g.i.cs
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuSeleccionPj.g.cs
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuSeleccionPj.xaml
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuSeleccionPj.xbf

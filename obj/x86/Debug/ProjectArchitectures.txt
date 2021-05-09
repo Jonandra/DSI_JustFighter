@@ -1,1 +1,1 @@
-C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\DSI_JustFighter.csproj;x86
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\DSI_JustFighter.csproj;x86

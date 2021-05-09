@@ -18,7 +18,7 @@
         </Button>
         <TextBlock Text="Ajustes" Grid.Row="0"  Foreground="#FFFFDF72" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
 
-        <StackPanel   Background="DarkKhaki"  VerticalAlignment="Center" Grid.Row="1">
+        <Viewbox VerticalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="1" FocusVisualSecondaryBrush="#992B2525">
             <StackPanel Orientation="Horizontal" Height="599">
                 <StackPanel Orientation="Vertical" Width="586" Height="453">
                     <ComboBox Header="Cambiar de Idioma"  Width="285" HorizontalAlignment="Center" Background="#666FD8BC" Foreground="#FFE00000" FontFamily="Arial Nova" Height="78" FontSize="20">
@@ -42,7 +42,7 @@
 
             </StackPanel>
 
-        </StackPanel>
+        </Viewbox>
 
 
 
