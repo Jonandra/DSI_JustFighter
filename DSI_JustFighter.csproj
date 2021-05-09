@@ -122,6 +122,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MenuSeleccionPj.xaml.cs">
+      <DependentUpon>MenuSeleccionPj.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Tienda.xaml.cs">
       <DependentUpon>Tienda.xaml</DependentUpon>
     </Compile>
@@ -136,6 +139,7 @@
     <Content Include="Assets\bigCase.png" />
     <Content Include="Assets\leftArrow.png" />
     <Content Include="Assets\mediumCase.png" />
+    <Content Include="Assets\perfil.jpg" />
     <Content Include="Assets\rightarrow.png" />
     <Content Include="Assets\smallCase.png" />
     <Content Include="Properties\Default.rd.xml" />
@@ -155,6 +159,10 @@
     <Page Include="Ajustes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MenuSeleccionPj.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Tienda.xaml">
       <Generator>MSBuild:Compile</Generator>

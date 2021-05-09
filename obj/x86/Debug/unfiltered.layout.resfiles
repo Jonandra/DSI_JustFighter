@@ -4,6 +4,7 @@ Assets\bigCase.png
 Assets\leftArrow.png
 Assets\LockScreenLogo.scale-200.png
 Assets\mediumCase.png
+Assets\perfil.jpg
 Assets\rightarrow.png
 Assets\smallCase.png
 Assets\SplashScreen.scale-200.png
@@ -15,5 +16,6 @@ Assets\Wide310x150Logo.scale-200.png
 Ajustes.xbf
 App.xbf
 DSI_JustFighter.xr.xml
+MenuSeleccionPj.xbf
 Tienda.xbf
 Properties\Default.rd.xml
