@@ -94,6 +94,9 @@
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\Ajustes.xbf">
       <PackagePath>Ajustes.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\DesplegablePerfil.xbf">
+      <PackagePath>DesplegablePerfil.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\MenuSeleccionPj.xbf">
       <PackagePath>MenuSeleccionPj.xbf</PackagePath>
     </AppxPackagedFile>

@@ -108,3 +108,8 @@ C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuSeleccionPj.g
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuSeleccionPj.g.cs
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuSeleccionPj.xaml
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuSeleccionPj.xbf
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\DesplegablePerfil.xbf
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\DesplegablePerfil.g.i.cs
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\DesplegablePerfil.g.cs
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\DesplegablePerfil.xaml
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\DesplegablePerfil.xbf

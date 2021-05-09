@@ -5,8 +5,8 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
-      <RootProperty Name="RequestedTheme" />
       <RootProperty Name="Foreground" />
+      <RootProperty Name="RequestedTheme" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="RowDefinitions" />
@@ -30,11 +30,11 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="FontSize" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="BorderBrush" />
-      <RootProperty Name="FontSize" />
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontWeight" />
@@ -54,6 +54,7 @@
       <RootProperty Name="Height" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="FocusVisualSecondaryBrush" />
+      <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
@@ -66,9 +67,9 @@
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Orientation" />
       <RootProperty Name="Height" />
+      <RootProperty Name="Background" />
       <RootProperty Name="Children" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Background" />
       <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
@@ -118,8 +119,8 @@
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="Background" />
-      <RootProperty Name="Height" />
       <RootProperty Name="Child" />
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
       <RootProperty Name="Value" />
@@ -129,6 +130,7 @@
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="Margin" />
     </RootType>
+    <RootType FullName="DSI_JustFighter.DesplegablePerfil" />
     <RootType FullName="DSI_JustFighter.MenuSeleccionPj" />
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
       <RootProperty Name="Background" />
