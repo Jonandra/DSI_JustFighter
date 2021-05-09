@@ -122,6 +122,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DesplegablePerfil.xaml.cs">
+      <DependentUpon>DesplegablePerfil.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MenuSeleccionPj.xaml.cs">
       <DependentUpon>MenuSeleccionPj.xaml</DependentUpon>
     </Compile>
@@ -159,6 +162,10 @@
     <Page Include="Ajustes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DesplegablePerfil.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="MenuSeleccionPj.xaml">
       <Generator>MSBuild:Compile</Generator>

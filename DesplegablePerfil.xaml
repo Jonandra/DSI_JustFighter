@@ -34,30 +34,68 @@
         <!--ME FALTA VER COMO SE DIVIDE EL STACK PANNEL EN 2 ==> COLOCAR BIEN LAS COSAS-->
         <Viewbox x:Name="Vbox" Stretch="Uniform" StretchDirection="Both"  Grid.Row="1" Grid.ColumnSpan="3" Grid.Column="0" >
             <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFFFFF">
-                <StackPanel Background="DarkGray" Height="160" Width="325" >
-                    <StackPanel  Height="161" Width="238" >
-                        <!--PARTE IZQUIERDA-->
-                        <TextBlock Text="PLAYER 1" Width="164"></TextBlock>
-                        <Button Content="Editar Perfil" FontSize ="5" Height="22" Width="53"></Button>
-                        <Button Content="Cambiar Nombre" FontSize ="5" Height="22" Width="53"></Button>
-                        <TextBlock Text="Partidas ganadas:" Width="164" FontSize ="5"></TextBlock>
-                        <TextBlock Text="Logros Desbloqueados:" Width="164" FontSize ="5"/>
-                        <Image Source="/Assets/perfil.jpg" Height="26" Width="30"/>
-                        <!--la imagen no se ve por los loles-->
+                <StackPanel Background="DarkGray" Height="160" Width="325" Orientation="Horizontal" >
 
+                    <!--PARTE IZQUIERDA-->
+                    <StackPanel  Height="160" Width="173" Orientation="Vertical">
+                        <!--IMAGEN Y NOMBRE-->
+                        <StackPanel  Height="66" Width="159" Orientation="Horizontal">
+                            <Image Source="/Assets/perfil.jpg" Height="38" Width="41" Margin="10, 0"/>
+                            <TextBlock Text="PLAYER 1" Width="61" VerticalAlignment="Center"/>
+                        </StackPanel>
+                        <!--EDITAR-->
+                        <StackPanel  Height="22" Width="159" Orientation="Horizontal">
+                            <Button Content="Editar Perfil" FontSize ="5" Height="20" Width="58" Background="Wheat"/>
+                            <Button Content="Cambiar Nombre" FontSize ="5" Height="20" Width="58" Background="Wheat"/>
 
-                        <!--PARTE DERECHA-->
-                        <TextBlock Text="Desafíos pendientes" Width="164"></TextBlock>
-                        <TextBlock Text="Misión correspondiente:" Width="164" FontSize ="5"></TextBlock>
-                        <TextBlock Text="Misión correspondiente:" Width="164" FontSize ="5"></TextBlock>
-                        <TextBlock Text="Misión completada:" Width="164" FontSize ="5"></TextBlock>
+                        </StackPanel>
+                        <!--INFORMACION-->
+                        <StackPanel  Height="72" Width="159" Orientation="Horizontal" >
+                            <!--COSAS-->
+                            <StackPanel  Height="72" Width="105" Orientation="Vertical" >
+                                <TextBlock Text="Partidas ganadas:" Width="80" FontSize ="8" HorizontalAlignment="Left" Margin="10, 6"/>
+                                <TextBlock Text="Logros Desbloqueados:" Width="108" FontSize ="8" HorizontalAlignment="Left" Margin="10, 6"/>
+                                <TextBlock Text="Logros Desbloqueados:" Width="108" FontSize ="8" HorizontalAlignment="Left" Margin="10, 6"/>
+                            </StackPanel>
 
+                            <!--PUNTUACION-->
+                            <StackPanel  Height="71" Width="51" Orientation="Vertical">
+                                <TextBlock Text="105" Width="80" FontSize ="8" HorizontalAlignment="Left" Margin="0, 6"/>
+                                <TextBlock Text="27" Width="108" FontSize ="8" HorizontalAlignment="Left" Margin="0, 6"/>
+                                <TextBlock Text="..." Width="108" FontSize ="8" HorizontalAlignment="Left" Margin="0, 6"/>
+                            </StackPanel>
 
+                        </StackPanel>
+                        <!--fin info-->
 
                     </StackPanel>
+
+                    <!--PARTE DERECHA-->
+                    <StackPanel  Height="163" Width="153" Orientation="Vertical" Background="LightGray">
+                        <!--DESAFIOS-->
+                        <TextBlock Text="Desafíos pendientes" Width="126" HorizontalAlignment="Center"  Margin ="0, 5 "/>
+
+                        <!--BARRAS-->
+                        <StackPanel  Height="135" Width="159" Orientation="Horizontal">
+                            <StackPanel  Height="135" Width="84" Orientation="Vertical">
+                                <TextBlock Text="Misión correspondiente" FontSize="8" Margin ="0, 8" Width="87" Height="14" VerticalAlignment="Top"/>
+                                <TextBlock Text="Misión correspondiente" FontSize="8"  Margin ="0, 8 " Width="87" Height="14" VerticalAlignment="Top"/>
+                                <TextBlock Text="Misión Completada" FontSize="8"  Margin ="0, 8 " Width="87" Height="14" VerticalAlignment="Top"/>
+                                <TextBlock Text="Misión correspondiente" FontSize="8"  Margin ="0, 8 " Width="87" Height="14" VerticalAlignment="Top"/>
+                            </StackPanel>
+                            <StackPanel  Height="135" Width="69" Orientation="Vertical">
+                                <ProgressBar Value="90" Foreground="Green" Width="58" Height="10" RenderTransformOrigin="0.5,0.5" Margin="0,10"/>
+                                <ProgressBar Value="50" Foreground="Orange" Width="58" Height="10" RenderTransformOrigin="0.5,0.5" Margin="0,10"/>
+                                <ProgressBar Value="70" Foreground="GreenYellow" Width="58" Height="10" RenderTransformOrigin="0.5,0.5" Margin="0,10"/>
+                                <ProgressBar Value="30" Foreground="Red" Width="58" Height="10" RenderTransformOrigin="0.5,0.5" Margin="0,10"/>
+
+                            </StackPanel>
+                        </StackPanel>
+
+                    </StackPanel>
+                    <!--final parte derecha-->
+
                 </StackPanel>
-
-
 
             </Border>
         </Viewbox>
