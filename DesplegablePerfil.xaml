@@ -6,9 +6,62 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource CheckBoxContentDisabledForegroundThemeBrush}" Foreground="#FFBD3333">
 
     <Grid>
+        <!--DIVIDIMOS EL LIENZO-->
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="18*" />
+            <RowDefinition Height="150*"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="18*" />
+            <ColumnDefinition Width="150*"/>
+            <ColumnDefinition Width="150*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--BOTON VUELTA ATRAS-->
+        <!--<Button x:Name="BackButton" Style="{StaticResource NavigationBackButtonNormalStyle}" Height="63" Width="77"/>-->
+        <Button AutomationProperties.Name="Pie" Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center">
+            <Image Source="/Assets/backButton.png" Margin="-89,0,-88,0" Height="78" VerticalAlignment="Center" FocusVisualPrimaryBrush="Gray" />
+        </Button>
+
+        <!--TITULO-->
+        <TextBlock Text="Perfil" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF2ECB00" FocusVisualSecondaryBrush="#994F4F4F" Foreground="#FF9B4600" FontFamily="Maiandra GD" FontSize="50" FontWeight="Bold"/>
+
+
+        <!--ME FALTA VER COMO SE DIVIDE EL STACK PANNEL EN 2 ==> COLOCAR BIEN LAS COSAS-->
+        <Viewbox x:Name="Vbox" Stretch="Uniform" StretchDirection="Both"  Grid.Row="1" Grid.ColumnSpan="3" Grid.Column="0" >
+            <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFFFFF">
+                <StackPanel Background="DarkGray" Height="160" Width="325" >
+                    <StackPanel  Height="161" Width="238" >
+                        <!--PARTE IZQUIERDA-->
+                        <TextBlock Text="PLAYER 1" Width="164"></TextBlock>
+                        <Button Content="Editar Perfil" FontSize ="5" Height="22" Width="53"></Button>
+                        <Button Content="Cambiar Nombre" FontSize ="5" Height="22" Width="53"></Button>
+                        <TextBlock Text="Partidas ganadas:" Width="164" FontSize ="5"></TextBlock>
+                        <TextBlock Text="Logros Desbloqueados:" Width="164" FontSize ="5"/>
+                        <Image Source="/Assets/perfil.jpg" Height="26" Width="30"/>
+                        <!--la imagen no se ve por los loles-->
+
+
+                        <!--PARTE DERECHA-->
+                        <TextBlock Text="Desafíos pendientes" Width="164"></TextBlock>
+                        <TextBlock Text="Misión correspondiente:" Width="164" FontSize ="5"></TextBlock>
+                        <TextBlock Text="Misión correspondiente:" Width="164" FontSize ="5"></TextBlock>
+                        <TextBlock Text="Misión completada:" Width="164" FontSize ="5"></TextBlock>
+
+
+
+                    </StackPanel>
+                </StackPanel>
+
+
+
+            </Border>
+        </Viewbox>
+
 
     </Grid>
 </Page>
