@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="DSI_JustFighter.Ajustes"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DSI_JustFighter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#FF4F4A4A">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="79*" />
+            <RowDefinition Height="401*"/>
+        </Grid.RowDefinitions>
+        <Button  Width="223" Height="102" Background="#3372AFB6">
+            <Image Source="/Assets/backButton.png" Margin="-98,0,-104,-1" Height="90" VerticalAlignment="Bottom" FocusVisualPrimaryBrush="Gray" />
+        </Button>
+        <TextBlock Text="Ajustes" Grid.Row="0"  Foreground="#FFFFDF72" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
+
+        <StackPanel   Background="DarkKhaki"  VerticalAlignment="Center" Grid.Row="1">
+            <StackPanel Orientation="Horizontal" Height="599">
+                <StackPanel Orientation="Vertical" Width="586" Height="453">
+                    <ComboBox Header="Cambiar de Idioma"  Width="285" HorizontalAlignment="Center" Background="#666FD8BC" Foreground="#FFE00000" FontFamily="Arial Nova" Height="78" FontSize="20">
+                        <x:String>Español</x:String>
+                        <x:String>Ruso</x:String>
+                        <x:String>Ingles</x:String>
+                        <x:String>Francés</x:String>
+                    </ComboBox>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Width="797" Height="513" >
+                    
+                    <TextBlock Text="Volumen General"  Foreground="#FFEA4A26" FontSize="30" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" HorizontalAlignment="Left" Height="58"/>
+                    <Slider AutomationProperties.Name="simple slider" Width="570" HorizontalAlignment="Left" Height="90"/>
+                    <TextBlock Text="Música"  Foreground="#FFEA4A26" FontSize="30" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
+                    <Slider AutomationProperties.Name="simple slider" Width="570" HorizontalAlignment="Left" Height="91"/>
+                    <TextBlock Text="Efectos de Sonido"  Foreground="#FFEA4A26" FontSize="30" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
+                    <Slider AutomationProperties.Name="simple slider" Width="570" HorizontalAlignment="Left" Height="107"/>
+                    <TextBlock Text="Gráficos"  Foreground="#FFEA4A26" FontSize="30" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
+                    <Slider AutomationProperties.Name="Slider with ticks" TickFrequency="10" TickPlacement="Outside" Width="715" HorizontalAlignment="Left" Height="42"/>
+                </StackPanel>
+
+            </StackPanel>
+
+        </StackPanel>
+
+
+
+    </Grid>
+</Page>

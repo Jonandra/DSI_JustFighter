@@ -6,19 +6,25 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource CheckBoxContentDisabledForegroundThemeBrush}" Foreground="#FFBD3333">
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition  Height="20*" />
-            <RowDefinition Height="130*"/>
+            <RowDefinition  Height="18*" />
+            <RowDefinition Height="150*"/>
 
         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="18*" />
+            <ColumnDefinition Width="150*"/>
 
-        <Button AutomationProperties.Name="Pie" Width="117" Height="84" Background="#33430CFF">
+        </Grid.ColumnDefinitions>
+
+        <Button x:ConnectionId='2'  Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center"                     >
             <Image Source="/Assets/backButton.png" Margin="-89,0,-88,0" Height="78" VerticalAlignment="Center" FocusVisualPrimaryBrush="Gray" />
         </Button>
-        <Viewbox x:ConnectionId='2' x:Name="Vbox" Stretch="Uniform" StretchDirection="Both"  Grid.Row="1" >
+        <TextBlock Text="Menu de Tienda" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF2ECB00" FocusVisualSecondaryBrush="#994F4F4F" Foreground="#FF9B4600" FontFamily="Maiandra GD" FontSize="50" FontWeight="Bold"/>
+        <Viewbox x:ConnectionId='3' x:Name="Vbox" Stretch="Uniform" StretchDirection="Both"  Grid.Row="1" Grid.ColumnSpan="2" >
             <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFFFFF">
 
                 <StackPanel Background="DarkGray" Height="160" Width="325" >

@@ -32,5 +32,10 @@ namespace DSI_JustFighter
             Vbox.Width = e.NewSize.Width;
             Vbox.Height = e.NewSize.Height;
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Ajustes));
+        }
     }
 }

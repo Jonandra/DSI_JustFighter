@@ -43,3 +43,8 @@ C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\Tienda.g.cs
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\Tienda.xaml
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\Tienda.xbf
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x64\Debug\Tienda.xbf
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x64\Debug\Ajustes.xbf
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\Ajustes.g.i.cs
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\Ajustes.g.cs
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\Ajustes.xaml
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x64\Debug\Ajustes.xbf

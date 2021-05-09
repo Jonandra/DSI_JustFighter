@@ -88,6 +88,9 @@
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x64\Debug\Ajustes.xbf">
+      <PackagePath>Ajustes.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x64\Debug\Tienda.xbf">
       <PackagePath>Tienda.xbf</PackagePath>
     </AppxPackagedFile>
