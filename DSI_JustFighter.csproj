@@ -122,6 +122,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CombateUI.xaml.cs">
+      <DependentUpon>CombateUI.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DesplegablePerfil.xaml.cs">
       <DependentUpon>DesplegablePerfil.xaml</DependentUpon>
     </Compile>
@@ -139,10 +142,17 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\avatar1.png" />
+    <Content Include="Assets\avatar2.png" />
     <Content Include="Assets\bigCase.png" />
+    <Content Include="Assets\botonLucha.png" />
+    <Content Include="Assets\campoBatalla.jpg" />
+    <Content Include="Assets\cruceta.png" />
     <Content Include="Assets\leftArrow.png" />
     <Content Include="Assets\mediumCase.png" />
     <Content Include="Assets\perfil.jpg" />
+    <Content Include="Assets\personaje1.png" />
+    <Content Include="Assets\personaje2.png" />
     <Content Include="Assets\rightarrow.png" />
     <Content Include="Assets\smallCase.png" />
     <Content Include="Properties\Default.rd.xml" />
@@ -160,6 +170,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="Ajustes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CombateUI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

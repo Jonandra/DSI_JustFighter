@@ -113,3 +113,13 @@ C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\DesplegablePerfil
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\DesplegablePerfil.g.cs
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\DesplegablePerfil.xaml
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\DesplegablePerfil.xbf
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\bin\x86\Debug\CombateUI.xbf
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\bin\x86\Debug\DesplegablePerfil.xbf
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\CombateUI.g.i.cs
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\CombateUI.g.cs
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\DesplegablePerfil.g.i.cs
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\DesplegablePerfil.g.cs
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\DesplegablePerfil.xaml
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\CombateUI.xaml
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\DesplegablePerfil.xbf
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\CombateUI.xbf
