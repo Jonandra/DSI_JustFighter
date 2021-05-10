@@ -123,3 +123,8 @@ C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sist
 C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\CombateUI.xaml
 C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\DesplegablePerfil.xbf
 C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\CombateUI.xbf
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\CombateUI.xbf
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\CombateUI.g.i.cs
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\CombateUI.g.cs
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\CombateUI.xaml
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\CombateUI.xbf

@@ -58,13 +58,13 @@
                             </StackPanel>
                             <StackPanel Orientation="Vertical" Height="83" Width="89" Background="#FF818137">
                                 <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FF818137"/>
-                                <TextBlock Text="Caja Pequeña - 0.99$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
+                                <TextBlock Text="Caja Mediana - 3.99$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
                                 <Image Source="/Assets/smallCase.png" Height="93" Width="55" RenderTransformOrigin="0.5,0.5"/>
 
                             </StackPanel>
                             <StackPanel Orientation="Vertical" Width="82" Height="83" Background="#FFFFCF50">
                                 <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFCF50"/>
-                                <TextBlock Text="Caja Pequeña - 0.99$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
+                                <TextBlock Text="Caja Grande - 10.99$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
                                 <Image Source="/Assets/smallCase.png" Height="82" Width="69" />
                             </StackPanel>
                         </StackPanel>
