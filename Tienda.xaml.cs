@@ -37,5 +37,35 @@ namespace DSI_JustFighter
         {
             this.Frame.Navigate(typeof(Ajustes));
         }
+        
+
+        //Flecha Derecha 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+        //Flecha Izquierda 
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        //Botones para cambiar la visibilidad de los distintos viewBoxes
+        //Activaremos o desactivaremos viewboxes para que se vean distinta info
+        //Usar el viewbox de las cajas para los personajes y skins
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            CanvasBox.Visibility = Visibility.Collapsed;
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            CanvasBox.Visibility = Visibility.Visible;
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            CanvasBox.Visibility = Visibility.Collapsed;
+        }
     }
 }

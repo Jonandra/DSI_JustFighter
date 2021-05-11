@@ -30,6 +30,8 @@
       <RootProperty Name="Child" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FocusVisualSecondaryBrush" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
       <RootProperty Name="Stretch" />
       <RootProperty Name="StretchDirection" />
     </RootType>
@@ -81,10 +83,12 @@
       <RootProperty Name="FontFamily" />
       <RootProperty Name="Height" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Items" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">
+      <RootProperty Name="FontStretch" />
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
@@ -160,6 +164,12 @@
       <RootMethod Name="SetLeft" />
       <RootMethod Name="GetTop" />
       <RootMethod Name="SetTop" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
+      <RootProperty Name="Height" />
+      <RootProperty Name="UseSystemFocusVisuals" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="DSI_JustFighter.Tienda" />
   </Roots.RootTypes>
