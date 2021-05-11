@@ -203,3 +203,13 @@ C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\MenuOnline.g.i.cs
 C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\MenuOnline.g.cs
 C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\MenuOnline.xaml
 C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\MenuOnline.xbf
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\MenuOnline.xbf
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\MenuPrincipal.xbf
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuOnline.g.i.cs
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuOnline.g.cs
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuPrincipal.g.i.cs
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuPrincipal.g.cs
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuOnline.xaml
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuPrincipal.xaml
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuOnline.xbf
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuPrincipal.xbf

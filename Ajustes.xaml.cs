@@ -27,8 +27,36 @@ namespace DSI_JustFighter
             this.InitializeComponent();
         }
 
+
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MenuPrincipal));
+        }
+
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (Español.IsSelected)
+            {
+                vGen.Text = "Volumen General";
+                musica.Text = "Música";
+                graficos.Text = "Gráficos";
+                eSonido.Text = "Efectos de Sonido";
+            }
+            else if (Ingles.IsSelected)
+            {
+                vGen.Text = "General Volume";
+                musica.Text = "Music";
+                graficos.Text = "Graphics";
+                eSonido.Text = "Sound Effects";
+            }
+            else if (Frances.IsSelected)
+            {
+                vGen.Text = "Volume général";
+                musica.Text = "Musique";
+                graficos.Text = "Graphique";
+                eSonido.Text = "Effets sonores";
+            }
 
         }
     }

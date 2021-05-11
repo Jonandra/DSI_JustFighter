@@ -15,7 +15,7 @@
         </Grid.RowDefinitions>
         <Viewbox HorizontalAlignment="Left">
             <StackPanel Orientation="Horizontal" Width="928">
-                <Button  Width="223" Height="102" Background="#33430CFF">
+                <Button  Width="223" Height="102" Background="#33430CFF" Click="Button_Click">
                 <Image Source="/Assets/backButton.png" Height="90" VerticalAlignment="Bottom" FocusVisualPrimaryBrush="Gray" />
             </Button>
             <TextBlock Text="Ajustes" Margin="180,0,0,0" Foreground="#FFFFDF72" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
@@ -26,22 +26,27 @@
         <Viewbox VerticalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="1" FocusVisualSecondaryBrush="#992B2525">
             <StackPanel Orientation="Horizontal" Height="599" Background="Gray">
                 <StackPanel Orientation="Vertical" Width="586" Height="453">
-                    <ComboBox Header="Cambiar de Idioma"  Width="285" HorizontalAlignment="Center" Background="#666FD8BC" Foreground="#FFE00000" FontFamily="Arial Nova" Height="78" FontSize="20" SelectionChanged="ComboBox_SelectionChanged">
-                        <x:String>Español</x:String>
-                        <x:String>Ruso</x:String>
-                        <x:String>Ingles</x:String>
-                        <x:String>Francés</x:String>
+                    <ComboBox Header="Cambiar de Idioma"  Width="285" HorizontalAlignment="Center" Background="#666FD8BC" Foreground="#FFE00000" FontFamily="Arial Nova" Height="78" FontSize="20" SelectionChanged="ComboBox_SelectionChanged" >
+                        <ComboBoxItem x:Name="Español">
+                            <TextBlock Text="Español" Foreground="Black"/>
+                        </ComboBoxItem >
+                        <ComboBoxItem x:Name="Ingles" >
+                            <TextBlock x:Name="Inglés" Text="Inglés"  Foreground="Black"/>
+                        </ComboBoxItem>
+                        <ComboBoxItem  x:Name="Frances" >
+                            <TextBlock x:Name="Francés" Text="Francés"  Foreground="Black"/>
+                        </ComboBoxItem>
                     </ComboBox>
                 </StackPanel>
                 <StackPanel Orientation="Vertical" Width="797" Height="513" >
                     
-                    <TextBlock Text="Volumen General"  Foreground="#FFEA4A26" FontSize="30" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" HorizontalAlignment="Left" Height="58"/>
+                    <TextBlock x:Name="vGen" Text="Volumen General"  Foreground="#FFEA4A26" FontSize="30" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" HorizontalAlignment="Left" Height="58"/>
                     <Slider AutomationProperties.Name="simple slider" Width="570" HorizontalAlignment="Left" Height="90"/>
-                    <TextBlock Text="Música"  Foreground="#FFEA4A26" FontSize="30" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
+                    <TextBlock x:Name="musica" Text="Música"  Foreground="#FFEA4A26" FontSize="30" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
                     <Slider AutomationProperties.Name="simple slider" Width="570" HorizontalAlignment="Left" Height="91"/>
-                    <TextBlock Text="Efectos de Sonido"  Foreground="#FFEA4A26" FontSize="30" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
+                    <TextBlock x:Name="eSonido" Text="Efectos de Sonido"  Foreground="#FFEA4A26" FontSize="30" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
                     <Slider AutomationProperties.Name="simple slider" Width="570" HorizontalAlignment="Left" Height="107"/>
-                    <TextBlock Text="Gráficos"  Foreground="#FFEA4A26" FontSize="30" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
+                    <TextBlock x:Name="graficos" Text="Gráficos"  Foreground="#FFEA4A26" FontSize="30" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
                     <Slider AutomationProperties.Name="Slider with ticks" TickFrequency="10" TickPlacement="Outside" Width="715" HorizontalAlignment="Left" Height="42"/>
                 </StackPanel>
 
