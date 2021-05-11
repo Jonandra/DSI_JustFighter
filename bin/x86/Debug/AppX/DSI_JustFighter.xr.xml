@@ -12,6 +12,7 @@
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
       <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="Background" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumnSpan" />
@@ -81,6 +82,7 @@
       <RootProperty Name="Height" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Items" />
+      <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="System.String" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
@@ -90,6 +92,7 @@
       <RootProperty Name="Content" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="CornerRadius" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
@@ -142,6 +145,8 @@
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="DSI_JustFighter.DesplegablePerfil" />
+    <RootType FullName="DSI_JustFighter.MenuOnline" />
+    <RootType FullName="DSI_JustFighter.MenuPrincipal" />
     <RootType FullName="DSI_JustFighter.MenuSeleccionPj" />
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
       <RootProperty Name="Background" />

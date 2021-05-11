@@ -41,12 +41,12 @@
                         <!--IMAGEN Y NOMBRE-->
                         <StackPanel  Height="66" Width="159" Orientation="Horizontal">
                             <Image Source="/Assets/perfil.jpg" Height="38" Width="41" Margin="10, 0"/>
-                            <TextBlock Text="PLAYER 1" Width="61" VerticalAlignment="Center"/>
+                            <TextBlock Text="PLAYER 1" Width="61" Margin="5, 0" VerticalAlignment="Center"/>
                         </StackPanel>
                         <!--EDITAR-->
                         <StackPanel  Height="22" Width="159" Orientation="Horizontal">
-                            <Button Content="Editar Perfil" FontSize ="5" Height="20" Width="58" Background="Wheat"/>
-                            <Button Content="Cambiar Nombre" FontSize ="5" Height="20" Width="58" Background="Wheat"/>
+                            <Button Content="Editar Perfil"  FontSize ="5" Height="18" Width="56" Background="Wheat"></Button>
+                            <Button Content="Cambiar Nombre" FontSize ="5" Margin ="10, 0" Height="18" Width="54" Background="Wheat"/>
 
                         </StackPanel>
                         <!--INFORMACION-->
