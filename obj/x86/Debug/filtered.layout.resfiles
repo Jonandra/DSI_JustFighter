@@ -1,4 +1,6 @@
 WinMetadata\Windows.winmd
+Assets\ajustes.png
+Assets\amigos.png
 Assets\avatar1.png
 Assets\avatar2.png
 Assets\backButton.png
@@ -6,6 +8,8 @@ Assets\bigCase.png
 Assets\botonLucha.png
 Assets\campoBatalla.jpg
 Assets\cruceta.png
+Assets\hamburguesa.png
+Assets\hexagonp.png
 Assets\leftArrow.png
 Assets\LockScreenLogo.scale-200.png
 Assets\mediumCase.png
@@ -13,6 +17,7 @@ Assets\perfil.jpg
 Assets\personaje1.png
 Assets\personaje2.png
 Assets\rightarrow.png
+Assets\salir.png
 Assets\smallCase.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
@@ -25,6 +30,8 @@ App.xbf
 CombateUI.xbf
 DesplegablePerfil.xbf
 DSI_JustFighter.xr.xml
+MenuOnline.xbf
+MenuPrincipal.xbf
 MenuSeleccionPj.xbf
 Tienda.xbf
 Properties\Default.rd.xml
