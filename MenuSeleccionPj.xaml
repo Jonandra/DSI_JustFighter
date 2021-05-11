@@ -26,7 +26,7 @@
 
         <Viewbox Grid.ColumnSpan="3" HorizontalAlignment="Left">
             <StackPanel Orientation="Horizontal" Width="1856">
-                <Button  Width="223" Height="102" Background="#3372AFB6">
+                <Button  Width="223" Height="102" Background="#33430CFF">
                     <Image Source="/Assets/backButton.png" Height="90" VerticalAlignment="Bottom" FocusVisualPrimaryBrush="Gray" />
                 </Button>
                 <TextBlock Text="Ajustes" Margin="600,0,0,0" Foreground="#FFFFDF72" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>

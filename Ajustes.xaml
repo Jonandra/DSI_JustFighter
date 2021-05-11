@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="#FF617A50">
+    Background="Black">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -15,7 +15,7 @@
         </Grid.RowDefinitions>
         <Viewbox HorizontalAlignment="Left">
             <StackPanel Orientation="Horizontal" Width="928">
-            <Button  Width="223" Height="102" Background="#3372AFB6">
+                <Button  Width="223" Height="102" Background="#33430CFF">
                 <Image Source="/Assets/backButton.png" Height="90" VerticalAlignment="Bottom" FocusVisualPrimaryBrush="Gray" />
             </Button>
             <TextBlock Text="Ajustes" Margin="180,0,0,0" Foreground="#FFFFDF72" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
@@ -24,7 +24,7 @@
             
 
         <Viewbox VerticalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="1" FocusVisualSecondaryBrush="#992B2525">
-            <StackPanel Orientation="Horizontal" Height="599" Background="#FF8F865C">
+            <StackPanel Orientation="Horizontal" Height="599" Background="Gray">
                 <StackPanel Orientation="Vertical" Width="586" Height="453">
                     <ComboBox Header="Cambiar de Idioma"  Width="285" HorizontalAlignment="Center" Background="#666FD8BC" Foreground="#FFE00000" FontFamily="Arial Nova" Height="78" FontSize="20" SelectionChanged="ComboBox_SelectionChanged">
                         <x:String>Español</x:String>
