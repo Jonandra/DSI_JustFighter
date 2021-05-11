@@ -21,14 +21,14 @@
             <ColumnDefinition Width="150*"/>
         </Grid.ColumnDefinitions>
 
-        <!--BOTON VUELTA ATRAS-->
-        <!--<Button x:Name="BackButton" Style="{StaticResource NavigationBackButtonNormalStyle}" Height="63" Width="77"/>-->
-        <Button AutomationProperties.Name="Pie" Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center">
-            <Image Source="/Assets/backButton.png" Margin="-89,0,-88,0" Height="78" VerticalAlignment="Center" FocusVisualPrimaryBrush="Gray" />
-        </Button>
-
-        <!--TITULO-->
-        <TextBlock Text="Perfil" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF2ECB00" FocusVisualSecondaryBrush="#994F4F4F" Foreground="#FF9B4600" FontFamily="Maiandra GD" FontSize="50" FontWeight="Bold"/>
+        <Viewbox Grid.ColumnSpan="3" HorizontalAlignment="Left">
+            <StackPanel Orientation="Horizontal" Width="1467">
+                <Button  Width="223" Height="102" Background="#3372AFB6">
+                    <Image Source="/Assets/backButton.png" Height="90" VerticalAlignment="Bottom" FocusVisualPrimaryBrush="Gray" />
+                </Button>
+                <TextBlock Text="Ajustes" Margin="400,0,0,0" Foreground="#FFFFDF72" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
+            </StackPanel>
+        </Viewbox>
 
 
         <!--ME FALTA VER COMO SE DIVIDE EL STACK PANNEL EN 2 ==> COLOCAR BIEN LAS COSAS-->
@@ -41,12 +41,12 @@
                         <!--IMAGEN Y NOMBRE-->
                         <StackPanel  Height="66" Width="159" Orientation="Horizontal">
                             <Image Source="/Assets/perfil.jpg" Height="38" Width="41" Margin="10, 0"/>
-                            <TextBlock Text="PLAYER 1" Width="61" VerticalAlignment="Center"/>
+                            <TextBlock Text="PLAYER 1" Width="61" Margin="5, 0" VerticalAlignment="Center"/>
                         </StackPanel>
                         <!--EDITAR-->
                         <StackPanel  Height="22" Width="159" Orientation="Horizontal">
-                            <Button Content="Editar Perfil" FontSize ="5" Height="20" Width="58" Background="Wheat"/>
-                            <Button Content="Cambiar Nombre" FontSize ="5" Height="20" Width="58" Background="Wheat"/>
+                            <Button Content="Editar Perfil"  FontSize ="5" Height="18" Width="56" Background="Wheat"></Button>
+                            <Button Content="Cambiar Nombre" FontSize ="5" Margin ="10, 0" Height="18" Width="54" Background="Wheat"/>
 
                         </StackPanel>
                         <!--INFORMACION-->

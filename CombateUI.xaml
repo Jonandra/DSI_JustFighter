@@ -41,8 +41,11 @@
                 </StackPanel>
 
                 <!--Segunda Columna-->
-                <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="1:29" FontSize="80" Foreground="Black"></TextBlock>
-
+                <StackPanel>
+                    <Image Source="/Assets/Timer.png" Height="50"></Image>
+                    <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="1:29" FontSize="50" Foreground="Black"></TextBlock>
+                </StackPanel>
+                
                 <!--Tercera Columna-->
                 <StackPanel Orientation="Vertical" Grid.Row="0" Grid.ColumnSpan="2">
                     <TextBlock HorizontalAlignment="Right" Margin="0,20,0,0" Text="Lvl. 9" FontSize="30" Foreground="Black"></TextBlock>

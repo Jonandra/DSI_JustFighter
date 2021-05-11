@@ -26,9 +26,9 @@
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
+      <RootProperty Name="Child" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FocusVisualSecondaryBrush" />
-      <RootProperty Name="Child" />
       <RootProperty Name="Stretch" />
       <RootProperty Name="StretchDirection" />
       <RootProperty Name="HorizontalAlignment" />

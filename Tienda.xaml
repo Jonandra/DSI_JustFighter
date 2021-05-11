@@ -19,10 +19,12 @@
             <ColumnDefinition Width="150*"/>
 
         </Grid.ColumnDefinitions>
-
-        <Button  Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center" Click="Button_Click">
-            <Image Source="/Assets/backButton.png" Margin="-89,-3,-88,0" Height="78" VerticalAlignment="Top" FocusVisualPrimaryBrush="Gray" />
-        </Button>
+        <Viewbox>
+            <Button  Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center" Click="Button_Click">
+                <Image Source="/Assets/backButton.png" Margin="-89,-3,-88,0" Height="78" VerticalAlignment="Top" FocusVisualPrimaryBrush="Gray" />
+            </Button>
+        </Viewbox>
+       
         <TextBlock Text="Menu de Tienda" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF2ECB00" FocusVisualSecondaryBrush="#994F4F4F" Foreground="#FF9B4600" FontFamily="Maiandra GD" FontSize="50" FontWeight="Bold"/>
         <Viewbox x:Name="Vbox" Stretch="Uniform" StretchDirection="Both"  Grid.Row="1" Grid.ColumnSpan="2" >
             <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFFFFF">
