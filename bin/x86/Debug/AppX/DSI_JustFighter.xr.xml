@@ -100,6 +100,7 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Name" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="BorderBrush" />
@@ -119,6 +120,7 @@
       <RootProperty Name="Stretch" />
       <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Name" />
       <RootProperty Name="RenderTransformOrigin" />
     </RootType>
     <RootType FullName="DSI_JustFighter.Ajustes" />

@@ -29,7 +29,7 @@
                 <Button  Width="223" Height="102" Background="#33430CFF">
                     <Image Source="/Assets/backButton.png" Height="90" VerticalAlignment="Bottom" FocusVisualPrimaryBrush="Gray" />
                 </Button>
-                <TextBlock Text="Ajustes" Margin="600,0,0,0" Foreground="#FFFFDF72" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
+                <TextBlock Text="Selección de personajes" Margin="500,0,0,0" Foreground="#FFFFDF72" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
             </StackPanel>
         </Viewbox>
 
@@ -41,7 +41,7 @@
                 <StackPanel Background="DarkGray" Width="325" Margin="0,-2,0,-2">
                     <!--Parte de arriba-->
                     <StackPanel  Height="87" Width="326" HorizontalAlignment="Left" Orientation="Horizontal">
-                        <Image Source="/Assets/perfil.jpg" Height="34" Width="39" Margin="10,0,0,0"/>
+                        <Image Name="Perfil"  Source="/Assets/perfil.jpg" Height="34" Width="39" Margin="10,0,0,0"/>
                         <StackPanel Orientation="Horizontal" Height="48" VerticalAlignment="Center" Width="146">
                             <!--Primera columna de stats (Textos)-->
                             <StackPanel Orientation="Vertical" Height="48" RenderTransformOrigin="0.5,0.5" Width="45" Margin="5,0,0,0">
@@ -52,29 +52,35 @@
 
                             <!--Segunda columna de stats (Barras)-->
                             <StackPanel Orientation="Vertical" Height="48" RenderTransformOrigin="0.5,0.5" Width="75">
-                                <ProgressBar Value="70" Foreground="Orange" Width="78" Height="10" RenderTransformOrigin="0.5,0.5" Margin="0,5"/>
+                                <ProgressBar x:Name="ProgressFuerza" Value="70" Foreground="Orange" Width="78" Height="10" RenderTransformOrigin="0.5,0.5" Margin="0,5"/>
 
-                                <ProgressBar Value="90" Foreground="HotPink" Width="78" Height="10" RenderTransformOrigin="0.5,0.5"/>
+                                <ProgressBar x:Name="ProgressMovilidad" Value="90" Foreground="HotPink" Width="78" Height="10" RenderTransformOrigin="0.5,0.5"/>
 
-                                <ProgressBar Value="30" Foreground="Red" Width="78" Height="10" RenderTransformOrigin="0.5,0.5" Margin="0,5"/>
+                                <ProgressBar x:Name="ProgressVida" Value="30" Foreground="Red" Width="78" Height="10" RenderTransformOrigin="0.5,0.5" Margin="0,5"/>
                             </StackPanel>
 
                             <!--Primera columna de stats (Puntuacion)-->
                             <StackPanel Orientation="Vertical" Height="48" RenderTransformOrigin="0.5,0.5" Width="16" Margin="5,0,0,0">
-                                <TextBlock Text="70" FontSize="10" Margin="0,1"></TextBlock>
-                                <TextBlock Text="90" FontSize="10" Margin="0,1"></TextBlock>
-                                <TextBlock Text="30" FontSize="10" Margin="0,1"></TextBlock>
+                                <TextBlock x:Name="ValueFuerza" Text="70" FontSize="10" Margin="0,1"></TextBlock>
+                                <TextBlock x:Name="ValueMovilidad" Text="90" FontSize="10" Margin="0,1"></TextBlock>
+                                <TextBlock x:Name="ValueVida" Text="30" FontSize="10" Margin="0,1"></TextBlock>
                             </StackPanel>
                         </StackPanel>
-                        <Button Content="Fight" Background="IndianRed" Margin="20,0,0,0" Width="73"></Button>
+                        <Button x:Name="Back" Content="Fight" Background="IndianRed" Margin="20,0,0,0" Width="73" Click="Back_Click"></Button>
                     </StackPanel>
 
                     <!--Parte de abajo-->
                     <StackPanel  Height="108" Width="326" HorizontalAlignment="Left" Orientation="Vertical" Background="LightGray">
                         <!-- Primera fila -->
                         <StackPanel  Height="54" Width="326" HorizontalAlignment="Left" Orientation="Horizontal" Background="LightGray">
-                            <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
-                            <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
+                            <Button Name="Normal"  Height="29" Width="35" Margin="10,0,0,0" Click="Normal_Click">
+                                <Image  Source="/Assets/perfil.jpg" Stretch="Uniform" Margin="-10,-13,-10,-15"/>
+                            </Button>
+                            
+                            <Button Name="Mosto"  Height="29" Width="35" Margin="10,0,0,0" Click="Mosto_Click">
+                                <Image  Source="/Assets/mosto.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
+                            </Button>
+                           
                             <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
                             <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
                             <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>

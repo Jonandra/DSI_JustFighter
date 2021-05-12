@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -25,6 +26,52 @@ namespace DSI_JustFighter
         public DesplegablePerfil()
         {
             this.InitializeComponent();
+
+            //PAGINA HACIA ATRAS
+            KeyboardAccelerator GoBack = new KeyboardAccelerator();
+            GoBack.Key = VirtualKey.GoBack;
+            GoBack.Invoked += BackInvoked;
+            KeyboardAccelerator AltLeft = new KeyboardAccelerator();
+            AltLeft.Key = VirtualKey.Left;
+            AltLeft.Invoked += BackInvoked;
+            this.KeyboardAccelerators.Add(GoBack);
+            this.KeyboardAccelerators.Add(AltLeft);
+            // ALT routes here
+            AltLeft.Modifiers = VirtualKeyModifiers.Menu;
         }
+        protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
+        {
+            Back.IsEnabled = this.Frame.CanGoBack; //VUELTA ATRAS
+
+            //if (e != null) //CARGAR LA IMAGEN DEL PARAMETRO
+            //{
+            //    BitmapImage bitimg = e.Parameter as BitmapImage;
+            //    Imagen.Source = bitimg;
+            //}
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            On_BackRequested();
+        }
+
+        // Handles system-level BackRequested events and page-level back  button Click events
+        private bool On_BackRequested()
+        {
+            if (this.Frame.CanGoBack)
+            {
+                this.Frame.GoBack();
+                return true;
+            }
+            return false;
+        }
+
+        private void BackInvoked(KeyboardAccelerator sender,
+        KeyboardAcceleratorInvokedEventArgs args)
+        {
+            On_BackRequested();
+            args.Handled = true;
+        } //VULTRA ATRAS------------------------------------------------------------------------------------
+
     }
 }

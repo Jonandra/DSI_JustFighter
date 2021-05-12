@@ -23,7 +23,7 @@
 
         <Viewbox Grid.ColumnSpan="3" HorizontalAlignment="Left">
             <StackPanel Orientation="Horizontal" Width="1467">
-                <Button  Width="223" Height="102" Background="#33430CFF">
+                <Button x:Name="Back" Click="Back_Click" Width="223" Height="102" Background="#33430CFF">
                     <Image Source="/Assets/backButton.png" Height="90" VerticalAlignment="Bottom" FocusVisualPrimaryBrush="Gray" />
                 </Button>
                 <TextBlock Text="Perfil" Margin="450,0,0,0" Foreground="#FFFFDF72" HorizontalAlignment="Center" 

@@ -155,11 +155,13 @@
     <Content Include="Assets\bigCase.png" />
     <Content Include="Assets\botonLucha.png" />
     <Content Include="Assets\campoBatalla.jpg" />
+    <Content Include="Assets\chica.jpg" />
     <Content Include="Assets\cruceta.png" />
     <Content Include="Assets\hamburguesa.png" />
     <Content Include="Assets\hexagonp.png" />
     <Content Include="Assets\leftArrow.png" />
     <Content Include="Assets\mediumCase.png" />
+    <Content Include="Assets\mosto.jpg" />
     <Content Include="Assets\perfil.jpg" />
     <Content Include="Assets\personaje1.png" />
     <Content Include="Assets\personaje2.png" />
