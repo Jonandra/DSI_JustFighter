@@ -10,21 +10,21 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition  Height="79*" />
-            <RowDefinition Height="401*"/>
+            <RowDefinition  Height="18*" />
+            <RowDefinition Height="150*"/>
         </Grid.RowDefinitions>
-        <Viewbox HorizontalAlignment="Left">
-            <StackPanel Orientation="Horizontal" Width="928">
-                <Button  Width="223" Height="102" Background="#33430CFF" Click="Button_Click">
-                    <Image Source="/Assets/backButton.png" Height="90" VerticalAlignment="Bottom" FocusVisualPrimaryBrush="Gray" />
+        <Viewbox HorizontalAlignment="Left" Grid.ColumnSpan="2">
+            <StackPanel Orientation="Horizontal" Width="1400">
+                <Button  Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center" Click="Button_Click">
+                    <Image Source="/Assets/backButton.png" Margin="-89,-3,-88,0" Height="78" VerticalAlignment="Top" FocusVisualPrimaryBrush="Gray" />
                 </Button>
-                <TextBlock Text="Ajustes" Margin="180,0,0,0" Foreground="#FFFFDF72" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
+                <TextBlock Text="Ajustes" Margin="500,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF2ECB00" FocusVisualSecondaryBrush="#994F4F4F" Foreground="#FF9B4600" FontFamily="Maiandra GD" FontSize="50" FontWeight="Bold"/>
             </StackPanel>
         </Viewbox>
 
 
         <Viewbox VerticalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="1" FocusVisualSecondaryBrush="#992B2525">
-            <StackPanel Orientation="Horizontal" Height="599" Background="Gray">
+            <StackPanel Orientation="Horizontal" Height="693" Background="Gray">
                 <StackPanel Orientation="Vertical" Width="586" Height="453">
                     <Viewbox Height="90" Width="435">
                         <ComboBox Header="Cambiar de Idioma"  Width="256" HorizontalAlignment="Center" Background="#666FD8BC" Foreground="#FFE00000" FontFamily="Arial Nova" Height="78" FontSize="20" SelectionChanged="ComboBox_SelectionChanged" VerticalAlignment="Center" >

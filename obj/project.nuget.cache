@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9vUF6QbmLS5nwHZR1427g1PK4nvLptVBGcTJquGMvZTd8i9OILz0hq00pjXFEnKN1mjCvneUQP41PVifVq+89w==",
+  "dgSpecHash": "svMoKTkyk63B9f08HlWnU2XtsTFxJ/Kd86JqrbeIXBPAVjZP7iFM1u4S4QTC/9BiRHi317xYu3xWOJ8pSHlXiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\javie\\Documents\\UNI\\DSI\\DSI_JustFighter\\DSI_JustFighter.csproj",
+  "projectFilePath": "C:\\Users\\rzk3p\\OneDrive\\Escritorio\\Asignaturas Segundo Cuatri\\Desarrollo de Sistemas Interactivos (DSI)\\DSI_JustFighter\\DSI_JustFighter.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

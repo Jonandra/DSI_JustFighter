@@ -35,7 +35,7 @@ namespace DSI_JustFighter
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Ajustes));
+            this.Frame.Navigate(typeof(MenuSeleccionPj));
         }
         
 
