@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
@@ -25,6 +26,17 @@ namespace DSI_JustFighter
         public CombateUI()
         {
             this.InitializeComponent();
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
+        {
+            //Back.IsEnabled = this.Frame.CanGoBack; //VUELTA ATRAS
+
+            if (e != null) //CARGAR LA IMAGEN DEL PARAMETRO
+            {
+                BitmapImage bitimg = e.Parameter as BitmapImage;
+                Perfil.Source = bitimg;
+            }
         }
     }
 }

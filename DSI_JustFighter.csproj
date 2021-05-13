@@ -152,6 +152,7 @@
     <Content Include="Assets\amigos.png" />
     <Content Include="Assets\avatar1.png" />
     <Content Include="Assets\avatar2.png" />
+    <Content Include="Assets\avestruz.png" />
     <Content Include="Assets\bigCase.png" />
     <Content Include="Assets\botonLucha.png" />
     <Content Include="Assets\campoBatalla.jpg" />
@@ -162,6 +163,7 @@
     <Content Include="Assets\leftArrow.png" />
     <Content Include="Assets\mediumCase.png" />
     <Content Include="Assets\mosto.jpg" />
+    <Content Include="Assets\pepe.jpg" />
     <Content Include="Assets\perfil.jpg" />
     <Content Include="Assets\personaje1.png" />
     <Content Include="Assets\personaje2.png" />
@@ -169,6 +171,7 @@
     <Content Include="Assets\salir.png" />
     <Content Include="Assets\smallCase.png" />
     <Content Include="Assets\Timer.png" />
+    <Content Include="Assets\Zeus.JPG.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

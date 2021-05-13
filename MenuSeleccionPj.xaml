@@ -71,42 +71,66 @@
                     <!--Parte de abajo-->
                     <StackPanel  Height="108" Width="385" Orientation="Vertical" Background="LightGray">
                         
-                     <!--Primera fila--> 
-                    
+                     <!--Primera fila-->                     
                         <StackPanel  Height="54" Width="385" HorizontalAlignment="Left" Orientation="Horizontal" Background="LightGray">
                             
-                    <Button Name="Normal"  Height="29" Width="35" Margin="10,0,0,0" Click="Normal_Click">
+                            <Button Name="Normal"  Height="29" Width="35" Margin="10,0,0,0" Click="Normal_Click">
                                 <Image  Source="/Assets/perfil.jpg" Stretch="Uniform" Margin="-10,-13,-10,-15"/>
                             </Button>
-
                             <Button Name="Mosto"  Height="29" Width="35" Margin="10,0,0,0" Click="Mosto_Click">
                                 <Image  Source="/Assets/mosto.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
                             </Button>
-
-                            <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
-                            <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
-                            <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
-                            <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
-                            <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
-                            <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
-                    
+                            <Button Name="Chica"  Height="29" Width="35" Margin="10,0,0,0" Click="Chica_Click">
+                                <Image  Source="/Assets/chica.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
+                            </Button>
+                            <Button Name="Avestruz" Height="29" Width="35" Margin="10,0,0,0" Click="Avestruz_Click">
+                                <Image  Source="/Assets/avestruz.png" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
+                            </Button>
+                            <Button Name="Pepe"  Height="29" Width="35" Margin="10,0,0,0" Click="Pepe_Click">
+                                <Image  Source="/Assets/pepe.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
+                            </Button>
+                            <Button Name="Zeus"  Height="29" Width="35" Margin="10,0,0,0" Click="Zeus_Click">
+                                <Image  Source="/Assets/Zeus.JPG.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
+                            </Button>
+                            <Button Name="Mosto5"  Height="29" Width="35" Margin="10,0,0,0" Click="Mosto_Click">
+                                <Image  Source="/Assets/mosto.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
+                            </Button>
+                            <Button Name="Mosto6"  Height="29" Width="35" Margin="10,0,0,0" Click="Mosto_Click">
+                                <Image  Source="/Assets/mosto.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
+                            </Button>
                         </StackPanel>
 
                         
-                     <!--Segunda fila--> 
-                    
+                     <!--Segunda fila-->                     
                         <StackPanel  Height="54" Width="385" HorizontalAlignment="Left" Orientation="Horizontal" Background="LightGray">
-                            
-                    <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
-                            <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
-                            <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
-                            <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
-                            <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
-                            <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
-                            <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
-                            <Image Source="/Assets/perfil.jpg" Height="35" Width="35" Margin="10,0,0,0" Stretch="Uniform"/>
-                    
+
+                            <Button Name="Normal1"  Height="29" Width="35" Margin="10,0,0,0" Click="Normal_Click">
+                                <Image  Source="/Assets/perfil.jpg" Stretch="Uniform" Margin="-10,-13,-10,-15"/>
+                            </Button>
+                            <Button Name="Mosto1"  Height="29" Width="35" Margin="10,0,0,0" Click="Mosto_Click">
+                                <Image  Source="/Assets/mosto.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
+                            </Button>
+                            <Button Name="Chica1"  Height="29" Width="35" Margin="10,0,0,0" Click="Chica_Click">
+                                <Image  Source="/Assets/chica.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
+                            </Button>
+                            <Button Name="Mosto21" Height="29" Width="35" Margin="10,0,0,0" Click="Mosto_Click">
+                                <Image  Source="/Assets/mosto.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
+                            </Button>
+                            <Button Name="Mosto31"  Height="29" Width="35" Margin="10,0,0,0" Click="Mosto_Click">
+                                <Image  Source="/Assets/mosto.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
+                            </Button>
+                            <Button Name="Mosto41"  Height="29" Width="35" Margin="10,0,0,0" Click="Mosto_Click">
+                                <Image  Source="/Assets/mosto.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
+                            </Button>
+                            <Button Name="Mosto51"  Height="29" Width="35" Margin="10,0,0,0" Click="Mosto_Click">
+                                <Image  Source="/Assets/mosto.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
+                            </Button>
+                            <Button Name="Mosto61"  Height="29" Width="35" Margin="10,0,0,0" Click="Mosto_Click">
+                                <Image  Source="/Assets/mosto.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
+                            </Button>
                         </StackPanel>
+
+                    
                     </StackPanel>
                 </StackPanel>
             </Border>
