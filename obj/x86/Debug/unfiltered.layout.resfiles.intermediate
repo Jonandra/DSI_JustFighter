@@ -13,8 +13,10 @@ Assets\cruceta.png
 Assets\hamburguesa.png
 Assets\hexagonp.png
 Assets\leftArrow.png
+Assets\lockLogo.png
 Assets\LockScreenLogo.scale-200.png
 Assets\mediumCase.png
+Assets\Mortal Skin.png
 Assets\mosto.jpg
 Assets\pepe.jpg
 Assets\perfil.jpg
@@ -30,7 +32,7 @@ Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
 Assets\Timer.png
 Assets\Wide310x150Logo.scale-200.png
-Assets\Zeus.JPG.jpg
+Assets\Zeus.jpg
 Ajustes.xbf
 App.xbf
 CombateUI.xbf
@@ -41,3 +43,4 @@ MenuPrincipal.xbf
 MenuSeleccionPj.xbf
 Tienda.xbf
 Properties\Default.rd.xml
+Zeus.jpg

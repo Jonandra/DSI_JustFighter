@@ -1,1 +1,1 @@
-C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\DSI_JustFighter.csproj;x86
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\DSI_JustFighter.csproj;x86

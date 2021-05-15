@@ -90,7 +90,7 @@
                                 <Image  Source="/Assets/pepe.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
                             </Button>
                             <Button Name="Zeus"  Height="29" Width="35" Margin="10,0,0,0" Click="Zeus_Click">
-                                <Image  Source="/Assets/Zeus.JPG.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
+                                <Image  Source="/Zeus.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
                             </Button>
                             <Button Name="Mosto5"  Height="29" Width="35" Margin="10,0,0,0" Click="Mosto_Click">
                                 <Image  Source="/Assets/mosto.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>

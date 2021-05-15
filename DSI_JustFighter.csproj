@@ -161,7 +161,9 @@
     <Content Include="Assets\hamburguesa.png" />
     <Content Include="Assets\hexagonp.png" />
     <Content Include="Assets\leftArrow.png" />
+    <Content Include="Assets\lockLogo.png" />
     <Content Include="Assets\mediumCase.png" />
+    <Content Include="Assets\Mortal Skin.png" />
     <Content Include="Assets\mosto.jpg" />
     <Content Include="Assets\pepe.jpg" />
     <Content Include="Assets\perfil.jpg" />
@@ -171,7 +173,7 @@
     <Content Include="Assets\salir.png" />
     <Content Include="Assets\smallCase.png" />
     <Content Include="Assets\Timer.png" />
-    <Content Include="Assets\Zeus.JPG.jpg" />
+    <Content Include="Assets\Zeus.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -180,6 +182,7 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Zeus.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

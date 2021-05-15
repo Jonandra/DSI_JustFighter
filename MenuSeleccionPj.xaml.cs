@@ -120,7 +120,7 @@ namespace DSI_JustFighter
         {
             //CAMBIAR IMAGEN
             BitmapImage im = new BitmapImage();
-            im.UriSource = new Uri(Perfil.BaseUri, "/Assets/Zeus.JPG.jpg");
+            im.UriSource = new Uri(Perfil.BaseUri, "/Assets/Zeus.jpg");
             Perfil.Source = im;
             //CAMBIAR INFO
             ProgressFuerza.Value = 90;

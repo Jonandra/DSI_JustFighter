@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0xc0a
@@ -35,19 +36,104 @@ namespace DSI_JustFighter
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MenuSeleccionPj));
+            this.Frame.Navigate(typeof(Ajustes));
         }
-        
+
 
         //Flecha Derecha 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void RightButtonClick(object sender, RoutedEventArgs e)
         {
+            if (CanvasBox2.Visibility == Visibility.Visible) //Si estan los personajes visibles 
+            {
+
+                D1Personajes.Text = "XXXX";
+                BitmapImage logo = new BitmapImage();
+                logo.UriSource = new Uri(E1Personajes.BaseUri, "/Assets/pepe.jpg");
+                E1Personajes.Source = logo;
+
+                D2Personajes.Text = "SSSSSS";
+                BitmapImage logo2 = new BitmapImage();
+                logo2.UriSource = new Uri(E2Personajes.BaseUri, "/Assets/mosto.jpg");
+                E2Personajes.Source = logo2;
+
+                D3Personajes.Text = "LOCKED!";
+                BitmapImage logo3 = new BitmapImage();
+                logo3.UriSource = new Uri(E3Personajes.BaseUri, "/Assets/lockLogo.png");
+                E3Personajes.Source = logo3;
+
+
+
+            }
+            else if (CanvasBox3.Visibility == Visibility.Visible) //Si estan las skins visibles 
+            {
+                //CAMBIAR
+                D1Skin.Text = "Street Skin - 7.25$";
+                BitmapImage logo = new BitmapImage();
+                logo.UriSource = new Uri(E1Skin.BaseUri, "/Assets/personaje1.png");
+                E1Skin.Source = logo;
+
+                D2Skin.Text = "LOCKED!";
+                BitmapImage logo2 = new BitmapImage();
+                logo2.UriSource = new Uri(E2Skin.BaseUri,"/Assets/lockLogo.png");
+                E2Skin.Source = logo2;
+
+                //CAMBIAR
+                D3Skin.Text = "Magic Skin - 30$";
+                BitmapImage logo3 = new BitmapImage();
+                logo3.UriSource = new Uri(E3Skin.BaseUri, "/Assets/Mortal Skin.png");
+                E3Skin.Source = logo3;
+
+
+
+            }
+
+
+
 
         }
         //Flecha Izquierda 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void LeftButtonClick(object sender, RoutedEventArgs e) //Volvemos a establecer los valores 
         {
+            //C D E -> personajes y skins
+            if (CanvasBox2.Visibility == Visibility.Visible) //Si estan los personajes visibles 
+            {
+                D1Personajes.Text = "BrickBreaker - 7$";
+                BitmapImage logo = new BitmapImage();
+                logo.UriSource = new Uri(E1Personajes.BaseUri, "/Assets/pepe.jpg");
+                E1Personajes.Source = logo;
 
+                D2Personajes.Text = "WhiteWidow - 15.2$";
+                BitmapImage logo2 = new BitmapImage();
+                logo2.UriSource = new Uri(E2Personajes.BaseUri, "/Assets/chica.jpg");
+                E2Personajes.Source = logo2;
+
+                D3Personajes.Text = "SoMangoKush - 39$";
+                BitmapImage logo3 = new BitmapImage();
+                logo3.UriSource = new Uri(E3Personajes.BaseUri, "/Assets/avatar1.png");
+                E3Personajes.Source = logo3;
+
+            }
+            else if (CanvasBox3.Visibility == Visibility.Visible) //Si estan las skins visibles 
+            {
+
+                D1Skin.Text = "Street Skin - 7.25$";
+                BitmapImage logo = new BitmapImage();
+                logo.UriSource = new Uri(E1Skin.BaseUri, "/Assets/personaje1.png");
+                E1Skin.Source = logo;
+
+                D2Skin.Text = "Elegant Skin - 23.50$";
+                BitmapImage logo2 = new BitmapImage();
+                logo2.UriSource = new Uri(E2Skin.BaseUri,"/Assets/personaje2.png");
+                E2Skin.Source = logo2;
+
+                D3Skin.Text = "Magic Skin - 30$";
+                BitmapImage logo3 = new BitmapImage();
+                logo3.UriSource = new Uri(E3Skin.BaseUri, "/Assets/Mortal Skin.png");
+                E3Skin.Source = logo3;
+
+
+
+            }
         }
 
         //Botones para cambiar la visibilidad de los distintos viewBoxes
@@ -55,16 +141,22 @@ namespace DSI_JustFighter
         //Usar el viewbox de las cajas para los personajes y skins
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            CanvasBox.Visibility = Visibility.Collapsed;
+            CanvasBox.Visibility = Visibility.Visible;
+            CanvasBox2.Visibility = Visibility.Collapsed;
+            CanvasBox3.Visibility = Visibility.Collapsed;
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            CanvasBox.Visibility = Visibility.Visible;
+            CanvasBox2.Visibility = Visibility.Visible;
+            CanvasBox.Visibility = Visibility.Collapsed;
+            CanvasBox3.Visibility = Visibility.Visible;
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
+            CanvasBox3.Visibility = Visibility.Visible;
+            CanvasBox2.Visibility = Visibility.Collapsed;
             CanvasBox.Visibility = Visibility.Collapsed;
         }
     }
