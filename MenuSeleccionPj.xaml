@@ -83,22 +83,15 @@
                             <Button Name="Chica"  Height="45" Width="50" Margin="12,0,0,0" Click="Chica_Click">
                                 <Image  Source="/Assets/chica.jpg" Stretch="Uniform" Margin="-11,-8,-9,-9"/>
                             </Button>
-<<<<<<< HEAD
+
                             <Button Name="Zeus"  Height="29" Width="35" Margin="10,0,0,0" Click="Zeus_Click">
                                 <Image  Source="/Zeus.jpg" Stretch="Uniform" Margin="-11,-6,-9,-9"/>
-=======
-                            <Button Name="Avestruz"  Height="45" Width="50" Margin="12,0,0,0" Click="Avestruz_Click">
-                                <Image  Source="/Assets/avestruz.png" Stretch="Uniform" Margin="-10,-7,-10,-8"/>
->>>>>>> aff07b30f8d7aaf6c7ed50db409767201d2966a0
-                            </Button>
-                            <Button Name="Pepe"   Height="45" Width="50" Margin="12,0,0,0" Click="Pepe_Click">
-                                <Image  Source="/Assets/pepe.jpg" Stretch="Uniform" Margin="-10,-7,-10,-8"/>
-                            </Button>
-                            <Button Name="Zeus"   Height="45" Width="50" Margin="12,0,0,0" Click="Zeus_Click">
-                                <Image  Source="/Assets/Zeus.JPG.jpg" Stretch="Uniform" Margin="-10,-8,-10,-7"/>
                             </Button>
 
+
+
                         </StackPanel>
+                            
 
 
                         <!--Segunda fila-->

@@ -30,21 +30,13 @@
     <AppXManifest Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-<<<<<<< HEAD
-      <Modified>2021-05-15T11:52:52.536</Modified>
-=======
-      <Modified>2021-05-15T10:28:26.673</Modified>
->>>>>>> aff07b30f8d7aaf6c7ed50db409767201d2966a0
+      <Modified>2021-05-15T12:02:13.297</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\DSI_JustFighter.exe">
       <PackagePath>entrypoint\DSI_JustFighter.exe</PackagePath>
-<<<<<<< HEAD
-      <Modified>2021-05-15T11:52:52.141</Modified>
-=======
-      <Modified>2021-05-15T10:28:25.977</Modified>
->>>>>>> aff07b30f8d7aaf6c7ed50db409767201d2966a0
+      <Modified>2021-05-15T12:02:12.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -72,11 +64,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\avestruz.png">
       <PackagePath>Assets\avestruz.png</PackagePath>
-<<<<<<< HEAD
-      <Modified>2021-05-15T10:05:59.241</Modified>
-=======
-      <Modified>2021-05-15T10:21:06.080</Modified>
->>>>>>> aff07b30f8d7aaf6c7ed50db409767201d2966a0
+      <Modified>2021-05-15T11:56:55.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\bigCase.png">
       <PackagePath>Assets\bigCase.png</PackagePath>
@@ -186,11 +174,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\mosto.jpg">
       <PackagePath>Assets\mosto.jpg</PackagePath>
-<<<<<<< HEAD
-      <Modified>2021-05-15T10:05:59.247</Modified>
-=======
-      <Modified>2021-05-15T10:21:25.691</Modified>
->>>>>>> aff07b30f8d7aaf6c7ed50db409767201d2966a0
+      <Modified>2021-05-15T11:56:55.833</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\pepe.jpg">
       <PackagePath>Assets\pepe.jpg</PackagePath>
@@ -198,15 +182,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\perfil.jpg">
       <PackagePath>Assets\perfil.jpg</PackagePath>
-<<<<<<< HEAD
-      <Modified>2021-05-09T10:29:55.563</Modified>
+      <Modified>2021-05-15T11:56:55.839</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\Zeus.jpg">
       <PackagePath>Assets\Zeus.jpg</PackagePath>
       <Modified>2021-05-15T10:05:59.234</Modified>
-=======
-      <Modified>2021-05-15T10:24:14.514</Modified>
->>>>>>> aff07b30f8d7aaf6c7ed50db409767201d2966a0
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Zeus.jpg">
       <PackagePath>Zeus.jpg</PackagePath>
@@ -222,67 +202,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2021-05-15T11:52:51.984</Modified>
-=======
-      <Modified>2021-05-15T10:28:25.882</Modified>
->>>>>>> aff07b30f8d7aaf6c7ed50db409767201d2966a0
+      <Modified>2021-05-15T12:02:12.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\Ajustes.xbf">
       <PackagePath>Ajustes.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2021-05-15T11:52:51.984</Modified>
-=======
-      <Modified>2021-05-15T10:28:25.882</Modified>
->>>>>>> aff07b30f8d7aaf6c7ed50db409767201d2966a0
+      <Modified>2021-05-15T12:02:12.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\CombateUI.xbf">
       <PackagePath>CombateUI.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2021-05-15T11:52:51.984</Modified>
-=======
-      <Modified>2021-05-15T10:28:25.882</Modified>
->>>>>>> aff07b30f8d7aaf6c7ed50db409767201d2966a0
+      <Modified>2021-05-15T12:02:12.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\DesplegablePerfil.xbf">
       <PackagePath>DesplegablePerfil.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2021-05-15T11:52:51.949</Modified>
-=======
-      <Modified>2021-05-15T10:28:25.867</Modified>
->>>>>>> aff07b30f8d7aaf6c7ed50db409767201d2966a0
+      <Modified>2021-05-15T12:02:12.245</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\MenuOnline.xbf">
       <PackagePath>MenuOnline.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2021-05-15T11:52:51.985</Modified>
-=======
-      <Modified>2021-05-15T10:28:25.883</Modified>
->>>>>>> aff07b30f8d7aaf6c7ed50db409767201d2966a0
+      <Modified>2021-05-15T12:02:12.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\MenuPrincipal.xbf">
       <PackagePath>MenuPrincipal.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2021-05-15T11:52:51.985</Modified>
-=======
-      <Modified>2021-05-15T10:28:25.883</Modified>
->>>>>>> aff07b30f8d7aaf6c7ed50db409767201d2966a0
+      <Modified>2021-05-15T12:02:12.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\MenuSeleccionPj.xbf">
       <PackagePath>MenuSeleccionPj.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2021-05-15T11:52:51.961</Modified>
-=======
-      <Modified>2021-05-15T10:28:25.878</Modified>
->>>>>>> aff07b30f8d7aaf6c7ed50db409767201d2966a0
+      <Modified>2021-05-15T12:02:12.255</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\Tienda.xbf">
       <PackagePath>Tienda.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2021-05-15T11:52:51.984</Modified>
-=======
-      <Modified>2021-05-15T10:28:25.883</Modified>
->>>>>>> aff07b30f8d7aaf6c7ed50db409767201d2966a0
+      <Modified>2021-05-15T12:02:12.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -290,19 +238,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-<<<<<<< HEAD
       <Modified>2021-05-15T11:41:57.649</Modified>
-=======
-      <Modified>2021-05-15T10:26:43.777</Modified>
->>>>>>> aff07b30f8d7aaf6c7ed50db409767201d2966a0
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\Core\DSI_JustFighter.exe">
       <PackagePath>DSI_JustFighter.exe</PackagePath>
-<<<<<<< HEAD
-      <Modified>2021-05-15T11:52:52.533</Modified>
-=======
-      <Modified>2021-05-15T10:28:26.651</Modified>
->>>>>>> aff07b30f8d7aaf6c7ed50db409767201d2966a0
+      <Modified>2021-05-15T12:02:13.287</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
