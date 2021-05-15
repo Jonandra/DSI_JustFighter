@@ -213,6 +213,16 @@ C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuOnline.xaml
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuPrincipal.xaml
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuOnline.xbf
 C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\MenuPrincipal.xbf
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MenuOnline.g.i.cs
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MenuOnline.g.cs
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MenuPrincipal.g.i.cs
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MenuPrincipal.g.cs
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MenuOnline.xaml
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MenuPrincipal.xaml
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MenuOnline.xbf
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MenuPrincipal.xbf
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\bin\x86\Debug\MenuOnline.xbf
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\bin\x86\Debug\MenuPrincipal.xbf
 C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\App.xbf
 C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\Ajustes.xbf
 C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\CombateUI.xbf
@@ -287,15 +297,4 @@ C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\qualifiers.txt
 C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
-C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MenuOnline.g.i.cs
-C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MenuOnline.g.cs
-C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MenuPrincipal.g.i.cs
-C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MenuPrincipal.g.cs
-C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MenuOnline.xaml
-C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MenuPrincipal.xaml
-C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MenuOnline.xbf
-C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\MenuPrincipal.xbf
-C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\bin\x86\Debug\MenuOnline.xbf
-C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\bin\x86\Debug\MenuPrincipal.xbf
