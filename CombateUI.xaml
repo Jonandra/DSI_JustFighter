@@ -35,7 +35,7 @@
             <!--Primera Columna-->
             <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" Grid.Row="0">
                 <StackPanel Width="155">
-                    <Image x:Name="Perfil" Source="/Assets/avatar1.png"/>
+                    <Image x:Name="Perfil" Source="/Assets/avatar1.png" Height="125" Width="146"/>
                 </StackPanel>
                 
                 <StackPanel Orientation="Vertical" Grid.Row="0" Grid.ColumnSpan="2">

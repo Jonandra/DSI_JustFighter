@@ -10,6 +10,7 @@ using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Storage;
 using Windows.Storage.Streams;
+using Windows.System;
 using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -33,103 +34,128 @@ namespace DSI_JustFighter
         public MenuSeleccionPj()
         {
             this.InitializeComponent();
+
+            //PAGINA HACIA ATRAS
+            KeyboardAccelerator GoBack = new KeyboardAccelerator();
+            GoBack.Key = VirtualKey.GoBack;
+            GoBack.Invoked += BackInvoked;
+            KeyboardAccelerator AltLeft = new KeyboardAccelerator();
+            AltLeft.Key = VirtualKey.Left;
+            AltLeft.Invoked += BackInvoked;
+            this.KeyboardAccelerators.Add(GoBack);
+            this.KeyboardAccelerators.Add(AltLeft);
+            // ALT routes here
+            AltLeft.Modifiers = VirtualKeyModifiers.Menu;
+        }
+        protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
+        {
+            Back.IsEnabled = this.Frame.CanGoBack; //VUELTA ATRAS
+
+            //if (e != null) //CARGAR LA IMAGEN DEL PARAMETRO
+            //{
+            //    BitmapImage bitimg = e.Parameter as BitmapImage;
+            //    Imagen.Source = bitimg;
+            //}
         }
 
-        //BOTON FIGHT ==> COMBATE UI
         private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            On_BackRequested();
+        }
+
+        // Handles system-level BackRequested events and page-level back  button Click events
+        private bool On_BackRequested()
+        {
+            if (this.Frame.CanGoBack)
+            {
+                this.Frame.GoBack();
+                return true;
+            }
+            return false;
+        }
+
+        private void BackInvoked(KeyboardAccelerator sender,
+        KeyboardAcceleratorInvokedEventArgs args)
+        {
+            On_BackRequested();
+            args.Handled = true;
+        } //VULTRA ATRAS------------------------------------------------------------------------------------
+
+
+        //BOTON FIGHT ==> COMBATE UI
+        private void Fight_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(CombateUI), Perfil.Source); //DesplegablePerfil
         }
 
-        private void Normal_Click(object sender, RoutedEventArgs e)
+        private void cambiarPersonaje(int fuerza, int movil, int vida, string imagen)
         {
             //CAMBIAR IMAGEN
             BitmapImage im = new BitmapImage();
-            im.UriSource = new Uri(Perfil.BaseUri, "/Assets/perfil.jpg");
+            im.UriSource = new Uri(Perfil.BaseUri, imagen);
             Perfil.Source = im;
             //CAMBIAR INFO
-            ProgressFuerza.Value = 80;
-            ProgressMovilidad.Value = 40;
-            ProgressVida.Value = 60;
-            ValueFuerza.Text = "80";
-            ValueMovilidad.Text = "40";
-            ValueVida.Text = "60";
+            ProgressFuerza.Value = fuerza;
+            ProgressMovilidad.Value = movil;
+            ProgressVida.Value = vida;
+            ValueFuerza.Text = fuerza.ToString();
+            ValueMovilidad.Text = movil.ToString();
+            ValueVida.Text = vida.ToString();
+        }
+
+        private void Normal_Click(object sender, RoutedEventArgs e)
+        {
+            cambiarPersonaje(80, 40, 60, "/Assets/perfil.jpg");
         }
 
         private void Mosto_Click(object sender, RoutedEventArgs e)
         {
-            //CAMBIAR IMAGEN
-            BitmapImage im = new BitmapImage();
-            im.UriSource = new Uri(Perfil.BaseUri, "/Assets/mosto.jpg");
-            Perfil.Source = im;
-            //CAMBIAR INFO
-            ProgressFuerza.Value = 10;
-            ProgressMovilidad.Value = 90;
-            ProgressVida.Value = 80;
-            ValueFuerza.Text = "10";
-            ValueMovilidad.Text = "90";
-            ValueVida.Text = "80";
+            cambiarPersonaje(10, 90, 80, "/Assets/mosto.jpg");
         }
 
         private void Chica_Click(object sender, RoutedEventArgs e)
         {
-            //CAMBIAR IMAGEN
-            BitmapImage im = new BitmapImage();
-            im.UriSource = new Uri(Perfil.BaseUri, "/Assets/chica.jpg");
-            Perfil.Source = im;
-            //CAMBIAR INFO
-            ProgressFuerza.Value = 30;
-            ProgressMovilidad.Value = 100;
-            ProgressVida.Value = 50;
-            ValueFuerza.Text = "30";
-            ValueMovilidad.Text = "100";
-            ValueVida.Text = "50";
+            cambiarPersonaje(30, 100, 50, "/Assets/chica.jpg");
         }
 
         private void Avestruz_Click(object sender, RoutedEventArgs e)
         {
-            //CAMBIAR IMAGEN
-            BitmapImage im = new BitmapImage();
-            im.UriSource = new Uri(Perfil.BaseUri, "/Assets/avestruz.png");
-            Perfil.Source = im;
-            //CAMBIAR INFO
-            ProgressFuerza.Value = 40;
-            ProgressMovilidad.Value = 100;
-            ProgressVida.Value = 10;
-            ValueFuerza.Text = "40";
-            ValueMovilidad.Text = "100";
-            ValueVida.Text = "10";
+            cambiarPersonaje(40, 100, 10, "/Assets/avestruz.png");
         }
 
         private void Pepe_Click(object sender, RoutedEventArgs e)
         {
-            //CAMBIAR IMAGEN
-            BitmapImage im = new BitmapImage();
-            im.UriSource = new Uri(Perfil.BaseUri, "/Assets/pepe.jpg");
-            Perfil.Source = im;
-            //CAMBIAR INFO
-            ProgressFuerza.Value = 20;
-            ProgressMovilidad.Value = 100;
-            ProgressVida.Value = 30;
-            ValueFuerza.Text = "20";
-            ValueMovilidad.Text = "100";
-            ValueVida.Text = "30";
+            cambiarPersonaje(20, 100, 30, "/Assets/pepe.jpg");
         }
 
         private void Zeus_Click(object sender, RoutedEventArgs e)
         {
-            //CAMBIAR IMAGEN
-            BitmapImage im = new BitmapImage();
-            im.UriSource = new Uri(Perfil.BaseUri, "/Assets/Zeus.jpg");
-            Perfil.Source = im;
-            //CAMBIAR INFO
-            ProgressFuerza.Value = 90;
-            ProgressMovilidad.Value = 50;
-            ProgressVida.Value = 40;
-            ValueFuerza.Text = "90";
-            ValueMovilidad.Text = "50";
-            ValueVida.Text = "40";
+            cambiarPersonaje(90, 50, 40, "/Assets/Zeus.jpg");
+        }
 
+        private void Monke_Click(object sender, RoutedEventArgs e)
+        {
+            cambiarPersonaje(40, 90, 50, "/Assets/monke.jpg");
+        }
+
+        private void Ortega_Click(object sender, RoutedEventArgs e)
+        {
+            cambiarPersonaje(10, 10, 40, "/Assets/ortega.jpg");
+        }
+
+        private void Boi_Click(object sender, RoutedEventArgs e)
+        {
+            cambiarPersonaje(20, 50, 90, "/Assets/boi.jpg");
+        }
+
+        private void Sealion_Click(object sender, RoutedEventArgs e)
+        {
+            cambiarPersonaje(50, 50, 60, "/Assets/silaion.png");
+        }
+
+        private void Calico_Click(object sender, RoutedEventArgs e)
+        {
+            cambiarPersonaje(20, 80, 40, "/Assets/calico.jpg");
         }
     }
 }

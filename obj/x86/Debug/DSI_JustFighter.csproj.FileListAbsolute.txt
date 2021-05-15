@@ -298,3 +298,4 @@ C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\qualifiers.txt.in
 C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json

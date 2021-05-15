@@ -6,7 +6,9 @@ Assets\avatar2.png
 Assets\avestruz.png
 Assets\backButton.png
 Assets\bigCase.png
+Assets\boi.jpg
 Assets\botonLucha.png
+Assets\calico.jpg
 Assets\campoBatalla.jpg
 Assets\chica.jpg
 Assets\cruceta.png
@@ -16,14 +18,17 @@ Assets\leftArrow.png
 Assets\lockLogo.png
 Assets\LockScreenLogo.scale-200.png
 Assets\mediumCase.png
+Assets\monke.jpg
 Assets\Mortal Skin.png
 Assets\mosto.jpg
+Assets\ortega.jpg
 Assets\pepe.jpg
 Assets\perfil.jpg
 Assets\personaje1.png
 Assets\personaje2.png
 Assets\rightarrow.png
 Assets\salir.png
+Assets\silaion.png
 Assets\smallCase.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
@@ -42,5 +47,5 @@ MenuOnline.xbf
 MenuPrincipal.xbf
 MenuSeleccionPj.xbf
 Tienda.xbf
+boi.jpg
 Properties\Default.rd.xml
-Zeus.jpg

@@ -154,7 +154,9 @@
     <Content Include="Assets\avatar2.png" />
     <Content Include="Assets\avestruz.png" />
     <Content Include="Assets\bigCase.png" />
+    <Content Include="Assets\boi.jpg" />
     <Content Include="Assets\botonLucha.png" />
+    <Content Include="Assets\calico.jpg" />
     <Content Include="Assets\campoBatalla.jpg" />
     <Content Include="Assets\chica.jpg" />
     <Content Include="Assets\cruceta.png" />
@@ -171,9 +173,13 @@
     <Content Include="Assets\personaje2.png" />
     <Content Include="Assets\rightarrow.png" />
     <Content Include="Assets\salir.png" />
+    <Content Include="Assets\silaion.png" />
     <Content Include="Assets\smallCase.png" />
     <Content Include="Assets\Timer.png" />
     <Content Include="Assets\Zeus.jpg" />
+    <Content Include="boi.jpg" />
+    <Content Include="Assets\monke.jpg" />
+    <Content Include="Assets\ortega.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -182,7 +188,6 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
-    <Content Include="Zeus.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
