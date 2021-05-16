@@ -46,17 +46,19 @@ namespace DSI_JustFighter
             if (CanvasBox2.Visibility == Visibility.Visible) //Si estan los personajes visibles 
             {
 
-                D1Personajes.Text = "XXXX";
+                D1Personajes.Text = "OtakoidMan";
                 BitmapImage logo = new BitmapImage();
-                logo.UriSource = new Uri(E1Personajes.BaseUri, "/Assets/pepe.jpg");
+                logo.UriSource = new Uri(E1Personajes.BaseUri, "/Assets/ortega.jpg");
                 E1Personajes.Source = logo;
 
-                D2Personajes.Text = "SSSSSS";
+
+                D2Personajes.Text = "Locked unitl level 15";
                 BitmapImage logo2 = new BitmapImage();
-                logo2.UriSource = new Uri(E2Personajes.BaseUri, "/Assets/mosto.jpg");
+                logo2.UriSource = new Uri(E2Personajes.BaseUri, "/Assets/lockLogo.jpg");
                 E2Personajes.Source = logo2;
 
-                D3Personajes.Text = "LOCKED!";
+                D3Personajes.FontSize = D3Personajes.FontSize - 2;
+                D3Personajes.Text = "BUY TO UNLOCK RANDOM SKIN";
                 BitmapImage logo3 = new BitmapImage();
                 logo3.UriSource = new Uri(E3Personajes.BaseUri, "/Assets/lockLogo.png");
                 E3Personajes.Source = logo3;
@@ -67,9 +69,9 @@ namespace DSI_JustFighter
             else if (CanvasBox3.Visibility == Visibility.Visible) //Si estan las skins visibles 
             {
                 //CAMBIAR
-                D1Skin.Text = "Street Skin - 7.25$";
+                D1Skin.Text = "HammerPeng- 7.25$";
                 BitmapImage logo = new BitmapImage();
-                logo.UriSource = new Uri(E1Skin.BaseUri, "/Assets/personaje1.png");
+                logo.UriSource = new Uri(E1Skin.BaseUri, "/Assets/HammerPeng.png");
                 E1Skin.Source = logo;
 
                 D2Skin.Text = "LOCKED!";
@@ -78,9 +80,9 @@ namespace DSI_JustFighter
                 E2Skin.Source = logo2;
 
                 //CAMBIAR
-                D3Skin.Text = "Magic Skin - 30$";
+                D3Skin.Text = "BluePoison - 30$";
                 BitmapImage logo3 = new BitmapImage();
-                logo3.UriSource = new Uri(E3Skin.BaseUri, "/Assets/Mortal Skin.png");
+                logo3.UriSource = new Uri(E3Skin.BaseUri,"/Assets/BluePoison.png");
                 E3Skin.Source = logo3;
 
 

@@ -154,6 +154,7 @@
     <Content Include="Assets\avatar2.png" />
     <Content Include="Assets\avestruz.png" />
     <Content Include="Assets\bigCase.png" />
+    <Content Include="Assets\BluePoison.png" />
     <Content Include="Assets\boi.jpg" />
     <Content Include="Assets\botonLucha.png" />
     <Content Include="Assets\calico.jpg" />
@@ -161,6 +162,7 @@
     <Content Include="Assets\chica.jpg" />
     <Content Include="Assets\cruceta.png" />
     <Content Include="Assets\hamburguesa.png" />
+    <Content Include="Assets\HammerPeng.png" />
     <Content Include="Assets\hexagonp.png" />
     <Content Include="Assets\leftArrow.png" />
     <Content Include="Assets\lockLogo.png" />
