@@ -101,7 +101,10 @@ namespace DSI_JustFighter
         private void GuardarCambios()
         {
             if (newName == "") NombrePlayer.Text = lastName;
-            else NombrePlayer.Text = newName;
+            else { 
+                NombrePlayer.Text = newName;
+                lastName = newName;
+            }
             CambiarNombre.Content = "Cambiar Nombre";
             newName = "";
         }

@@ -193,6 +193,9 @@
     <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\MenuSeleccionPj.xbf">
       <PackagePath>MenuSeleccionPj.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\SeleccionarImagenPerfil.xbf">
+      <PackagePath>SeleccionarImagenPerfil.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\Tienda.xbf">
       <PackagePath>Tienda.xbf</PackagePath>
     </AppxPackagedFile>

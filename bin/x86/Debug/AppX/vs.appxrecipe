@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-16T12:07:56.757</Modified>
+      <Modified>2021-05-16T13:38:52.949</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\DSI_JustFighter.exe">
       <PackagePath>entrypoint\DSI_JustFighter.exe</PackagePath>
-      <Modified>2021-05-16T12:07:56.075</Modified>
+      <Modified>2021-05-16T13:38:52.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -226,39 +226,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\DSI_JustFighter.xr.xml">
       <PackagePath>DSI_JustFighter.xr.xml</PackagePath>
-      <Modified>2021-05-16T11:57:40.007</Modified>
+      <Modified>2021-05-16T13:35:17.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-05-16T12:07:55.983</Modified>
+      <Modified>2021-05-16T13:38:52.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\Ajustes.xbf">
       <PackagePath>Ajustes.xbf</PackagePath>
-      <Modified>2021-05-16T12:07:55.983</Modified>
+      <Modified>2021-05-16T13:38:52.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\CombateUI.xbf">
       <PackagePath>CombateUI.xbf</PackagePath>
-      <Modified>2021-05-16T12:07:55.983</Modified>
+      <Modified>2021-05-16T13:38:52.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\DesplegablePerfil.xbf">
       <PackagePath>DesplegablePerfil.xbf</PackagePath>
-      <Modified>2021-05-16T12:07:55.962</Modified>
+      <Modified>2021-05-16T13:38:52.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\MenuOnline.xbf">
       <PackagePath>MenuOnline.xbf</PackagePath>
-      <Modified>2021-05-16T12:07:55.983</Modified>
+      <Modified>2021-05-16T13:38:52.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\MenuPrincipal.xbf">
       <PackagePath>MenuPrincipal.xbf</PackagePath>
-      <Modified>2021-05-16T12:07:55.983</Modified>
+      <Modified>2021-05-16T13:38:52.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\MenuSeleccionPj.xbf">
       <PackagePath>MenuSeleccionPj.xbf</PackagePath>
-      <Modified>2021-05-16T12:07:55.974</Modified>
+      <Modified>2021-05-16T13:38:52.208</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\SeleccionarImagenPerfil.xbf">
+      <PackagePath>SeleccionarImagenPerfil.xbf</PackagePath>
+      <Modified>2021-05-16T13:38:52.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\Tienda.xbf">
       <PackagePath>Tienda.xbf</PackagePath>
-      <Modified>2021-05-16T12:07:55.983</Modified>
+      <Modified>2021-05-16T13:38:52.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -266,11 +270,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-05-16T11:38:38.354</Modified>
+      <Modified>2021-05-16T13:35:50.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\Core\DSI_JustFighter.exe">
       <PackagePath>DSI_JustFighter.exe</PackagePath>
-      <Modified>2021-05-16T12:07:56.757</Modified>
+      <Modified>2021-05-16T13:38:52.943</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

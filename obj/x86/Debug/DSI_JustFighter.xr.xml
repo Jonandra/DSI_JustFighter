@@ -159,6 +159,7 @@
     <RootType FullName="DSI_JustFighter.MenuOnline" />
     <RootType FullName="DSI_JustFighter.MenuPrincipal" />
     <RootType FullName="DSI_JustFighter.MenuSeleccionPj" />
+    <RootType FullName="DSI_JustFighter.SeleccionarImagenPerfil" />
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
       <RootProperty Name="Background" />
       <RootProperty Name="Height" />

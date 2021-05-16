@@ -137,6 +137,9 @@
     <Compile Include="MenuSeleccionPj.xaml.cs">
       <DependentUpon>MenuSeleccionPj.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SeleccionarImagenPerfil.xaml.cs">
+      <DependentUpon>SeleccionarImagenPerfil.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Tienda.xaml.cs">
       <DependentUpon>Tienda.xaml</DependentUpon>
     </Compile>
@@ -219,6 +222,10 @@
     <Page Include="MenuSeleccionPj.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SeleccionarImagenPerfil.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Tienda.xaml">
       <Generator>MSBuild:Compile</Generator>
