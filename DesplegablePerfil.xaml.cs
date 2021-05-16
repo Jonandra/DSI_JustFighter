@@ -23,6 +23,10 @@ namespace DSI_JustFighter
     /// </summary>
     public sealed partial class DesplegablePerfil : Page
     {
+        bool cambiarNombre = false;
+        string lastName = "PLAYER 1";
+        string newName = "";
+
         public DesplegablePerfil()
         {
             this.InitializeComponent();
@@ -73,5 +77,57 @@ namespace DSI_JustFighter
             args.Handled = true;
         } //VULTRA ATRAS------------------------------------------------------------------------------------
 
+        
+
+        private void Nombre_Click(object sender, RoutedEventArgs e)
+        {
+            if (!cambiarNombre)
+            {
+                cambiarNombre = true;
+                NombrePlayer.Text = newName;
+                CambiarNombre.Content = "Guardar Cambios";
+            }
+
+            //GUARDAR CAMBIOS
+            else
+            {
+                cambiarNombre = false;
+                GuardarCambios();
+                //CambiarNombre.Background = "Wheat"; //CAMBIAR COLOR
+
+            }
+        }
+
+        private void GuardarCambios()
+        {
+            if (newName == "") NombrePlayer.Text = lastName;
+            else NombrePlayer.Text = newName;
+            CambiarNombre.Content = "Cambiar Nombre";
+            newName = "";
+        }
+
+        private void Grid_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if (cambiarNombre)
+            {
+                //CONTROL PARA QUE SOLO VALGAN LETRAS, NUMEROS ETC
+                newName = newName + e.Key;
+                NombrePlayer.Text = newName;
+
+                switch (e.Key)
+                {
+                    
+                    case VirtualKey.Escape:
+                        newName = "";
+                        NombrePlayer.Text = "";
+                        GuardarCambios();
+                        break;
+                    case VirtualKey.Enter:
+                        GuardarCambios();
+                        break;
+
+                }
+            }
+        }
     }
 }
