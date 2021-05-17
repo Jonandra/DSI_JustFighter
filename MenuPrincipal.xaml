@@ -28,7 +28,7 @@
                     <Border BorderThickness="10" BorderBrush="#FFFFD700" Background="#FFFFFFFF" >
 
                         <StackPanel Orientation="Horizontal">
-                            <Button  Width="300" Height="102" >
+                            <Button  Width="300" Height="102" Click="Click_Perfil">
                                 <Image Source="/Assets/avatar1.png" Height="90" HorizontalAlignment="Left"  Margin="-150,0,0,-1" />
                             </Button>
                         </StackPanel>
@@ -42,7 +42,7 @@
                 </Grid>
                 <!--ajustes-->
                 <Grid Grid.Column="2">
-                    <Button  HorizontalAlignment="Right" Width="80" >
+                    <Button  HorizontalAlignment="Right" Width="80" Click="Click_Ajustes">
                         <Image Source="/Assets/ajustes.png" Height="90"    />
                     </Button>
                 </Grid>
@@ -96,17 +96,17 @@
                                 <RowDefinition Height="100*"/>
                             </Grid.RowDefinitions>
                             <Viewbox Stretch="Uniform" StretchDirection="Both" Grid.ColumnSpan="1" Grid.RowSpan="2" Grid.Row="1" Grid.Column="0">
-                                <Button  HorizontalAlignment="Center" Width="125" CornerRadius="100">
+                                <Button  HorizontalAlignment="Center" Width="125" CornerRadius="100" Click="Click_Online">
                                     <Image Source="/Assets/botonLucha.png" Height="100"    />
                                 </Button>
                             </Viewbox>
                             <Viewbox Stretch="Uniform" StretchDirection="Both" Grid.ColumnSpan="1" Grid.RowSpan="2" Grid.Row="1" Grid.Column="2">
-                                <Button  HorizontalAlignment="Center" Width="125" CornerRadius="100">
+                                <Button  HorizontalAlignment="Center" Width="125" CornerRadius="100" Click="Click_Tienda">
                                     <Image Source="/Assets/botonLucha.png" Height="100"    />
                                 </Button>
                             </Viewbox>
                             <Viewbox Stretch="Uniform" StretchDirection="Both" Grid.ColumnSpan="1" Grid.RowSpan="2" Grid.Row="0" Grid.Column="1">
-                                <Button  HorizontalAlignment="Center" Width="125" CornerRadius="100">
+                                <Button  HorizontalAlignment="Center" Width="125" CornerRadius="100" Click="Click_Jugar">
                                     <Image Source="/Assets/botonLucha.png" Height="113" Margin="-16,0,-12,0"    />
                                 </Button>
                             </Viewbox>
@@ -128,7 +128,7 @@
                             <RowDefinition Height="90"/>
                         </Grid.RowDefinitions>
                         <Grid Grid.Row="1">
-                            <Button   >
+                            <Button   Click="Click_Salir">
                                 <Image Source="/Assets/salir.png" Height="90"   />
                             </Button>
                         </Grid>

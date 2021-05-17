@@ -304,3 +304,8 @@ C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\SeleccionarImagen
 C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.xaml
 C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.xbf
 C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\SeleccionarImagenPerfil.xbf
+C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\SeleccionarImagenPerfil.xbf
+C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.g.i.cs
+C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.g.cs
+C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.xaml
+C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.xbf

@@ -28,7 +28,7 @@
                     <Border BorderThickness="10" BorderBrush="#FFFFD700" Background="#FFFFFFFF" >
 
                         <StackPanel Orientation="Horizontal">
-                            <Button  Width="300" Height="102" >
+                            <Button  Width="300" Height="102" Click="Click_Perfil">
                                 <Image Source="/Assets/avatar1.png" Height="90" HorizontalAlignment="Left"  Margin="-150,0,0,-1" />
                             </Button>
                         </StackPanel>
@@ -41,7 +41,7 @@
                     <TextBlock Text="JustFighter"   Foreground="#FFFFDF72" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="40" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
                 </Grid>
                 <Grid Grid.Column="2">
-                    <Button  HorizontalAlignment="Right" Width="80" >
+                    <Button  HorizontalAlignment="Right" Width="80" Click="Click_Ajustes">
                         <Image Source="/Assets/ajustes.png" Height="90"    />
                     </Button>
                 </Grid>
@@ -143,7 +143,7 @@
                             <RowDefinition Height="90"/>
                         </Grid.RowDefinitions>
                         <Grid Grid.Row="1">
-                            <Button   >
+                            <Button   Click="Click_Salir">
                                 <Image Source="/Assets/salir.png" Height="90"   />
                             </Button>
                         </Grid>
