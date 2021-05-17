@@ -27,5 +27,32 @@ namespace DSI_JustFighter
             this.InitializeComponent();
 
         }
+
+        private void Click_Jugar(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MenuSeleccionPj));
+        }
+
+        private void Click_Tienda(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Tienda));
+        }
+
+        private void Click_Online(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MenuOnline));
+        }
+        private void Click_Perfil(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(DesplegablePerfil));
+        }
+        private void Click_Ajustes(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Ajustes));
+        }
+        private void Click_Salir(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Exit();
+        }
     }
 }
