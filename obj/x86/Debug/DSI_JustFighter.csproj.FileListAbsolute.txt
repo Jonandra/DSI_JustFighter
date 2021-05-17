@@ -304,8 +304,16 @@ C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\SeleccionarImagen
 C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.xaml
 C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.xbf
 C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\SeleccionarImagenPerfil.xbf
+<<<<<<< HEAD
 C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\SeleccionarImagenPerfil.xbf
 C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.g.i.cs
 C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.g.cs
 C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.xaml
 C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.xbf
+=======
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\SeleccionarImagenPerfil.xbf
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\SeleccionarImagenPerfil.g.i.cs
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\SeleccionarImagenPerfil.g.cs
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\SeleccionarImagenPerfil.xaml
+C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\SeleccionarImagenPerfil.xbf
+>>>>>>> 8aefd4f91ca0599b08fce1960ffa0d26ce5e7770

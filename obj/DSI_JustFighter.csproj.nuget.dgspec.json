@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\ARIALBLAK\\Desktop\\DSI_JustFighter\\DSI_JustFighter.csproj": {}
   },
   "projects": {
@@ -12,13 +13,30 @@
         "projectPath": "C:\\Users\\ARIALBLAK\\Desktop\\DSI_JustFighter\\DSI_JustFighter.csproj",
         "packagesPath": "C:\\Users\\ARIALBLAK\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ARIALBLAK\\Desktop\\DSI_JustFighter\\obj\\",
+=======
+    "C:\\Users\\danie\\Desktop\\DSIPROYECTO\\GitProyectDSI\\DSI_JustFighter.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\danie\\Desktop\\DSIPROYECTO\\GitProyectDSI\\DSI_JustFighter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\danie\\Desktop\\DSIPROYECTO\\GitProyectDSI\\DSI_JustFighter.csproj",
+        "projectName": "DSI_JustFighter",
+        "projectPath": "C:\\Users\\danie\\Desktop\\DSIPROYECTO\\GitProyectDSI\\DSI_JustFighter.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danie\\Desktop\\DSIPROYECTO\\GitProyectDSI\\obj\\",
+>>>>>>> 8aefd4f91ca0599b08fce1960ffa0d26ce5e7770
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\ARIALBLAK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 8aefd4f91ca0599b08fce1960ffa0d26ce5e7770
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

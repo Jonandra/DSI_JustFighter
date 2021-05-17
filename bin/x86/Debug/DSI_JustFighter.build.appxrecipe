@@ -1,8 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
+<<<<<<< HEAD
     <Machine>LAPTOP-J2I1ML4V</Machine>
     <WindowsUser>ARIALBLAK</WindowsUser>
+=======
+    <Machine>DESKTOP-QTMJR3L</Machine>
+    <WindowsUser>danie</WindowsUser>
+>>>>>>> 8aefd4f91ca0599b08fce1960ffa0d26ce5e7770
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,30 +15,46 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>49ad2374-4cff-48bf-8ee1-3cda99fcab32</PackageIdentityName>
     <PackageIdentityPublisher>CN=ARIALBLAK</PackageIdentityPublisher>
+<<<<<<< HEAD
     <IntermediateOutputPath>C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\</IntermediateOutputPath>
+=======
+    <IntermediateOutputPath>C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\obj\x86\Debug\</IntermediateOutputPath>
+>>>>>>> 8aefd4f91ca0599b08fce1960ffa0d26ce5e7770
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+<<<<<<< HEAD
     <LayoutDir>C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\Core\AppxManifest.xml">
+=======
+    <LayoutDir>C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\Core\AppxManifest.xml">
+>>>>>>> 8aefd4f91ca0599b08fce1960ffa0d26ce5e7770
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\DSI_JustFighter.exe">
+=======
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\DSI_JustFighter.exe">
+>>>>>>> 8aefd4f91ca0599b08fce1960ffa0d26ce5e7770
       <PackagePath>entrypoint\DSI_JustFighter.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\ajustes.png">
       <PackagePath>Assets\ajustes.png</PackagePath>
     </AppxPackagedFile>
@@ -197,65 +218,237 @@
       <PackagePath>SeleccionarImagenPerfil.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\Tienda.xbf">
+=======
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\ajustes.png">
+      <PackagePath>Assets\ajustes.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\amigos.png">
+      <PackagePath>Assets\amigos.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\avatar1.png">
+      <PackagePath>Assets\avatar1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\avatar2.png">
+      <PackagePath>Assets\avatar2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\avestruz.png">
+      <PackagePath>Assets\avestruz.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\bigCase.png">
+      <PackagePath>Assets\bigCase.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\BluePoison.png">
+      <PackagePath>Assets\BluePoison.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\botonLucha.png">
+      <PackagePath>Assets\botonLucha.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\cruceta.png">
+      <PackagePath>Assets\cruceta.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\hamburguesa.png">
+      <PackagePath>Assets\hamburguesa.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\HammerPeng.png">
+      <PackagePath>Assets\HammerPeng.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\hexagonp.png">
+      <PackagePath>Assets\hexagonp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\leftArrow.png">
+      <PackagePath>Assets\leftArrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\lockLogo.png">
+      <PackagePath>Assets\lockLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\mediumCase.png">
+      <PackagePath>Assets\mediumCase.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\Mortal Skin.png">
+      <PackagePath>Assets\Mortal Skin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\personaje1.png">
+      <PackagePath>Assets\personaje1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\personaje2.png">
+      <PackagePath>Assets\personaje2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\rightarrow.png">
+      <PackagePath>Assets\rightarrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\salir.png">
+      <PackagePath>Assets\salir.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\silaion.png">
+      <PackagePath>Assets\silaion.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\smallCase.png">
+      <PackagePath>Assets\smallCase.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\Timer.png">
+      <PackagePath>Assets\Timer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\backButton.png">
+      <PackagePath>Assets\backButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\boi.jpg">
+      <PackagePath>Assets\boi.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\calico.jpg">
+      <PackagePath>Assets\calico.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\campoBatalla.jpg">
+      <PackagePath>Assets\campoBatalla.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\chica.jpg">
+      <PackagePath>Assets\chica.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\mosto.jpg">
+      <PackagePath>Assets\mosto.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\pepe.jpg">
+      <PackagePath>Assets\pepe.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\perfil.jpg">
+      <PackagePath>Assets\perfil.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\Zeus.jpg">
+      <PackagePath>Assets\Zeus.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\boi.jpg">
+      <PackagePath>boi.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\monke.jpg">
+      <PackagePath>Assets\monke.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Assets\ortega.jpg">
+      <PackagePath>Assets\ortega.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\DSI_JustFighter.xr.xml">
+      <PackagePath>DSI_JustFighter.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\Ajustes.xbf">
+      <PackagePath>Ajustes.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\CombateUI.xbf">
+      <PackagePath>CombateUI.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\DesplegablePerfil.xbf">
+      <PackagePath>DesplegablePerfil.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\MenuOnline.xbf">
+      <PackagePath>MenuOnline.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\MenuPrincipal.xbf">
+      <PackagePath>MenuPrincipal.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\MenuSeleccionPj.xbf">
+      <PackagePath>MenuSeleccionPj.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\SeleccionarImagenPerfil.xbf">
+      <PackagePath>SeleccionarImagenPerfil.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\Tienda.xbf">
+>>>>>>> 8aefd4f91ca0599b08fce1960ffa0d26ce5e7770
       <PackagePath>Tienda.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\Core\DSI_JustFighter.exe">
+=======
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\bin\x86\Debug\Core\DSI_JustFighter.exe">
+>>>>>>> 8aefd4f91ca0599b08fce1960ffa0d26ce5e7770
       <PackagePath>DSI_JustFighter.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
