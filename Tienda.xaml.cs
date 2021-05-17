@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.Background;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -21,8 +23,10 @@ namespace DSI_JustFighter
     /// <summary>
     /// Página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
+
     public sealed partial class Tienda : Page
     {
+        bool rightPressed = false;
         public Tienda()
         {
             this.InitializeComponent();
@@ -43,8 +47,12 @@ namespace DSI_JustFighter
         //Flecha Derecha 
         private void RightButtonClick(object sender, RoutedEventArgs e)
         {
+
             if (CanvasBox2.Visibility == Visibility.Visible) //Si estan los personajes visibles 
             {
+
+
+
 
                 D1Personajes.Text = "OtakoidMan";
                 BitmapImage logo = new BitmapImage();
@@ -52,22 +60,25 @@ namespace DSI_JustFighter
                 E1Personajes.Source = logo;
 
 
-                D2Personajes.Text = "Locked unitl level 15";
+                D2Personajes.Text = "Locked until level 15";
                 BitmapImage logo2 = new BitmapImage();
-                logo2.UriSource = new Uri(E2Personajes.BaseUri, "/Assets/lockLogo.jpg");
+                logo2.UriSource = new Uri(E2Personajes.BaseUri, "/Assets/lockLogo.png");
                 E2Personajes.Source = logo2;
 
-                D3Personajes.FontSize = D3Personajes.FontSize - 2;
+                if (!rightPressed) D3Personajes.FontSize = D3Personajes.FontSize - 2;
                 D3Personajes.Text = "BUY TO UNLOCK RANDOM SKIN";
                 BitmapImage logo3 = new BitmapImage();
                 logo3.UriSource = new Uri(E3Personajes.BaseUri, "/Assets/lockLogo.png");
                 E3Personajes.Source = logo3;
+
+                rightPressed = true;  //Si pulsamos el boton derecho donde se va a manipular la fuente
 
 
 
             }
             else if (CanvasBox3.Visibility == Visibility.Visible) //Si estan las skins visibles 
             {
+
                 //CAMBIAR
                 D1Skin.Text = "HammerPeng- 7.25$";
                 BitmapImage logo = new BitmapImage();
@@ -76,13 +87,13 @@ namespace DSI_JustFighter
 
                 D2Skin.Text = "LOCKED!";
                 BitmapImage logo2 = new BitmapImage();
-                logo2.UriSource = new Uri(E2Skin.BaseUri,"/Assets/lockLogo.png");
+                logo2.UriSource = new Uri(E2Skin.BaseUri, "/Assets/lockLogo.png");
                 E2Skin.Source = logo2;
 
                 //CAMBIAR
                 D3Skin.Text = "BluePoison - 30$";
                 BitmapImage logo3 = new BitmapImage();
-                logo3.UriSource = new Uri(E3Skin.BaseUri,"/Assets/BluePoison.png");
+                logo3.UriSource = new Uri(E3Skin.BaseUri, "/Assets/BluePoison.png");
                 E3Skin.Source = logo3;
 
 
@@ -99,6 +110,9 @@ namespace DSI_JustFighter
             //C D E -> personajes y skins
             if (CanvasBox2.Visibility == Visibility.Visible) //Si estan los personajes visibles 
             {
+
+
+
                 D1Personajes.Text = "BrickBreaker - 7$";
                 BitmapImage logo = new BitmapImage();
                 logo.UriSource = new Uri(E1Personajes.BaseUri, "/Assets/pepe.jpg");
@@ -109,11 +123,12 @@ namespace DSI_JustFighter
                 logo2.UriSource = new Uri(E2Personajes.BaseUri, "/Assets/chica.jpg");
                 E2Personajes.Source = logo2;
 
+                if (rightPressed) D3Personajes.FontSize = D3Personajes.FontSize + 2;
                 D3Personajes.Text = "SoMangoKush - 39$";
                 BitmapImage logo3 = new BitmapImage();
                 logo3.UriSource = new Uri(E3Personajes.BaseUri, "/Assets/avatar1.png");
                 E3Personajes.Source = logo3;
-
+                rightPressed = false;
             }
             else if (CanvasBox3.Visibility == Visibility.Visible) //Si estan las skins visibles 
             {
@@ -125,7 +140,7 @@ namespace DSI_JustFighter
 
                 D2Skin.Text = "Elegant Skin - 23.50$";
                 BitmapImage logo2 = new BitmapImage();
-                logo2.UriSource = new Uri(E2Skin.BaseUri,"/Assets/personaje2.png");
+                logo2.UriSource = new Uri(E2Skin.BaseUri, "/Assets/personaje2.png");
                 E2Skin.Source = logo2;
 
                 D3Skin.Text = "Magic Skin - 30$";
@@ -160,6 +175,66 @@ namespace DSI_JustFighter
             CanvasBox3.Visibility = Visibility.Visible;
             CanvasBox2.Visibility = Visibility.Collapsed;
             CanvasBox.Visibility = Visibility.Collapsed;
+        }
+
+        private void Grid_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            DependencyObject candidate = null;
+            switch (e.OriginalKey)
+            {
+                case VirtualKey.Right:
+                case VirtualKey.GamepadDPadRight:
+                    // el candidato es el primer objeto al navegar hacia abajo en la lista 
+                    candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Right);
+                    // movemos el foco al siguiente objeto
+                    if (candidate == null)
+                        candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Left);
+
+                    (candidate as Control).Focus(FocusState.Keyboard);
+                    e.Handled = true;
+                    break;
+                case VirtualKey.Left:
+                case VirtualKey.GamepadDPadLeft:
+                    // el candidato es el primer objeto al navegar hacia abajo en la lista 
+                    candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Left);
+                    // movemos el foco al siguiente objeto
+                    if (candidate == null)
+                        candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Right);
+
+                    (candidate as Control).Focus(FocusState.Keyboard);
+                    e.Handled = true;
+                    break;
+                case VirtualKey.Up:
+                case VirtualKey.GamepadDPadUp:
+                    // el candidato es el primer objeto al navegar hacia abajo en la lista 
+                    candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Up);
+                    // movemos el foco al siguiente objeto
+                    if (candidate == null)
+                        candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Down);
+
+                    (candidate as Control).Focus(FocusState.Keyboard);
+                    e.Handled = true;
+                    break;
+                case VirtualKey.GamepadMenu:
+                    this.Frame.Navigate(typeof(Ajustes));
+                    break;
+                case VirtualKey.Down:
+                case VirtualKey.GamepadDPadDown:
+                    // el candidato es el primer objeto al navegar hacia abajo en la lista
+                    candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Down);
+                    // movemos el foco al siguiente objeto
+                    if (candidate == null)
+                        candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Up);
+
+                    //Casteamos el Objeto que guarda el cambio de foco a un control para establecer eso como foco en focusmanager
+                    (candidate as Control).Focus(FocusState.Keyboard);
+                    e.Handled = true;
+                    break;
+                    //Si`por ejemplo quiero hacerlo para quedesde jugar vaya a salir igualo la variable Candidate al boton en cuestion 
+
+
+
+            }
         }
     }
 }

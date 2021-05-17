@@ -66,7 +66,11 @@ namespace DSI_JustFighter
                     // Cuando no se restaura la pila de navegación, navegar a la primera página,
                     // configurando la nueva página pasándole la información requerida como
                     //parámetro de navegación
+<<<<<<< HEAD
                     rootFrame.Navigate(typeof(MenuPrincipal), e.Arguments);
+=======
+                    rootFrame.Navigate(typeof(Tienda), e.Arguments);
+>>>>>>> 8aefd4f91ca0599b08fce1960ffa0d26ce5e7770
                 }
                 // Asegurarse de que la ventana actual está activa.
                 Window.Current.Activate();
