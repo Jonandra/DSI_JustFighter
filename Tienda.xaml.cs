@@ -65,7 +65,12 @@ namespace DSI_JustFighter
                 logo2.UriSource = new Uri(E2Personajes.BaseUri, "/Assets/lockLogo.png");
                 E2Personajes.Source = logo2;
 
-                if (!rightPressed) D3Personajes.FontSize = D3Personajes.FontSize - 2;
+                if (!rightPressed)
+                {
+                    D3Personajes.FontSize = D3Personajes.FontSize - 2;
+                   
+                }
+
                 D3Personajes.Text = "BUY TO UNLOCK RANDOM SKIN";
                 BitmapImage logo3 = new BitmapImage();
                 logo3.UriSource = new Uri(E3Personajes.BaseUri, "/Assets/lockLogo.png");
@@ -123,7 +128,12 @@ namespace DSI_JustFighter
                 logo2.UriSource = new Uri(E2Personajes.BaseUri, "/Assets/chica.jpg");
                 E2Personajes.Source = logo2;
 
-                if (rightPressed) D3Personajes.FontSize = D3Personajes.FontSize + 2;
+
+                if (rightPressed)
+                {
+                    D3Personajes.FontSize = D3Personajes.FontSize + 2;
+                   
+                }
                 D3Personajes.Text = "SoMangoKush - 39$";
                 BitmapImage logo3 = new BitmapImage();
                 logo3.UriSource = new Uri(E3Personajes.BaseUri, "/Assets/avatar1.png");

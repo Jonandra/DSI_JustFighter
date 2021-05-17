@@ -97,7 +97,7 @@
                                 <ContentControl  Height="82" UseSystemFocusVisuals="True" IsTabStop="True" TabIndex="7">
                                     <StackPanel  x:Name="C3Personajes" Orientation="Vertical" Width="82" Height="83" Background="#FFFFCF50">
                                         <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFCF50"/>
-                                        <TextBlock  x:Name="D3Personajes" Text="SoMangoKush - 39$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="#FFAA0000"/>
+                                        <TextBlock  x:Name="D3Personajes" Text="SoMangoKush - 39$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="#FFAA0000" />
                                         <Image   x:Name="E3Personajes" Source="/Assets/avatar1.png" Height="73" Width="52" />
                                     </StackPanel>
                                 </ContentControl>
@@ -120,21 +120,21 @@
                                 <ContentControl   Height="83" UseSystemFocusVisuals="True" IsTabStop="True" TabIndex="5">
                                     <StackPanel  x:Name="C1Skin" Orientation="Vertical" Width="79" Background="#FF6A7C6E" Height="83">
                                         <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFFFFF"/>
-                                        <TextBlock x:Name="D1Skin" Text="Street Skin - 7.25$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
+                                        <TextBlock x:Name="D1Skin" Text="Street Skin - 7.25$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="#FFF1A446"/>
                                         <Image  x:Name="E1Skin" Source="/Assets/personaje1.png" Height="83" Width="41" />
                                     </StackPanel>
                                 </ContentControl>
                                 <ContentControl   Height="83" UseSystemFocusVisuals="True" IsTabStop="True" TabIndex="6">
                                     <StackPanel  x:Name="C2Skin" Orientation="Vertical" Height="83" Width="89" Background="#FF818137" >
                                         <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FF818137"/>
-                                        <TextBlock  x:Name="D2Skin" Text="Elegant Skin - 23.50$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
+                                        <TextBlock  x:Name="D2Skin" Text="Elegant Skin - 23.50$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="#FF664747"/>
                                         <Image x:Name="E2Skin" Source="/Assets/personaje2.png" Height="75" Width="27" RenderTransformOrigin="0.5,0.5"/>
                                     </StackPanel>
                                 </ContentControl>
                                 <ContentControl  Height="82" UseSystemFocusVisuals="True" IsTabStop="True" TabIndex="7">
                                     <StackPanel  x:Name="C3Skin" Orientation="Vertical" Width="82" Height="83" Background="#FFFFCF50">
                                         <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFCF50"/>
-                                        <TextBlock  x:Name="D3Skin"  Text="Magic Skin - 30$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
+                                        <TextBlock  x:Name="D3Skin"  Text="Magic Skin - 30$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="#FF9908B0"/>
                                         <Image x:Name="E3Skin" Source="/Assets/Mortal Skin.png" Height="75" Width="46" />
                                     </StackPanel>
                                 </ContentControl>
