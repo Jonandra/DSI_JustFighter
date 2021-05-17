@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource CheckBoxContentDisabledForegroundThemeBrush}" Foreground="#FFBD3333">
 
-    <Grid>
+    <Grid KeyDown="Grid_KeyDown">
         <Grid.RowDefinitions>
             <RowDefinition  Height="18*" />
             <RowDefinition Height="150*"/>
@@ -21,7 +21,7 @@
         </Grid.ColumnDefinitions>
         <Viewbox HorizontalAlignment="Left" Grid.ColumnSpan="2">
             <StackPanel Orientation="Horizontal" Width="1400">
-                <Button  Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center" Click="Button_Click">
+                <Button  Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center" Click="Button_Click" TabIndex="0">
                     <Image Source="/Assets/backButton.png" Margin="-89,-3,-88,0" Height="78" VerticalAlignment="Top" FocusVisualPrimaryBrush="Gray" />
                 </Button>
                 <TextBlock Text="Menu de Tienda" Margin="400,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF2ECB00" FocusVisualSecondaryBrush="#994F4F4F" Foreground="#FF9B4600" FontFamily="Maiandra GD" FontSize="50" FontWeight="Bold"/>
@@ -33,12 +33,9 @@
 
                 <StackPanel Background="DarkGray" Height="160" Width="325" >
                     <StackPanel Orientation="Horizontal">
-                        <Button  Height="21" Width="110" Background="#33EA0707" Content="Cajas" BorderBrush="#FF636322" FontSize="5" RequestedTheme="Default" VerticalAlignment="Top" FontWeight="Bold" Click="Button_Click_3"/>
-                        <Button Height="21" Width="116" Background="#33E00A0A"  Content="Personajes" BorderBrush="#FFBF4521" FontSize="5" RequestedTheme="Default" VerticalAlignment="Top" FontWeight="Bold" Click="Button_Click_4"/>
-                        <Button Height="21" Width="99" Background="#33E80606" Content="Skins" BorderBrush="#FF2940D4" FontSize="5" RequestedTheme="Default" VerticalAlignment="Top" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Click="Button_Click_5">
-                            <Button.RenderTransform>
-                                <CompositeTransform Rotation="-0.179"/>
-                            </Button.RenderTransform>
+                        <Button  Height="21" Width="110" Background="#33EA0707" Content="Cajas" BorderBrush="#FF636322" FontSize="5" RequestedTheme="Default" VerticalAlignment="Top" FontWeight="Bold" Click="Button_Click_3" TabIndex="1"/>
+                        <Button Height="21" Width="116" Background="#33E00A0A"  Content="Personajes" BorderBrush="#FFBF4521" FontSize="5" RequestedTheme="Default" VerticalAlignment="Top" FontWeight="Bold" Click="Button_Click_4" TabIndex="2"/>
+                        <Button Height="21" Width="99" Background="#33E80606" Content="Skins" BorderBrush="#FF2940D4" FontSize="5" RequestedTheme="Default" VerticalAlignment="Top" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Click="Button_Click_5" TabIndex="3">
                         </Button>
                     </StackPanel>
                     <!-- CAJAS-> No tienen flechas por que solo hay tres tipos de cajas( de momento) -->
@@ -46,21 +43,21 @@
                         <Canvas Background="#FF707054" Height="140" Width="325" FocusVisualPrimaryBrush="#FFECECEC">
                             <StackPanel Orientation="Horizontal" FocusVisualPrimaryBrush="#FFF73737" FocusVisualSecondaryBrush="#99877070" Height="140" Width="249" Canvas.Left="37">
 
-                                <ContentControl  x:Name="C1Caja" Height="83" UseSystemFocusVisuals="True" IsTabStop="True">
+                                <ContentControl  x:Name="C1Caja" Height="83" UseSystemFocusVisuals="True" IsTabStop="True" TabIndex="4">
                                     <StackPanel Orientation="Vertical" Width="79" Background="#FF6A7C6E" Height="83">
                                         <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFFFFF"/>
                                         <TextBlock Text="Caja Pequeña - 0.99$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
                                         <Image Source="/Assets/smallCase.png" Height="112" Width="32" />
                                     </StackPanel>
                                 </ContentControl>
-                                <ContentControl x:Name="C2Caja" Height="83" UseSystemFocusVisuals="True" IsTabStop="True">
+                                <ContentControl x:Name="C2Caja" Height="83" UseSystemFocusVisuals="True" IsTabStop="True" TabIndex="5">
                                     <StackPanel Orientation="Vertical" Height="83" Width="89" Background="#FF818137">
                                         <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FF818137"/>
                                         <TextBlock Text="Caja Mediana - 3.99$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
                                         <Image Source="/Assets/smallCase.png" Height="93" Width="55" RenderTransformOrigin="0.5,0.5"/>
                                     </StackPanel>
                                 </ContentControl>
-                                <ContentControl  x:Name="C3Caja" Height="82" UseSystemFocusVisuals="True" IsTabStop="True">
+                                <ContentControl  x:Name="C3Caja" Height="82" UseSystemFocusVisuals="True" IsTabStop="True" TabIndex="6">
                                     <StackPanel Orientation="Vertical" Width="82" Height="83" Background="#FFFFCF50">
                                         <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFCF50"/>
                                         <TextBlock Text="Caja Grande - 10.99$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
@@ -74,30 +71,30 @@
                     <Viewbox x:Name="CanvasBox2"  Visibility="Collapsed">
                         <Canvas Background="#FFD87B3A" Height="140" Width="325" FocusVisualPrimaryBrush="#FFECECEC">
 
-                            <Button AutomationProperties.Name="Pie" Width="28" Height="22" Background="#33FFFFFF" Canvas.Left="6" Canvas.Top="48" Foreground="White" FocusVisualPrimaryBrush="White" Click="LeftButtonClick">
+                            <Button AutomationProperties.Name="Pie" Width="28" Height="22" Background="#33FFFFFF" Canvas.Left="6" Canvas.Top="48" Foreground="White" FocusVisualPrimaryBrush="White" Click="LeftButtonClick" TabIndex="4">
                                 <Image Source="/Assets/leftArrow.png"  Height="23" VerticalAlignment="Center" FocusVisualPrimaryBrush="Gray" Margin="-14,0,-12,0" />
                             </Button>
-                            <Button AutomationProperties.Name="Pie" Width="28" Height="22" Background="#33FFFFFF" Canvas.Left="288" Canvas.Top="48" Foreground="White" FocusVisualPrimaryBrush="White" Click="RightButtonClick">
+                            <Button AutomationProperties.Name="Pie" Width="28" Height="22" Background="#33FFFFFF" Canvas.Left="288" Canvas.Top="48" Foreground="White" FocusVisualPrimaryBrush="White" Click="RightButtonClick" TabIndex="8">
                                 <Image Source="/Assets/rightArrow.png"  Height="23" VerticalAlignment="Bottom" FocusVisualPrimaryBrush="Gray" Margin="-14,0,-12,-7" />
                             </Button>
 
                             <StackPanel Orientation="Horizontal" FocusVisualPrimaryBrush="#FFF73737" FocusVisualSecondaryBrush="#99877070" Height="140" Width="249" Canvas.Left="37">
 
-                                <ContentControl  Height="83" UseSystemFocusVisuals="True" IsTabStop="True">
+                                <ContentControl  Height="83" UseSystemFocusVisuals="True" IsTabStop="True" TabIndex="5" >
                                     <StackPanel x:Name="C1Personajes" Orientation="Vertical" Width="79" Background="#FF335F3D" Height="83">
                                         <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFFFFF"/>
                                         <TextBlock  x:Name="D1Personajes" Text="BrickBreaker - 7$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
                                         <Image   x:Name="E1Personajes" Source="/Assets/pepe.jpg" Height="75" Width="43" />
                                     </StackPanel>
                                 </ContentControl>
-                                <ContentControl  Height="83" UseSystemFocusVisuals="True" IsTabStop="True">
+                                <ContentControl  Height="83" UseSystemFocusVisuals="True" IsTabStop="True" TabIndex="6">
                                     <StackPanel x:Name="C2Personajes" Orientation="Vertical" Height="83" Width="89" Background="#FF523781">
                                         <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FF818137"/>
                                         <TextBlock   x:Name="D2Personajes" Text="WhiteWidow - 15.2$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="#FF6AFF32"/>
                                         <Image x:Name="E2Personajes" Source="/Assets/chica.jpg" Height="73" Width="47" RenderTransformOrigin="0.5,0.5"/>
                                     </StackPanel>
                                 </ContentControl>
-                                <ContentControl  Height="82" UseSystemFocusVisuals="True" IsTabStop="True">
+                                <ContentControl  Height="82" UseSystemFocusVisuals="True" IsTabStop="True" TabIndex="7">
                                     <StackPanel  x:Name="C3Personajes" Orientation="Vertical" Width="82" Height="83" Background="#FFFFCF50">
                                         <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFCF50"/>
                                         <TextBlock  x:Name="D3Personajes" Text="SoMangoKush - 39$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="#FFAA0000"/>
@@ -111,30 +108,30 @@
                     <Viewbox x:Name="CanvasBox3"  Visibility="Visible">
                         <Canvas Background="#FF688AFF" Height="140" Width="325" FocusVisualPrimaryBrush="#FFECECEC">
 
-                            <Button AutomationProperties.Name="Pie" Width="28" Height="22" Background="#33FFFFFF" Canvas.Left="6" Canvas.Top="48" Foreground="White" FocusVisualPrimaryBrush="White" Click="LeftButtonClick">
+                            <Button AutomationProperties.Name="Pie" Width="28" Height="22" Background="#33FFFFFF" Canvas.Left="6" Canvas.Top="48" Foreground="White" FocusVisualPrimaryBrush="White" Click="LeftButtonClick" TabIndex="4">
                                 <Image Source="/Assets/leftArrow.png"  Height="23" VerticalAlignment="Center" FocusVisualPrimaryBrush="Gray" Margin="-14,0,-12,0" />
                             </Button>
-                            <Button AutomationProperties.Name="Pie" Width="28" Height="22" Background="#33FFFFFF" Canvas.Left="288" Canvas.Top="48" Foreground="White" FocusVisualPrimaryBrush="White" Click="RightButtonClick">
+                            <Button AutomationProperties.Name="Pie" Width="28" Height="22" Background="#33FFFFFF" Canvas.Left="288" Canvas.Top="48" Foreground="White" FocusVisualPrimaryBrush="White" Click="RightButtonClick" TabIndex="8">
                                 <Image Source="/Assets/rightArrow.png"  Height="23" VerticalAlignment="Bottom" FocusVisualPrimaryBrush="Gray" Margin="-14,0,-12,-7" />
                             </Button>
 
                             <StackPanel Orientation="Horizontal" FocusVisualPrimaryBrush="#FFF73737" FocusVisualSecondaryBrush="#99877070" Height="140" Width="249" Canvas.Left="37">
 
-                                <ContentControl   Height="83" UseSystemFocusVisuals="True" IsTabStop="True">
+                                <ContentControl   Height="83" UseSystemFocusVisuals="True" IsTabStop="True" TabIndex="5">
                                     <StackPanel  x:Name="C1Skin" Orientation="Vertical" Width="79" Background="#FF6A7C6E" Height="83">
                                         <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFFFFF"/>
                                         <TextBlock x:Name="D1Skin" Text="Street Skin - 7.25$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
                                         <Image  x:Name="E1Skin" Source="/Assets/personaje1.png" Height="83" Width="41" />
                                     </StackPanel>
                                 </ContentControl>
-                                <ContentControl   Height="83" UseSystemFocusVisuals="True" IsTabStop="True">
-                                    <StackPanel  x:Name="C2Skin" Orientation="Vertical" Height="83" Width="89" Background="#FF818137">
+                                <ContentControl   Height="83" UseSystemFocusVisuals="True" IsTabStop="True" TabIndex="6">
+                                    <StackPanel  x:Name="C2Skin" Orientation="Vertical" Height="83" Width="89" Background="#FF818137" >
                                         <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FF818137"/>
                                         <TextBlock  x:Name="D2Skin" Text="Elegant Skin - 23.50$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
                                         <Image x:Name="E2Skin" Source="/Assets/personaje2.png" Height="75" Width="27" RenderTransformOrigin="0.5,0.5"/>
                                     </StackPanel>
                                 </ContentControl>
-                                <ContentControl  Height="82" UseSystemFocusVisuals="True" IsTabStop="True">
+                                <ContentControl  Height="82" UseSystemFocusVisuals="True" IsTabStop="True" TabIndex="7">
                                     <StackPanel  x:Name="C3Skin" Orientation="Vertical" Width="82" Height="83" Background="#FFFFCF50">
                                         <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFCF50"/>
                                         <TextBlock  x:Name="D3Skin"  Text="Magic Skin - 30$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
