@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\DSI_JustFighter.csproj;x86
-=======
-C:\Users\danie\Desktop\DSIPROYECTO\GitProyectDSI\DSI_JustFighter.csproj;x86
->>>>>>> 8aefd4f91ca0599b08fce1960ffa0d26ce5e7770
+C:\Users\ARIALBLAK\Desktop\dsa\DSI_JustFighter.csproj;x86
