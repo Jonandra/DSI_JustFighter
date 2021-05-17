@@ -21,8 +21,10 @@ namespace DSI_JustFighter
     /// <summary>
     /// Página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
+    
     public sealed partial class Tienda : Page
     {
+        bool rightPressed = false;
         public Tienda()
         {
             this.InitializeComponent();
@@ -43,8 +45,12 @@ namespace DSI_JustFighter
         //Flecha Derecha 
         private void RightButtonClick(object sender, RoutedEventArgs e)
         {
+           
             if (CanvasBox2.Visibility == Visibility.Visible) //Si estan los personajes visibles 
             {
+               
+
+
 
                 D1Personajes.Text = "OtakoidMan";
                 BitmapImage logo = new BitmapImage();
@@ -52,22 +58,25 @@ namespace DSI_JustFighter
                 E1Personajes.Source = logo;
 
 
-                D2Personajes.Text = "Locked unitl level 15";
+                D2Personajes.Text = "Locked until level 15";
                 BitmapImage logo2 = new BitmapImage();
                 logo2.UriSource = new Uri(E2Personajes.BaseUri, "/Assets/lockLogo.jpg");
                 E2Personajes.Source = logo2;
 
-                D3Personajes.FontSize = D3Personajes.FontSize - 2;
+                if(!rightPressed)D3Personajes.FontSize = D3Personajes.FontSize - 2;
                 D3Personajes.Text = "BUY TO UNLOCK RANDOM SKIN";
                 BitmapImage logo3 = new BitmapImage();
                 logo3.UriSource = new Uri(E3Personajes.BaseUri, "/Assets/lockLogo.png");
                 E3Personajes.Source = logo3;
+
+                rightPressed = true;  //Si pulsamos el boton derecho donde se va a manipular la fuente
 
 
 
             }
             else if (CanvasBox3.Visibility == Visibility.Visible) //Si estan las skins visibles 
             {
+                
                 //CAMBIAR
                 D1Skin.Text = "HammerPeng- 7.25$";
                 BitmapImage logo = new BitmapImage();
@@ -99,6 +108,9 @@ namespace DSI_JustFighter
             //C D E -> personajes y skins
             if (CanvasBox2.Visibility == Visibility.Visible) //Si estan los personajes visibles 
             {
+              
+
+
                 D1Personajes.Text = "BrickBreaker - 7$";
                 BitmapImage logo = new BitmapImage();
                 logo.UriSource = new Uri(E1Personajes.BaseUri, "/Assets/pepe.jpg");
@@ -109,11 +121,12 @@ namespace DSI_JustFighter
                 logo2.UriSource = new Uri(E2Personajes.BaseUri, "/Assets/chica.jpg");
                 E2Personajes.Source = logo2;
 
+               if(rightPressed)D3Personajes.FontSize = D3Personajes.FontSize + 2;
                 D3Personajes.Text = "SoMangoKush - 39$";
                 BitmapImage logo3 = new BitmapImage();
                 logo3.UriSource = new Uri(E3Personajes.BaseUri, "/Assets/avatar1.png");
                 E3Personajes.Source = logo3;
-
+                rightPressed = false;
             }
             else if (CanvasBox3.Visibility == Visibility.Visible) //Si estan las skins visibles 
             {
