@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -60,7 +61,7 @@ namespace DSI_JustFighter
 
                 D2Personajes.Text = "Locked until level 15";
                 BitmapImage logo2 = new BitmapImage();
-                logo2.UriSource = new Uri(E2Personajes.BaseUri, "/Assets/lockLogo.jpg");
+                logo2.UriSource = new Uri(E2Personajes.BaseUri, "/Assets/lockLogo.png");
                 E2Personajes.Source = logo2;
 
                 if(!rightPressed)D3Personajes.FontSize = D3Personajes.FontSize - 2;
@@ -173,6 +174,11 @@ namespace DSI_JustFighter
             CanvasBox3.Visibility = Visibility.Visible;
             CanvasBox2.Visibility = Visibility.Collapsed;
             CanvasBox.Visibility = Visibility.Collapsed;
+        }
+
+        private void Grid_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if(e.OriginalKey== VirtualKey.GamepadMenu) this.Frame.Navigate(typeof(Ajustes));
         }
     }
 }
