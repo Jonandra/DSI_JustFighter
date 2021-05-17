@@ -63,9 +63,63 @@ namespace DSI_JustFighter
 
         private void Grid_KeyDown(object sender, KeyRoutedEventArgs e)
         {
+            DependencyObject candidate = null;
+            switch (e.OriginalKey)
+            {
+                case VirtualKey.Right:
+                case VirtualKey.GamepadDPadRight:
+                    // el candidato es el primer objeto al navegar hacia abajo en la lista 
+                    candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Right);
+                    // movemos el foco al siguiente objeto
+                    if (candidate == null)
+                        candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Left);
 
-            if(e.OriginalKey == VirtualKey.GamepadMenu) this.Frame.Navigate(typeof(MenuPrincipal));
-        
+                    (candidate as Control).Focus(FocusState.Keyboard);
+                    e.Handled = true;
+                    break;
+                case VirtualKey.Left:
+                case VirtualKey.GamepadDPadLeft:
+                    // el candidato es el primer objeto al navegar hacia abajo en la lista 
+                    candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Left);
+                    // movemos el foco al siguiente objeto
+                    if (candidate == null)
+                        candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Right);
+
+                    (candidate as Control).Focus(FocusState.Keyboard);
+                    e.Handled = true;
+                    break;
+                case VirtualKey.Up:
+                case VirtualKey.GamepadDPadUp:
+                    // el candidato es el primer objeto al navegar hacia abajo en la lista 
+                    candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Up);
+                    // movemos el foco al siguiente objeto
+                    if (candidate == null)
+                        candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Down);
+
+                    (candidate as Control).Focus(FocusState.Keyboard);
+                    e.Handled = true;
+                    break;
+                case VirtualKey.GamepadMenu:
+                    this.Frame.Navigate(typeof(MenuPrincipal));
+                    break;
+                case VirtualKey.Down:
+                case VirtualKey.GamepadDPadDown:
+                    // el candidato es el primer objeto al navegar hacia abajo en la lista
+                    candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Down);
+                    // movemos el foco al siguiente objeto
+                    if (candidate == null)
+                        candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Up);
+
+                    //Casteamos el Objeto que guarda el cambio de foco a un control para establecer eso como foco en focusmanager
+                    (candidate as Control).Focus(FocusState.Keyboard);
+                    e.Handled = true;
+                    break;
+                    //Si`por ejemplo quiero hacerlo para quedesde jugar vaya a salir igualo la variable Candidate al boton en cuestion 
+
+
+
+            }
+
         }
     }
 }
