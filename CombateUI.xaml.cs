@@ -29,20 +29,30 @@ namespace DSI_JustFighter
             this.InitializeComponent();
         }
 
-        protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
+        protected override void OnNavigatedTo(NavigationEventArgs ex) //EN CASO DE QUE PASES PARAMETROS
         {
             //Back.IsEnabled = this.Frame.CanGoBack; //VUELTA ATRAS
+            NavigationInfo a = ex.Parameter as NavigationInfo;
+            if (a != null) //CARGAR LA IMAGEN DEL PARAMETRO
+            {
+                BitmapImage bitimg = a.source as BitmapImage;
+                bitimg.UriSource = new Uri(bitimg.UriSource.ToString());
+                Perfil.Source = bitimg;
+            }
+            else
+            {
 
-                if (e != null) //CARGAR LA IMAGEN DEL PARAMETRO
-                {
-                    BitmapImage bitimg = e.Parameter as BitmapImage;
-                    Perfil.Source = bitimg;
-                }
+                BitmapImage bitimg = new BitmapImage();
+                bitimg.UriSource = new Uri("/Assets/avatar1.png");
+                Perfil.Source = bitimg;
+
+            }
         }
 
+        //No se por que no me lo detecta 
         private void Grid_KeyDown(object sender, KeyRoutedEventArgs e)
         {
-            if(e.Key==VirtualKey.B || e.OriginalKey==VirtualKey.GamepadB)
+            if (e.Key == VirtualKey.B || e.OriginalKey == VirtualKey.GamepadB)
             {
                 if (Bar2.Value > 0) Bar2.Value -= 5;
                 else Bar2.Value = 60;
