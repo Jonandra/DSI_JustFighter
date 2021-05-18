@@ -46,7 +46,7 @@ namespace DSI_JustFighter
             // ALT routes here
             AltLeft.Modifiers = VirtualKeyModifiers.Menu;
 
-            ElementSoundPlayer.State = ElementSoundPlayerState.On;
+            
         }
         protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
         {
