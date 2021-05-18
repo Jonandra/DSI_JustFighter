@@ -53,9 +53,9 @@
                         <StackPanel  Height="72" Width="159" Orientation="Horizontal" >
                             <!--COSAS-->
                             <StackPanel  Height="72" Width="105" Orientation="Vertical" >
-                                <TextBlock x:Name="TextPartidasGanadas" Text="Partidas ganadas:" Width="80" FontSize ="8" HorizontalAlignment="Left" Margin="10, 6"/>
-                                <TextBlock x:Name="TextLogrosDesbloqueados" Text="Logros Desbloqueados:" Width="108" FontSize ="8" HorizontalAlignment="Left" Margin="10, 6"/>
-                                <TextBlock x:Name="TextLogrosDesbloqueados2" Text="Logros Desbloqueados:" Width="108" FontSize ="8" HorizontalAlignment="Left" Margin="10, 6"/>
+                                <TextBlock x:Name="TextPartidasGanadas" Text="Partidas ganadas:" Width="80" FontSize ="8" HorizontalAlignment="Left" Margin="10, 6" Foreground="Black"/>
+                                <TextBlock x:Name="TextLogrosDesbloqueados" Text="Logros Desbloqueados:" Width="108" FontSize ="8" HorizontalAlignment="Left" Margin="10, 6" Foreground="#FF040404"/>
+                                <TextBlock x:Name="TextLogrosDesbloqueados2" Text="Logros Desbloqueados:" Width="108" FontSize ="8" HorizontalAlignment="Left" Margin="10, 6" Foreground="Black"/>
                             </StackPanel>
 
                             <!--PUNTUACION-->
@@ -73,7 +73,7 @@
                     <!--PARTE DERECHA-->
                     <StackPanel  Height="163" Width="153" Orientation="Vertical" Background="LightGray">
                         <!--DESAFIOS-->
-                        <TextBlock x:Name="TextDesadiosPendientes" Text="Desafíos pendientes" Width="126" HorizontalAlignment="Center"  Margin ="0, 5 "/>
+                        <TextBlock x:Name="TextDesadiosPendientes" Text="Desafíos pendientes" Width="126" HorizontalAlignment="Center"  Margin ="0, 5 " Foreground="#FF0A081B"/>
 
                         <!--BARRAS-->
                         <StackPanel  Height="135" Width="159" Orientation="Horizontal">
