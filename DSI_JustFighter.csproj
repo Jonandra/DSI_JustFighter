@@ -155,6 +155,7 @@
     <Content Include="Assets\amigos.png" />
     <Content Include="Assets\avatar1.png" />
     <Content Include="Assets\avatar2.png" />
+    <Content Include="Assets\avatarLuchador.jpg" />
     <Content Include="Assets\avestruz.png" />
     <Content Include="Assets\bigCase.png" />
     <Content Include="Assets\BluePoison.png" />

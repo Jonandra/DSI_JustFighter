@@ -40,12 +40,12 @@
                     <StackPanel  Height="160" Width="173" Orientation="Vertical">
                         <!--IMAGEN Y NOMBRE-->
                         <StackPanel  Height="66" Width="159" Orientation="Horizontal">
-                            <Image Source="/Assets/perfil.jpg" Height="38" Width="41" Margin="10, 0"/>
+                            <Image x:Name="IMAGEN" Source="/Assets/perfil.jpg" Height="38" Width="41" Margin="10, 0"/>
                             <TextBlock x:Name="NombrePlayer" Text="PLAYER 1" Width="61" Margin="5, 0" VerticalAlignment="Center"/>
                         </StackPanel>
                         <!--EDITAR-->
                         <StackPanel  Height="22" Width="159" Orientation="Horizontal">
-                            <Button Content="Editar Perfil"  FontSize ="5" Height="22" Width="56" Background="Wheat"></Button>
+                            <Button x:Name="EditarImagen" Content="Editar Perfil" Click="EditarImagen_Click"  FontSize ="5" Height="22" Width="56" Background="Wheat"></Button>
                             <Button x:Name="CambiarNombre" Click="Nombre_Click" Content="Cambiar Nombre" FontSize ="5" Margin ="10, 0" Height="22" Width="58" Background="Wheat"/>
 
                         </StackPanel>

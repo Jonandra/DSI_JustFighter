@@ -157,5 +157,10 @@ namespace DSI_JustFighter
         {
             cambiarPersonaje(20, 80, 40, "/Assets/calico.jpg");
         }
+
+        private void Scorp_Click(object sender, RoutedEventArgs e)
+        {
+            cambiarPersonaje(50, 90, 35, "/Assets/avatarLuchador.jpg");
+        }
     }
 }

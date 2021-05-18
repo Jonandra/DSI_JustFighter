@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
@@ -47,16 +48,25 @@ namespace DSI_JustFighter
         {
             Back.IsEnabled = this.Frame.CanGoBack; //VUELTA ATRAS
 
-            //if (e != null) //CARGAR LA IMAGEN DEL PARAMETRO
-            //{
-            //    BitmapImage bitimg = e.Parameter as BitmapImage;
-            //    Imagen.Source = bitimg;
-            //}
+            if (e != null) //CARGAR LA IMAGEN DEL PARAMETRO
+            {
+                BitmapImage bitimg = e.Parameter as BitmapImage;
+                IMAGEN.Source = bitimg;
+            }
+        }
+
+        private void EditarImagen_Click(object sender, RoutedEventArgs e)
+        {
+            cambiarNombre = false;            
+            newName = "";
+            GuardarCambios();
+            this.Frame.Navigate(typeof(SeleccionarImagenPerfil), IMAGEN.Source);
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-            On_BackRequested();
+            this.Frame.Navigate(typeof(MenuPrincipal));
+            //On_BackRequested();
         }
 
         // Handles system-level BackRequested events and page-level back  button Click events
@@ -64,7 +74,7 @@ namespace DSI_JustFighter
         {
             if (this.Frame.CanGoBack)
             {
-                this.Frame.GoBack();
+                this.Frame.GoBack();//IMAGEN.Source IMAGEN.Source
                 return true;
             }
             return false;
@@ -113,9 +123,14 @@ namespace DSI_JustFighter
         {
             if (cambiarNombre)
             {
+                char c = (char)e.Key;
                 //CONTROL PARA QUE SOLO VALGAN LETRAS, NUMEROS ETC
-                newName = newName + e.Key;
-                NombrePlayer.Text = newName;
+                if (c>=65 && c <= 90 || c >= 97 && (int)c <= 122 /*|| (int)c >= 48 && (int)c <= 57*/) //65-90 97-122 48-57
+                {
+                    newName = newName + c;
+                    NombrePlayer.Text = newName;
+                }
+                
 
                 switch (e.Key)
                 {
@@ -132,5 +147,7 @@ namespace DSI_JustFighter
                 }
             }
         }
+
+        
     }
 }
