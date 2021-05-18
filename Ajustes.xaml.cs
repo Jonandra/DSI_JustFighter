@@ -25,6 +25,8 @@ namespace DSI_JustFighter
     public sealed partial class Ajustes : Page
     {
         string idioma;
+        
+        static double volumeAux = 0;
 
         public Ajustes()
         {
@@ -34,8 +36,16 @@ namespace DSI_JustFighter
 
         protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
         {
-            //ApplicationLanguages.PrimaryLanguageOverride = "fr";
-            NavigationInfo a = e.Parameter as NavigationInfo;
+
+            if (volumeAux != 0) //Si previamente hemos modificado el volumen , se nos queda guardado 
+            {
+                ElementSoundPlayer.Volume = volumeAux;
+                SliderVolume.Value = volumeAux * 100;
+            }
+               
+
+             //ApplicationLanguages.PrimaryLanguageOverride = "fr";
+             NavigationInfo a = e.Parameter as NavigationInfo;
 
             if (a != null && !string.IsNullOrWhiteSpace(a.language))
             {
@@ -74,6 +84,7 @@ namespace DSI_JustFighter
         {
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
+            volumeAux = ElementSoundPlayer.Volume; //Nos guardamos el volumen 
             this.Frame.Navigate(typeof(MenuPrincipal), a);
         }
 
@@ -180,11 +191,11 @@ namespace DSI_JustFighter
                 if (e.NewValue > e.OldValue) //Subir volumen 
                 {
 
-                    ElementSoundPlayer.Volume += 0.01;
+                    if(ElementSoundPlayer.Volume + 0.01 <=1)ElementSoundPlayer.Volume += 0.01;
                 }
                 else if (e.NewValue < e.OldValue) //Bajar Volumen 
                 {
-                    ElementSoundPlayer.Volume -= 0.01;
+                    if (ElementSoundPlayer.Volume - 0.01 >= 0) ElementSoundPlayer.Volume -= 0.01;
                 }
             }
         }

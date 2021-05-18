@@ -44,7 +44,7 @@
                 <StackPanel Orientation="Vertical" Width="797" Height="513" >
 
                     <TextBlock x:Name="vGen" Text="Volumen General"  Foreground="#FFEA4A26" FontSize="30" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" HorizontalAlignment="Left" Height="58"/>
-                    <Slider AutomationProperties.Name="simple slider" Width="570" HorizontalAlignment="Left" Height="90" ValueChanged="Slider_ValueChanged"/>
+                    <Slider x:Name="SliderVolume" Width="570" HorizontalAlignment="Left" Height="90" ValueChanged="Slider_ValueChanged"/>
                     <TextBlock x:Name="musica" Text="Música"  Foreground="#FFEA4A26" FontSize="30" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
                     <Slider AutomationProperties.Name="simple slider" Width="570" HorizontalAlignment="Left" Height="91"/>
                     <TextBlock x:Name="eSonido" Text="Efectos de Sonido"  Foreground="#FFEA4A26" FontSize="30" RequestedTheme="Dark" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
