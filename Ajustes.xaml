@@ -13,9 +13,10 @@
             <RowDefinition  Height="18*" />
             <RowDefinition Height="150*"/>
         </Grid.RowDefinitions>
+        <Image Source="/Assets/campoBatalla2.jpg" Stretch="UniformToFill" Grid.RowSpan="2"></Image>
         <Viewbox HorizontalAlignment="Left" Grid.ColumnSpan="2">
             <StackPanel Orientation="Horizontal" Width="1400">
-                <Button x:Name="Back" Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center" Click="Button_Click">
+                <Button x:Name="Back" Width="117" Height="84" HorizontalAlignment="Center" Click="Button_Click">
                     <Image Source="/Assets/backButton.png" Margin="-89,-3,-88,0" Height="78" VerticalAlignment="Top" FocusVisualPrimaryBrush="Gray" />
                 </Button>
                 <TextBlock x:Name="Titulo" Text="Ajustes" Margin="500,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF2ECB00" FocusVisualSecondaryBrush="#994F4F4F" Foreground="#FF9B4600" FontFamily="Maiandra GD" FontSize="50" FontWeight="Bold"/>
@@ -24,10 +25,10 @@
 
 
         <Viewbox VerticalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="1" FocusVisualSecondaryBrush="#992B2525">
-            <StackPanel Orientation="Horizontal" Height="693" Background="Gray">
-                <StackPanel Orientation="Vertical" Width="586" Height="453">
+            <StackPanel Orientation="Horizontal" Height="551" Background="Gray">
+                <StackPanel Orientation="Vertical" Width="586" Height="273">
                     <Viewbox Height="90" Width="435">
-                        <ComboBox Header="Cambiar de Idioma"  Width="256" HorizontalAlignment="Center" Background="#666FD8BC" Foreground="#FFE00000" FontFamily="Arial Nova" Height="78" FontSize="20" SelectionChanged="ComboBox_SelectionChanged" VerticalAlignment="Center" >
+                        <ComboBox Header="Cambiar de Idioma"  Width="256" HorizontalAlignment="Center"   Background="#666FD8BC" Foreground="#FFE00000" FontFamily="Arial Nova" Height="78" FontSize="20" SelectionChanged="ComboBox_SelectionChanged" VerticalAlignment="Center" >
                             <ComboBoxItem x:Name="Español" FontStretch="Expanded">
                                 <TextBlock Text="Español" Foreground="Black"/>
                             </ComboBoxItem >

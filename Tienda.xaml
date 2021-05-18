@@ -19,9 +19,10 @@
             <ColumnDefinition Width="150*"/>
 
         </Grid.ColumnDefinitions>
+        <Image Source="/Assets/campoBatalla2.jpg" Stretch="UniformToFill" Grid.ColumnSpan="2"></Image>
         <Viewbox HorizontalAlignment="Left" Grid.ColumnSpan="2">
             <StackPanel Orientation="Horizontal" Width="1400">
-                <Button x:Name="Back" Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center" Click="Button_Click" TabIndex="0">
+                <Button x:Name="Back" Width="117" Height="84"  HorizontalAlignment="Center" Click="Button_Click" TabIndex="0">
                     <Image Source="/Assets/backButton.png" Margin="-89,-3,-88,0" Height="78" VerticalAlignment="Top" FocusVisualPrimaryBrush="Gray" />
                 </Button>
                 <TextBlock x:Name="Titulo" Text="Menu de Tienda" Margin="400,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF2ECB00" FocusVisualSecondaryBrush="#994F4F4F" Foreground="#FF9B4600" FontFamily="Maiandra GD" FontSize="50" FontWeight="Bold"/>
