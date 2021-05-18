@@ -42,26 +42,28 @@
                 <StackPanel VerticalAlignment="Top" Background="DarkGray" Margin="-2,0,-2,-2">
                     <!--Primera fila-->
                     <StackPanel Height="83" Width="385" >
-                        <Image x:Name="ImagenSeleccionada" Source="/Assets/perfil.jpg" Height="50" Width="64"/>
+                        <Button Height="50" Width="64" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="10" >
+                            <Image x:Name="ImagenSeleccionada" Source="/Assets/perfil.jpg"/>
+                        </Button>
                     </StackPanel>
                     <!--Primera fila-->
                     <StackPanel  Height="54" Width="385" HorizontalAlignment="Left" Orientation="Horizontal" Background="LightGray">
-                        <Button x:Name="Normal"  Height="45" Width="50" Margin="12,0,0,0" Click="Normal_Click">
+                        <Button x:Name="Normal"  Height="45" Width="50" Margin="12,0,0,0" Click="Normal_Click" CornerRadius="25">
                             <Image  Source="/Assets/perfil.jpg" Stretch="Uniform" Margin="-10,-14,-10,-14"/>
                         </Button>
-                        <Button x:Name="Mosto"   Height="45" Width="50" Margin="12,0,0,0" Click="Mosto_Click">
+                        <Button x:Name="Mosto"   Height="45" Width="50" Margin="12,0,0,0" Click="Mosto_Click" CornerRadius="25">
                             <Image  Source="/Assets/mosto.jpg" Stretch="Uniform" Margin="-11,-6,-9,-7"/>
                         </Button>
-                        <Button x:Name="Chica"  Height="45" Width="50" Margin="12,0,0,0" Click="Chica_Click">
+                        <Button x:Name="Chica"  Height="45" Width="50" Margin="12,0,0,0" Click="Chica_Click" CornerRadius="25">
                             <Image  Source="/Assets/chica.jpg" Stretch="Uniform" Margin="-11,-8,-9,-9"/>
                         </Button>
-                        <Button x:Name="Avestruz"  Height="45" Width="50" Margin="12,0,0,0" Click="Avestruz_Click">
+                        <Button x:Name="Avestruz"  Height="45" Width="50" Margin="12,0,0,0" Click="Avestruz_Click" CornerRadius="25">
                             <Image  Source="/Assets/avestruz.png" Stretch="Uniform" Margin="-10,-7,-10,-8"/>
                         </Button>
-                        <Button x:Name="Pepe"   Height="45" Width="50" Margin="12,0,0,0" Click="Pepe_Click">
+                        <Button x:Name="Pepe"   Height="45" Width="50" Margin="12,0,0,0" Click="Pepe_Click" CornerRadius="25">
                             <Image  Source="/Assets/pepe.jpg" Stretch="Uniform" Margin="-10,-7,-10,-8"/>
                         </Button>
-                        <Button x:Name="Zeus"   Height="45" Width="50" Margin="12,0,0,0" Click="Zeus_Click">
+                        <Button x:Name="Zeus"   Height="45" Width="50" Margin="12,0,0,0" Click="Zeus_Click" CornerRadius="25">
                             <Image  Source="/Assets/Zeus.jpg" Stretch="Uniform" Margin="-10,-8,-10,-7"/>
                         </Button>
 
@@ -72,22 +74,22 @@
                     <!--Segunda fila-->
                     <StackPanel  Height="54" Width="385" HorizontalAlignment="Left" Orientation="Horizontal" Background="LightGray">
 
-                        <Button x:Name="Monke"  Height="45" Width="50" Margin="12,0,0,0" Click="Monke_Click">
+                        <Button x:Name="Monke"  Height="45" Width="50" Margin="12,0,0,0" Click="Monke_Click" CornerRadius="25">
                             <Image  Source="/Assets/monke.jpg" Stretch="Uniform" Margin="-10,-14,-10,-14"/>
                         </Button>
-                        <Button x:Name="Ortega"   Height="45" Width="50" Margin="12,0,0,0" Click="Ortega_Click">
+                        <Button x:Name="Ortega"   Height="45" Width="50" Margin="12,0,0,0" Click="Ortega_Click" CornerRadius="25">
                             <Image  Source="/Assets/ortega.jpg" Stretch="Uniform" Margin="-11,-6,-9,-7"/>
                         </Button>
-                        <Button x:Name="Boi"  Height="45" Width="50" Margin="12,0,0,0" Click="Boi_Click">
+                        <Button x:Name="Boi"  Height="45" Width="50" Margin="12,0,0,0" Click="Boi_Click" CornerRadius="25">
                             <Image  Source="/Assets/boi.jpg" Stretch="Uniform" Margin="-11,-8,-9,-9"/>
                         </Button>
-                        <Button x:Name="Sealion"  Height="45" Width="50" Margin="12,0,0,0" Click="Sealion_Click">
+                        <Button x:Name="Sealion"  Height="45" Width="50" Margin="12,0,0,0" Click="Sealion_Click" CornerRadius="25">
                             <Image  Source="/Assets/silaion.png" Stretch="Uniform" Margin="-10,-7,-10,-8"/>
                         </Button>
-                        <Button x:Name="Calico"  Height="45" Width="50" Margin="12,0,0,0" Click="Calico_Click">
+                        <Button x:Name="Calico"  Height="45" Width="50" Margin="12,0,0,0" Click="Calico_Click" CornerRadius="25">
                             <Image  Source="/Assets/calico.jpg" Stretch="Uniform" Margin="-10,-7,-10,-8"/>
                         </Button>
-                        <Button Name="Scorp"   Height="45" Width="50" Margin="12,0,0,0" Click="Scorp_Click">
+                        <Button Name="Scorp"   Height="45" Width="50" Margin="12,0,0,0" Click="Scorp_Click" CornerRadius="25">
                             <Image  Source="/Assets/avatarLuchador.jpg" Stretch="Uniform" Margin="-10,-8,-10,-7"/>
                         </Button>
                     </StackPanel>
