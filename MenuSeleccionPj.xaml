@@ -46,9 +46,9 @@
                         <StackPanel Orientation="Horizontal" Height="48" VerticalAlignment="Center" Width="146" Margin="10,0,0,0">
                             <!--Primera columna de stats (Textos)-->
                             <StackPanel Orientation="Vertical" Height="48" RenderTransformOrigin="0.5,0.5" Width="45" Margin="5,0,0,0">
-                                <TextBlock x:Name="TextFuerza" Text="Fuerza" FontSize="10" Margin="0,1"></TextBlock>
-                                <TextBlock x:Name="TextMovilidad" Text="Movilidad" FontSize="10" Margin="0,1"></TextBlock>
-                                <TextBlock x:Name="TextVida" Text="Vida" FontSize="10" Margin="0,1"></TextBlock>
+                                <TextBlock x:Name="TextFuerza" Text="Fuerza" FontSize="10" Margin="0,1" Foreground="#FF191919"></TextBlock>
+                                <TextBlock x:Name="TextMovilidad" Text="Movilidad" FontSize="10" Margin="0,1" Foreground="#FF171717"></TextBlock>
+                                <TextBlock x:Name="TextVida" Text="Vida" FontSize="10" Margin="0,1" Foreground="Black"></TextBlock>
                             </StackPanel>
 
                             <!--Segunda columna de stats (Barras)-->
@@ -62,12 +62,12 @@
 
                             <!--Primera columna de stats (Puntuacion)-->
                             <StackPanel Orientation="Vertical" Height="48" RenderTransformOrigin="0.5,0.5" Width="16" Margin="5,0,0,0">
-                                <TextBlock x:Name="ValueFuerza" Text="70" FontSize="10" Margin="0,1"></TextBlock>
-                                <TextBlock x:Name="ValueMovilidad" Text="90" FontSize="10" Margin="0,1"></TextBlock>
-                                <TextBlock x:Name="ValueVida" Text="30" FontSize="10" Margin="0,1"></TextBlock>
+                                <TextBlock x:Name="ValueFuerza" Text="70" FontSize="10" Margin="0,1" Foreground="#FFE0E65C"></TextBlock>
+                                <TextBlock x:Name="ValueMovilidad" Text="90" FontSize="10" Margin="0,1" Foreground="#FFA057B6"></TextBlock>
+                                <TextBlock x:Name="ValueVida" Text="30" FontSize="10" Margin="0,1" Foreground="#FFD14917"></TextBlock>
                             </StackPanel>
                         </StackPanel>
-                        <Button x:Name="Fight" Content="Luchar" Background="IndianRed" Margin="45,0,0,0" Width="73" Click="Fight_Click" CornerRadius="5"></Button>
+                        <Button x:Name="Fight" Content="Luchar" Background="IndianRed" Margin="45,0,0,0" Width="73" Click="Fight_Click" CornerRadius="5" Foreground="#FF2E676A"></Button>
                     </StackPanel>
 
                     <!--Parte de abajo-->
