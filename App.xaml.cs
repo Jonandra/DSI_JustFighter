@@ -30,7 +30,7 @@ namespace DSI_JustFighter
         {
             this.InitializeComponent();
             ElementSoundPlayer.State = ElementSoundPlayerState.On;
-            ElementSoundPlayer.Volume = 0;
+            ElementSoundPlayer.Volume=0;
             this.Suspending += OnSuspending;
         }
 
@@ -68,7 +68,7 @@ namespace DSI_JustFighter
                     // Cuando no se restaura la pila de navegación, navegar a la primera página,
                     // configurando la nueva página pasándole la información requerida como
                     //parámetro de navegación
-                    rootFrame.Navigate(typeof(Ajustes), e.Arguments);
+                    rootFrame.Navigate(typeof(SeleccionarImagenPerfil), e.Arguments);
                 }
                 // Asegurarse de que la ventana actual está activa.
                 Window.Current.Activate();

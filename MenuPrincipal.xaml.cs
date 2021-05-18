@@ -36,6 +36,12 @@ namespace DSI_JustFighter
             //ApplicationLanguages.PrimaryLanguageOverride = "fr";
             NavigationInfo a = e.Parameter as NavigationInfo;
 
+
+            if (a == null)
+            {
+                a = new NavigationInfo();
+                a.language = "Español";
+            }
             if (!string.IsNullOrWhiteSpace(a.language))
             {
                 idioma = a.language;

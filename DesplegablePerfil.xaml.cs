@@ -46,13 +46,17 @@ namespace DSI_JustFighter
             // ALT routes here
             AltLeft.Modifiers = VirtualKeyModifiers.Menu;
 
-            
+
         }
         protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
         {
             //ApplicationLanguages.PrimaryLanguageOverride = "fr";
             NavigationInfo a = e.Parameter as NavigationInfo;
-
+            if (a == null)
+            {
+                a = new NavigationInfo();
+                a.language = "Español";
+            }
             if (!string.IsNullOrWhiteSpace(a.language))
             {
                 idioma = a.language;
@@ -127,7 +131,7 @@ namespace DSI_JustFighter
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
             a.source = IMAGEN.Source;
-            this.Frame.Navigate(typeof(MenuPrincipal),a);
+            this.Frame.Navigate(typeof(MenuPrincipal), a);
             //On_BackRequested();
         }
 

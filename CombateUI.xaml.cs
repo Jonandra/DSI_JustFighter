@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -37,6 +38,15 @@ namespace DSI_JustFighter
                     BitmapImage bitimg = e.Parameter as BitmapImage;
                     Perfil.Source = bitimg;
                 }
+        }
+
+        private void Grid_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if(e.Key==VirtualKey.B || e.OriginalKey==VirtualKey.GamepadB)
+            {
+                if (Bar2.Value > 0) Bar2.Value -= 5;
+                else Bar2.Value = 60;
+            }
         }
     }
 }

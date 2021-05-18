@@ -43,13 +43,18 @@ namespace DSI_JustFighter
         {
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
-            this.Frame.Navigate(typeof(MenuPrincipal),a);
+            this.Frame.Navigate(typeof(MenuPrincipal), a);
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
         {
             NavigationInfo a = e.Parameter as NavigationInfo;
 
+            if (a == null)
+            {
+                a = new NavigationInfo();
+                a.language = "Español";
+            }
             if (!string.IsNullOrWhiteSpace(a.language))
             {
                 idioma = a.language;
@@ -106,7 +111,7 @@ namespace DSI_JustFighter
                 if (!rightPressed)
                 {
                     D3Personajes.FontSize = D3Personajes.FontSize - 2;
-                   
+
                 }
 
                 D3Personajes.Text = "BUY TO UNLOCK RANDOM SKIN";
@@ -163,7 +168,7 @@ namespace DSI_JustFighter
                 if (rightPressed)
                 {
                     D3Personajes.FontSize = D3Personajes.FontSize + 2;
-                   
+
                 }
                 D3Personajes.Text = "SoMangoKush - 39$";
                 BitmapImage logo3 = new BitmapImage();

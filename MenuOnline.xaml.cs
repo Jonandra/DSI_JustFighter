@@ -33,6 +33,12 @@ namespace DSI_JustFighter
             //ApplicationLanguages.PrimaryLanguageOverride = "fr";
             NavigationInfo a = e.Parameter as NavigationInfo;
 
+
+            if (a == null)
+            {
+                a = new NavigationInfo();
+                a.language = "Español";
+            }
             if (!string.IsNullOrWhiteSpace(a.language))
             {
                 idioma = a.language;
@@ -43,18 +49,18 @@ namespace DSI_JustFighter
         {
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
-            this.Frame.Navigate(typeof(DesplegablePerfil),a);
+            this.Frame.Navigate(typeof(DesplegablePerfil), a);
         }
         private void Click_Ajustes(object sender, RoutedEventArgs e)
         {
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
-            this.Frame.Navigate(typeof(Ajustes),a);
+            this.Frame.Navigate(typeof(Ajustes), a);
         }
         private void Click_Salir(object sender, RoutedEventArgs e)
         {
-            if (this.Frame.CanGoBack)            
-                this.Frame.GoBack();             
+            if (this.Frame.CanGoBack)
+                this.Frame.GoBack();
 
         }
     }

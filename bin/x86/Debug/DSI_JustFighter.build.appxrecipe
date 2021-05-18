@@ -145,6 +145,9 @@
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\campoBatalla.jpg">
       <PackagePath>Assets\campoBatalla.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\campoBatalla2.jpg">
+      <PackagePath>Assets\campoBatalla2.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\chica.jpg">
       <PackagePath>Assets\chica.jpg</PackagePath>
     </AppxPackagedFile>
