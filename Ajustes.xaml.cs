@@ -39,8 +39,8 @@ namespace DSI_JustFighter
 
             if (volumeAux != 0) //Si previamente hemos modificado el volumen , se nos queda guardado 
             {
-                ElementSoundPlayer.Volume = volumeAux;
-                SliderVolume.Value = volumeAux * 100;
+                ElementSoundPlayer.Volume = volumeAux/100;
+                SliderVolume.Value = volumeAux ;
             }
                
 
@@ -84,7 +84,7 @@ namespace DSI_JustFighter
         {
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
-            volumeAux = ElementSoundPlayer.Volume; //Nos guardamos el volumen 
+            volumeAux = SliderVolume.Value; //Nos guardamos el volumen 
             this.Frame.Navigate(typeof(MenuPrincipal), a);
         }
 
