@@ -71,6 +71,7 @@
       <RootProperty Name="Height" />
       <RootProperty Name="TickFrequency" />
       <RootProperty Name="TickPlacement" />
+      <RootEvent Name="ValueChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
       <RootMethod Name="GetName" />

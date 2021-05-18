@@ -25,9 +25,11 @@ namespace DSI_JustFighter
     public sealed partial class Ajustes : Page
     {
         string idioma;
+
         public Ajustes()
         {
             this.InitializeComponent();
+            ElementSoundPlayer.Volume = 0;
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
@@ -35,7 +37,7 @@ namespace DSI_JustFighter
             //ApplicationLanguages.PrimaryLanguageOverride = "fr";
             NavigationInfo a = e.Parameter as NavigationInfo;
 
-            if (a!=null && !string.IsNullOrWhiteSpace(a.language))
+            if (a != null && !string.IsNullOrWhiteSpace(a.language))
             {
                 idioma = a.language;
                 if (a.language == "Español")
@@ -165,6 +167,26 @@ namespace DSI_JustFighter
                     //Si`por ejemplo quiero hacerlo para quedesde jugar vaya a salir igualo la variable Candidate al boton en cuestion 
             }
 
+        }
+
+        private void Slider_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            if (e.NewValue == 0) ElementSoundPlayer.Volume = 0;
+            else if (e.NewValue == 100) ElementSoundPlayer.Volume = 1;
+            else
+            {
+
+
+                if (e.NewValue > e.OldValue) //Subir volumen 
+                {
+
+                    ElementSoundPlayer.Volume += 0.01;
+                }
+                else if (e.NewValue < e.OldValue) //Bajar Volumen 
+                {
+                    ElementSoundPlayer.Volume -= 0.01;
+                }
+            }
         }
     }
 }
