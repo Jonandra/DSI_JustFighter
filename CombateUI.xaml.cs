@@ -24,6 +24,7 @@ namespace DSI_JustFighter
     /// </summary>
     public sealed partial class CombateUI : Page
     {
+        string idioma;
         public CombateUI()
         {
             this.InitializeComponent();
@@ -35,6 +36,7 @@ namespace DSI_JustFighter
             NavigationInfo a = ex.Parameter as NavigationInfo;
             if (a != null) //CARGAR LA IMAGEN DEL PARAMETRO
             {
+                idioma = a.language;
                 BitmapImage bitimg = a.source as BitmapImage;
                 bitimg.UriSource = new Uri(bitimg.UriSource.ToString());
                 Perfil.Source = bitimg;
@@ -58,5 +60,15 @@ namespace DSI_JustFighter
                 else Bar2.Value = 60;
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationInfo a = new NavigationInfo();
+            a.language = idioma;
+            this.Frame.Navigate(typeof(MenuPrincipal), a);
+        }
+
+
+
     }
 }

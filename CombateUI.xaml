@@ -30,15 +30,17 @@
                 <Image HorizontalAlignment="Center" Grid.Column="3" Grid.Row="1" Source="/Assets/personaje2.png" Margin="500,166,0,154" Grid.RowSpan="2"/>
             </StackPanel>
         </Viewbox>
-
+        <Button x:Name="Back" Width="105" Height="116"   Click="Button_Click" Grid.Column="2" Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+            <Image Source="/Assets/backButton.png" Margin="-89,-3,-88,0" Height="78" VerticalAlignment="Top" FocusVisualPrimaryBrush="Gray" />
+        </Button>
         <Viewbox HorizontalAlignment="Left" Stretch="Uniform" StretchDirection="Both" Grid.ColumnSpan="3" Grid.Row="0">
             <!--Primera Columna-->
             <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" Grid.Row="0">
                 <Button Height="125" Width="146" CornerRadius="10">
                     <Border CornerRadius="10" Background="Transparent" BorderBrush="Black" BorderThickness="4"  Margin="-10,-15,-10,-13">
                         <Image x:Name="Perfil" Source="/Assets/avatar1.png" Stretch="Uniform" Margin="-14,-15,-12,-13"/>
-                     </Border>
-                   
+                    </Border>
+
                 </Button>
 
                 <StackPanel Orientation="Vertical" Grid.Row="0" Grid.ColumnSpan="2">

@@ -111,13 +111,13 @@
       <RootProperty Name="Height" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Content" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="CornerRadius" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Background" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Name" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="TabIndex" />
       <RootProperty Name="BorderBrush" />
