@@ -28,7 +28,7 @@
                 <Button x:Name="Back" Click="Back_Click" Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center" >
                     <Image Source="/Assets/backButton.png" Margin="-89,-3,-88,0" Height="78" VerticalAlignment="Top" FocusVisualPrimaryBrush="Gray" />
                 </Button>
-                <TextBlock Text="Imagen de Perfil" Margin="350,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF2ECB00" FocusVisualSecondaryBrush="#994F4F4F" Foreground="#FF9B4600" FontFamily="Maiandra GD" FontSize="50" FontWeight="Bold"/>
+                <TextBlock x:Name="Titulo" Text="Imagen de Perfil" Margin="350,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF2ECB00" FocusVisualSecondaryBrush="#994F4F4F" Foreground="#FF9B4600" FontFamily="Maiandra GD" FontSize="50" FontWeight="Bold"/>
 
             </StackPanel>
 

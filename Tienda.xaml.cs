@@ -26,6 +26,7 @@ namespace DSI_JustFighter
 
     public sealed partial class Tienda : Page
     {
+        string idioma;
         bool rightPressed = false;
         public Tienda()
         {
@@ -40,9 +41,50 @@ namespace DSI_JustFighter
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Ajustes));
+            NavigationInfo a = new NavigationInfo();
+            a.language = idioma;
+            this.Frame.Navigate(typeof(MenuPrincipal),a);
         }
 
+        protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
+        {
+            NavigationInfo a = e.Parameter as NavigationInfo;
+
+            if (!string.IsNullOrWhiteSpace(a.language))
+            {
+                idioma = a.language;
+                if (a.language == "Español")
+                {
+                    Titulo.Text = "Tienda";
+                    BotonCajas.Content = "Cajas";
+                    BotonPersonajes.Content = "Personajes";
+                    BotonSkins.Content = "Skins";
+                    TextCajaPequeña.Text = "Caja Pequeña - 0.99$";
+                    TextCajaMediana.Text = "Caja Mediana - 3.99$";
+                    TextCajaGrande.Text = "Caja Grande - 10.99$";
+                }
+                if (a.language == "Ingles")
+                {
+                    Titulo.Text = "Shop";
+                    BotonCajas.Content = "Boxes";
+                    BotonPersonajes.Content = "Characters";
+                    BotonSkins.Content = "Skins";
+                    TextCajaPequeña.Text = "Small Box - 0.99$";
+                    TextCajaMediana.Text = "Medium Box - 3.99$";
+                    TextCajaGrande.Text = "Big box - 10.99$";
+                }
+                if (a.language == "Frances")
+                {
+                    Titulo.Text = "Boutique";
+                    BotonCajas.Content = "Des boites";
+                    BotonPersonajes.Content = "Personnages";
+                    BotonSkins.Content = "Skins";
+                    TextCajaPequeña.Text = "Petite boîte - 0.99$";
+                    TextCajaMediana.Text = "Boîte moyenne - 3.99$";
+                    TextCajaGrande.Text = "Grosse boite - 10.99$";
+                }
+            }
+        }
 
         //Flecha Derecha 
         private void RightButtonClick(object sender, RoutedEventArgs e)
@@ -50,10 +92,6 @@ namespace DSI_JustFighter
 
             if (CanvasBox2.Visibility == Visibility.Visible) //Si estan los personajes visibles 
             {
-
-
-
-
                 D1Personajes.Text = "OtakoidMan";
                 BitmapImage logo = new BitmapImage();
                 logo.UriSource = new Uri(E1Personajes.BaseUri, "/Assets/ortega.jpg");
@@ -100,14 +138,7 @@ namespace DSI_JustFighter
                 BitmapImage logo3 = new BitmapImage();
                 logo3.UriSource = new Uri(E3Skin.BaseUri, "/Assets/BluePoison.png");
                 E3Skin.Source = logo3;
-
-
-
             }
-
-
-
-
         }
         //Flecha Izquierda 
         private void LeftButtonClick(object sender, RoutedEventArgs e) //Volvemos a establecer los valores 
@@ -226,7 +257,9 @@ namespace DSI_JustFighter
                     e.Handled = true;
                     break;
                 case VirtualKey.GamepadMenu:
-                    this.Frame.Navigate(typeof(Ajustes));
+                    NavigationInfo a = new NavigationInfo();
+                    a.language = idioma;
+                    this.Frame.Navigate(typeof(MenuPrincipal), a);
                     break;
                 case VirtualKey.Down:
                 case VirtualKey.GamepadDPadDown:

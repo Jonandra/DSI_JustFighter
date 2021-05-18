@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -27,6 +28,7 @@ namespace DSI_JustFighter
         bool cambiarNombre = false;
         string lastName = "PLAYER 1";
         string newName = "";
+        string idioma;
 
         public DesplegablePerfil()
         {
@@ -43,29 +45,89 @@ namespace DSI_JustFighter
             this.KeyboardAccelerators.Add(AltLeft);
             // ALT routes here
             AltLeft.Modifiers = VirtualKeyModifiers.Menu;
+
+            ElementSoundPlayer.State = ElementSoundPlayerState.On;
         }
         protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
         {
-            Back.IsEnabled = this.Frame.CanGoBack; //VUELTA ATRAS
+            //ApplicationLanguages.PrimaryLanguageOverride = "fr";
+            NavigationInfo a = e.Parameter as NavigationInfo;
 
-            if (e != null) //CARGAR LA IMAGEN DEL PARAMETRO
+            if (!string.IsNullOrWhiteSpace(a.language))
             {
-                BitmapImage bitimg = e.Parameter as BitmapImage;
+                idioma = a.language;
+                if (a.language == "Español")
+                {
+                    Titulo.Text = "Perfil";
+                    EditarImagen.Content = "Editar Perfil";
+                    CambiarNombre.Content = "Cambiar Nombre";
+                    TextLogrosDesbloqueados.Text = "Logros Desbloqueados:";
+                    TextLogrosDesbloqueados2.Text = "Logros Desbloqueados:";
+                    TextPartidasGanadas.Text = "Partidas Ganadas:";
+                    TextMisionCompleta.Text = "Misión Completada";
+                    TextMisionCorrespondiente.Text = "Misión Correspondiente";
+                    TextMisionCorrespondiente2.Text = "Misión Correspondiente";
+                    TextMisionCorrespondiente3.Text = "Misión Correspondiente";
+                }
+                if (a.language == "Ingles")
+                {
+                    Titulo.Text = "Profile";
+                    EditarImagen.Content = "Edit Profile";
+                    CambiarNombre.Content = "Rename";
+                    TextLogrosDesbloqueados.Text = "Achievements Unlocked:";
+                    TextLogrosDesbloqueados2.Text = "Achievements Unlocked:";
+                    TextPartidasGanadas.Text = "Total Wins:";
+                    TextMisionCompleta.Text = "Mission Complete";
+                    TextMisionCorrespondiente.Text = "Corresponding Mission";
+                    TextMisionCorrespondiente2.Text = "Corresponding Mission";
+                    TextMisionCorrespondiente3.Text = "Corresponding Mission";
+                }
+                if (a.language == "Frances")
+                {
+                    Titulo.Text = "Profil";
+                    EditarImagen.Content = "Editer le profil";
+                    CambiarNombre.Content = "Rebaptiser";
+                    TextLogrosDesbloqueados.Text = "Succès débloqués:";
+                    TextLogrosDesbloqueados2.Text = "Succès débloqués:";
+                    TextPartidasGanadas.Text = "Jeux gagnés:";
+                    TextMisionCompleta.Text = "Mission complète";
+                    TextMisionCorrespondiente.Text = "Mission correspondante";
+                    TextMisionCorrespondiente2.Text = "Mission correspondante";
+                    TextMisionCorrespondiente3.Text = "Mission correspondante";
+                }
+            }
+
+            if (a.source != null) //CARGAR LA IMAGEN DEL PARAMETRO
+            {
+                BitmapImage bitimg = a.source as BitmapImage;
                 IMAGEN.Source = bitimg;
             }
         }
 
         private void EditarImagen_Click(object sender, RoutedEventArgs e)
         {
-            cambiarNombre = false;            
+            cambiarNombre = false;
             newName = "";
             GuardarCambios();
-            this.Frame.Navigate(typeof(SeleccionarImagenPerfil), IMAGEN.Source);
+
+            NavigationInfo a = new NavigationInfo();
+            a.language = idioma;
+            a.source = IMAGEN.Source;
+            this.Frame.Navigate(typeof(SeleccionarImagenPerfil), a);
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MenuPrincipal));
+            //MediaElement PlayMusic = new MediaElement(); 
+            //StorageFolder Folder = Windows.ApplicationModel.Package.Current.InstalledLocation; 
+            //Folder = await Folder.GetFolderAsync("MyFolder"); 
+            //StorageFile sf = await Folder.GetFileAsync("MyFile.mp3"); 
+            //PlayMusic.SetSource(await sf.OpenAsync(FileAccessMode.Read), sf.ContentType); PlayMusic.Play();
+
+            NavigationInfo a = new NavigationInfo();
+            a.language = idioma;
+            a.source = IMAGEN.Source;
+            this.Frame.Navigate(typeof(MenuPrincipal),a);
             //On_BackRequested();
         }
 
@@ -87,7 +149,7 @@ namespace DSI_JustFighter
             args.Handled = true;
         } //VULTRA ATRAS------------------------------------------------------------------------------------
 
-        
+
 
         private void Nombre_Click(object sender, RoutedEventArgs e)
         {
@@ -111,7 +173,8 @@ namespace DSI_JustFighter
         private void GuardarCambios()
         {
             if (newName == "") NombrePlayer.Text = lastName;
-            else { 
+            else
+            {
                 NombrePlayer.Text = newName;
                 lastName = newName;
             }
@@ -125,16 +188,16 @@ namespace DSI_JustFighter
             {
                 char c = (char)e.Key;
                 //CONTROL PARA QUE SOLO VALGAN LETRAS, NUMEROS ETC
-                if (c>=65 && c <= 90 || c >= 97 && (int)c <= 122 /*|| (int)c >= 48 && (int)c <= 57*/) //65-90 97-122 48-57
+                if (c >= 65 && c <= 90 || c >= 97 && (int)c <= 122 /*|| (int)c >= 48 && (int)c <= 57*/) //65-90 97-122 48-57
                 {
                     newName = newName + c;
                     NombrePlayer.Text = newName;
                 }
-                
+
 
                 switch (e.Key)
                 {
-                    
+
                     case VirtualKey.Escape:
                         newName = "";
                         NombrePlayer.Text = "";
@@ -148,6 +211,6 @@ namespace DSI_JustFighter
             }
         }
 
-        
+
     }
 }

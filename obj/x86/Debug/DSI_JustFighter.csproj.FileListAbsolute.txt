@@ -469,3 +469,8 @@ C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\obj\x86\Debug\qualifiers.txt.
 C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\bin\x86\Debug\SeleccionarImagenPerfil.xbf
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.g.i.cs
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.g.cs
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.xaml
+C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.xbf

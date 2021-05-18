@@ -21,10 +21,10 @@
         </Grid.ColumnDefinitions>
         <Viewbox HorizontalAlignment="Left" Grid.ColumnSpan="2">
             <StackPanel Orientation="Horizontal" Width="1400">
-                <Button  Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center" Click="Button_Click" TabIndex="0">
+                <Button x:Name="Back" Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center" Click="Button_Click" TabIndex="0">
                     <Image Source="/Assets/backButton.png" Margin="-89,-3,-88,0" Height="78" VerticalAlignment="Top" FocusVisualPrimaryBrush="Gray" />
                 </Button>
-                <TextBlock Text="Menu de Tienda" Margin="400,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF2ECB00" FocusVisualSecondaryBrush="#994F4F4F" Foreground="#FF9B4600" FontFamily="Maiandra GD" FontSize="50" FontWeight="Bold"/>
+                <TextBlock x:Name="Titulo" Text="Menu de Tienda" Margin="400,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF2ECB00" FocusVisualSecondaryBrush="#994F4F4F" Foreground="#FF9B4600" FontFamily="Maiandra GD" FontSize="50" FontWeight="Bold"/>
             </StackPanel>
         </Viewbox>
 
@@ -33,9 +33,9 @@
 
                 <StackPanel Background="DarkGray" Height="160" Width="325" >
                     <StackPanel Orientation="Horizontal">
-                        <Button  Height="21" Width="110" Background="#33EA0707" Content="Cajas" BorderBrush="#FF636322" FontSize="5" RequestedTheme="Default" VerticalAlignment="Top" FontWeight="Bold" Click="Button_Click_3" TabIndex="1"/>
-                        <Button Height="21" Width="116" Background="#33E00A0A"  Content="Personajes" BorderBrush="#FFBF4521" FontSize="5" RequestedTheme="Default" VerticalAlignment="Top" FontWeight="Bold" Click="Button_Click_4" TabIndex="2"/>
-                        <Button Height="21" Width="99" Background="#33E80606" Content="Skins" BorderBrush="#FF2940D4" FontSize="5" RequestedTheme="Default" VerticalAlignment="Top" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Click="Button_Click_5" TabIndex="3">
+                        <Button x:Name="BotonCajas" Height="21" Width="110" Background="#33EA0707" Content="Cajas" BorderBrush="#FF636322" FontSize="5" RequestedTheme="Default" VerticalAlignment="Top" FontWeight="Bold" Click="Button_Click_3" TabIndex="1"/>
+                        <Button x:Name="BotonPersonajes" Height="21" Width="116" Background="#33E00A0A"  Content="Personajes" BorderBrush="#FFBF4521" FontSize="5" RequestedTheme="Default" VerticalAlignment="Top" FontWeight="Bold" Click="Button_Click_4" TabIndex="2"/>
+                        <Button x:Name="BotonSkins" Height="21" Width="99" Background="#33E80606" Content="Skins" BorderBrush="#FF2940D4" FontSize="5" RequestedTheme="Default" VerticalAlignment="Top" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Click="Button_Click_5" TabIndex="3">
                         </Button>
                     </StackPanel>
                     <!-- CAJAS-> No tienen flechas por que solo hay tres tipos de cajas( de momento) -->
@@ -46,21 +46,21 @@
                                 <ContentControl  x:Name="C1Caja" Height="83" UseSystemFocusVisuals="True" IsTabStop="True" TabIndex="4">
                                     <StackPanel Orientation="Vertical" Width="79" Background="#FF6A7C6E" Height="83">
                                         <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFFFFF"/>
-                                        <TextBlock Text="Caja Pequeña - 0.99$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
+                                        <TextBlock x:Name="TextCajaPequeña" Text="Caja Pequeña - 0.99$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
                                         <Image Source="/Assets/smallCase.png" Height="112" Width="32" />
                                     </StackPanel>
                                 </ContentControl>
                                 <ContentControl x:Name="C2Caja" Height="83" UseSystemFocusVisuals="True" IsTabStop="True" TabIndex="5">
                                     <StackPanel Orientation="Vertical" Height="83" Width="89" Background="#FF818137">
                                         <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FF818137"/>
-                                        <TextBlock Text="Caja Mediana - 3.99$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
+                                        <TextBlock x:Name="TextCajaMediana" Text="Caja Mediana - 3.99$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
                                         <Image Source="/Assets/smallCase.png" Height="93" Width="55" RenderTransformOrigin="0.5,0.5"/>
                                     </StackPanel>
                                 </ContentControl>
                                 <ContentControl  x:Name="C3Caja" Height="82" UseSystemFocusVisuals="True" IsTabStop="True" TabIndex="6">
                                     <StackPanel Orientation="Vertical" Width="82" Height="83" Background="#FFFFCF50">
                                         <Border BorderThickness="2" BorderBrush="#FF719995" Background="#FFFFCF50"/>
-                                        <TextBlock Text="Caja Grande - 10.99$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
+                                        <TextBlock x:Name="TextCajaGrande" Text="Caja Grande - 10.99$" FontSize="7" HorizontalAlignment="Center" FocusVisualPrimaryBrush="Black" FontWeight="Bold" Foreground="Black"/>
                                         <Image Source="/Assets/smallCase.png" Height="82" Width="69" />
                                     </StackPanel>
                                 </ContentControl>

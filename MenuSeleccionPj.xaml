@@ -30,7 +30,7 @@
                 <Button x:Name="Back" Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center" Click="Back_Click">
                     <Image Source="/Assets/backButton.png" Margin="-89,-3,-88,0" Height="78" VerticalAlignment="Top" FocusVisualPrimaryBrush="Gray" />
                 </Button>
-                <TextBlock Text="Selección de Personajes" Margin="350,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF2ECB00" FocusVisualSecondaryBrush="#994F4F4F" Foreground="#FF9B4600" FontFamily="Maiandra GD" FontSize="50" FontWeight="Bold"/>
+                <TextBlock x:Name="Titulo" Text="Selección de Personajes" Margin="350,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF2ECB00" FocusVisualSecondaryBrush="#994F4F4F" Foreground="#FF9B4600" FontFamily="Maiandra GD" FontSize="50" FontWeight="Bold"/>
             </StackPanel>
         </Viewbox>
 
@@ -44,9 +44,9 @@
                         <StackPanel Orientation="Horizontal" Height="48" VerticalAlignment="Center" Width="146" Margin="10,0,0,0">
                             <!--Primera columna de stats (Textos)-->
                             <StackPanel Orientation="Vertical" Height="48" RenderTransformOrigin="0.5,0.5" Width="45" Margin="5,0,0,0">
-                                <TextBlock Text="Fuerza" FontSize="10" Margin="0,1"></TextBlock>
-                                <TextBlock Text="Movilidad" FontSize="10" Margin="0,1"></TextBlock>
-                                <TextBlock Text="Vida" FontSize="10" Margin="0,1"></TextBlock>
+                                <TextBlock x:Name="TextFuerza" Text="Fuerza" FontSize="10" Margin="0,1"></TextBlock>
+                                <TextBlock x:Name="TextMovilidad" Text="Movilidad" FontSize="10" Margin="0,1"></TextBlock>
+                                <TextBlock x:Name="TextVida" Text="Vida" FontSize="10" Margin="0,1"></TextBlock>
                             </StackPanel>
 
                             <!--Segunda columna de stats (Barras)-->
@@ -65,7 +65,7 @@
                                 <TextBlock x:Name="ValueVida" Text="30" FontSize="10" Margin="0,1"></TextBlock>
                             </StackPanel>
                         </StackPanel>
-                        <Button x:Name="Fight" Content="Fight" Background="IndianRed" Margin="45,0,0,0" Width="73" Click="Fight_Click"></Button>
+                        <Button x:Name="Fight" Content="Luchar" Background="IndianRed" Margin="45,0,0,0" Width="73" Click="Fight_Click"></Button>
                     </StackPanel>
 
                     <!--Parte de abajo-->

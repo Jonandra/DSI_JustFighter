@@ -13,16 +13,25 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
+using Windows.Globalization;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace DSI_JustFighter
 {
+
+    class NavigationInfo
+    {
+        public ImageSource source;
+        public string language;
+    }
     /// <summary>
     /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
     public sealed partial class SeleccionarImagenPerfil : Page
     {
+
+        string idioma;
         public SeleccionarImagenPerfil()
         {
             this.InitializeComponent();
@@ -33,23 +42,35 @@ namespace DSI_JustFighter
             //CAMBIAR IMAGEN
             BitmapImage im = new BitmapImage();
             im.UriSource = new Uri(ImagenSeleccionada.BaseUri, imagen);
-            ImagenSeleccionada.Source = im;           
+            ImagenSeleccionada.Source = im;
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
         {
-            Back.IsEnabled = this.Frame.CanGoBack; //VUELTA ATRAS
+            //ApplicationLanguages.PrimaryLanguageOverride = "fr";
+            NavigationInfo a = e.Parameter as NavigationInfo;
 
-            if (e != null) //CARGAR LA IMAGEN DEL PARAMETRO
+            if (!string.IsNullOrWhiteSpace(a.language))
             {
-                BitmapImage bitimg = e.Parameter as BitmapImage;
+                idioma = a.language;
+                if (a.language == "Español") Titulo.Text = "Imagen de Perfil";
+                if (a.language == "Ingles") Titulo.Text = "Profile Image";
+                if (a.language == "Frances") Titulo.Text = "Image de Profil";
+            }
+
+            if (a.source != null) //CARGAR LA IMAGEN DEL PARAMETRO
+            {
+                BitmapImage bitimg = a.source as BitmapImage;
                 ImagenSeleccionada.Source = bitimg;
             }
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(DesplegablePerfil), ImagenSeleccionada.Source); //DesplegablePerfil
+            NavigationInfo a = new NavigationInfo();
+            a.language = idioma;
+            a.source = ImagenSeleccionada.Source;
+            this.Frame.Navigate(typeof(DesplegablePerfil), a); //DesplegablePerfil
         }
 
         private void Normal_Click(object sender, RoutedEventArgs e)

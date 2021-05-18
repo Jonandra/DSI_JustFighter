@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.Globalization;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -23,22 +24,63 @@ namespace DSI_JustFighter
     /// </summary>
     public sealed partial class Ajustes : Page
     {
+        string idioma;
         public Ajustes()
         {
             this.InitializeComponent();
         }
 
+        protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
+        {
+            //ApplicationLanguages.PrimaryLanguageOverride = "fr";
+            NavigationInfo a = e.Parameter as NavigationInfo;
 
+            if (a!=null && !string.IsNullOrWhiteSpace(a.language))
+            {
+                idioma = a.language;
+                if (a.language == "Español")
+                {
+                    idioma = "Español";
+                    Titulo.Text = "Ajustes";
+                    vGen.Text = "Volumen General";
+                    musica.Text = "Música";
+                    graficos.Text = "Gráficos";
+                    eSonido.Text = "Efectos de Sonido";
+                }
+                else if (a.language == "Ingles")
+                {
+                    idioma = "Ingles";
+                    Titulo.Text = "Options";
+                    vGen.Text = "General Volume";
+                    musica.Text = "Music";
+                    graficos.Text = "Graphics";
+                    eSonido.Text = "Sound Effects";
+                }
+                else if (a.language == "Frances")
+                {
+                    idioma = "Frances";
+                    Titulo.Text = "Paramètres";
+                    vGen.Text = "Volume général";
+                    musica.Text = "Musique";
+                    graficos.Text = "Graphique";
+                    eSonido.Text = "Effets sonores";
+                }
+            }
+        }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MenuPrincipal));
+            NavigationInfo a = new NavigationInfo();
+            a.language = idioma;
+            this.Frame.Navigate(typeof(MenuPrincipal), a);
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (Español.IsSelected)
             {
+                idioma = "Español";
+                Titulo.Text = "Ajustes";
                 vGen.Text = "Volumen General";
                 musica.Text = "Música";
                 graficos.Text = "Gráficos";
@@ -46,6 +88,8 @@ namespace DSI_JustFighter
             }
             else if (Ingles.IsSelected)
             {
+                idioma = "Ingles";
+                Titulo.Text = "Options";
                 vGen.Text = "General Volume";
                 musica.Text = "Music";
                 graficos.Text = "Graphics";
@@ -53,6 +97,8 @@ namespace DSI_JustFighter
             }
             else if (Frances.IsSelected)
             {
+                idioma = "Frances";
+                Titulo.Text = "Paramètres";
                 vGen.Text = "Volume général";
                 musica.Text = "Musique";
                 graficos.Text = "Graphique";
@@ -100,7 +146,9 @@ namespace DSI_JustFighter
                     e.Handled = true;
                     break;
                 case VirtualKey.GamepadMenu:
-                    this.Frame.Navigate(typeof(MenuPrincipal));
+                    NavigationInfo a = new NavigationInfo();
+                    a.language = idioma;
+                    this.Frame.Navigate(typeof(MenuPrincipal), a);
                     break;
                 case VirtualKey.Down:
                 case VirtualKey.GamepadDPadDown:
@@ -115,9 +163,6 @@ namespace DSI_JustFighter
                     e.Handled = true;
                     break;
                     //Si`por ejemplo quiero hacerlo para quedesde jugar vaya a salir igualo la variable Candidate al boton en cuestion 
-
-
-
             }
 
         }

@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
@@ -22,33 +23,57 @@ namespace DSI_JustFighter
     /// </summary>
     public sealed partial class MenuPrincipal : Page
     {
+        string idioma;
+
         public MenuPrincipal()
         {
             this.InitializeComponent();
 
         }
 
+        protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
+        {
+            //ApplicationLanguages.PrimaryLanguageOverride = "fr";
+            NavigationInfo a = e.Parameter as NavigationInfo;
+
+            if (!string.IsNullOrWhiteSpace(a.language))
+            {
+                idioma = a.language;
+            }
+        }
+
         private void Click_Jugar(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MenuSeleccionPj));
+            NavigationInfo a = new NavigationInfo();
+            a.language = idioma;
+            this.Frame.Navigate(typeof(MenuSeleccionPj), a);
         }
 
         private void Click_Tienda(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Tienda));
+            NavigationInfo a = new NavigationInfo();
+            a.language = idioma;
+            this.Frame.Navigate(typeof(Tienda), a);
         }
 
         private void Click_Online(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MenuOnline));
+            NavigationInfo a = new NavigationInfo();
+            a.language = idioma;
+            this.Frame.Navigate(typeof(MenuOnline), a);
         }
+
         private void Click_Perfil(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(DesplegablePerfil));
+            NavigationInfo a = new NavigationInfo();
+            a.language = idioma;
+            this.Frame.Navigate(typeof(DesplegablePerfil), a);
         }
         private void Click_Ajustes(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Ajustes));
+            NavigationInfo a = new NavigationInfo();
+            a.language = idioma;
+            this.Frame.Navigate(typeof(Ajustes), a);
         }
         private void Click_Salir(object sender, RoutedEventArgs e)
         {

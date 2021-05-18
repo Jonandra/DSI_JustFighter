@@ -22,23 +22,39 @@ namespace DSI_JustFighter
     /// </summary>
     public sealed partial class MenuOnline : Page
     {
+        string idioma;
         public MenuOnline()
         {
             this.InitializeComponent();
         }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
+        {
+            //ApplicationLanguages.PrimaryLanguageOverride = "fr";
+            NavigationInfo a = e.Parameter as NavigationInfo;
+
+            if (!string.IsNullOrWhiteSpace(a.language))
+            {
+                idioma = a.language;
+            }
+        }
+
         private void Click_Perfil(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(DesplegablePerfil));
+            NavigationInfo a = new NavigationInfo();
+            a.language = idioma;
+            this.Frame.Navigate(typeof(DesplegablePerfil),a);
         }
         private void Click_Ajustes(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Ajustes));
+            NavigationInfo a = new NavigationInfo();
+            a.language = idioma;
+            this.Frame.Navigate(typeof(Ajustes),a);
         }
         private void Click_Salir(object sender, RoutedEventArgs e)
         {
             if (this.Frame.CanGoBack)            
-                this.Frame.GoBack();
-              
+                this.Frame.GoBack();             
 
         }
     }

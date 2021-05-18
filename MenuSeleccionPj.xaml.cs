@@ -30,7 +30,7 @@ namespace DSI_JustFighter
     /// </summary>
     public sealed partial class MenuSeleccionPj : Page
     {
-
+        string idioma;
         public MenuSeleccionPj()
         {
             this.InitializeComponent();
@@ -47,15 +47,40 @@ namespace DSI_JustFighter
             // ALT routes here
             AltLeft.Modifiers = VirtualKeyModifiers.Menu;
         }
+
         protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
         {
-            Back.IsEnabled = this.Frame.CanGoBack; //VUELTA ATRAS
+            //ApplicationLanguages.PrimaryLanguageOverride = "fr";
+            NavigationInfo a = e.Parameter as NavigationInfo;
 
-            //if (e != null) //CARGAR LA IMAGEN DEL PARAMETRO
-            //{
-            //    BitmapImage bitimg = e.Parameter as BitmapImage;
-            //    Imagen.Source = bitimg;
-            //}
+            if (!string.IsNullOrWhiteSpace(a.language))
+            {
+                idioma = a.language;
+                if (a.language == "Español")
+                {
+                    Titulo.Text = "Selección de Personajes";
+                    TextFuerza.Text = "Fuerza";
+                    TextMovilidad.Text = "Movilidad";
+                    TextVida.Text = "Vida";
+                    Fight.Content = "Luchar";
+                }
+                if (a.language == "Ingles")
+                {
+                    Titulo.Text = "Characters Selection";
+                    TextFuerza.Text = "Strenght";
+                    TextMovilidad.Text = "Mobility";
+                    TextVida.Text = "Health";
+                    Fight.Content = "Fight";
+                }
+                if (a.language == "Frances")
+                {
+                    Titulo.Text = "Image de Profil";
+                    TextFuerza.Text = "Obliger";
+                    TextMovilidad.Text = "Mobilité";
+                    TextVida.Text = "Santé";
+                    Fight.Content = "Lutte";
+                }
+            }
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
@@ -85,7 +110,10 @@ namespace DSI_JustFighter
         //BOTON FIGHT ==> COMBATE UI
         private void Fight_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(CombateUI), Perfil.Source); //DesplegablePerfil
+            NavigationInfo a = new NavigationInfo();
+            a.language = idioma;
+            a.source = Perfil.Source;
+            this.Frame.Navigate(typeof(CombateUI), a); //DesplegablePerfil
         }
 
         private void cambiarPersonaje(int fuerza, int movil, int vida, string imagen)

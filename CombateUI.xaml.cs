@@ -32,11 +32,11 @@ namespace DSI_JustFighter
         {
             //Back.IsEnabled = this.Frame.CanGoBack; //VUELTA ATRAS
 
-            if (e != null) //CARGAR LA IMAGEN DEL PARAMETRO
-            {
-                BitmapImage bitimg = e.Parameter as BitmapImage;
-                Perfil.Source = bitimg;
-            }
+                if (e != null) //CARGAR LA IMAGEN DEL PARAMETRO
+                {
+                    BitmapImage bitimg = e.Parameter as BitmapImage;
+                    Perfil.Source = bitimg;
+                }
         }
     }
 }

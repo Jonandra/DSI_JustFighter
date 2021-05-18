@@ -15,10 +15,10 @@
         </Grid.RowDefinitions>
         <Viewbox HorizontalAlignment="Left" Grid.ColumnSpan="2">
             <StackPanel Orientation="Horizontal" Width="1400">
-                <Button  Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center" Click="Button_Click">
+                <Button x:Name="Back" Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center" Click="Button_Click">
                     <Image Source="/Assets/backButton.png" Margin="-89,-3,-88,0" Height="78" VerticalAlignment="Top" FocusVisualPrimaryBrush="Gray" />
                 </Button>
-                <TextBlock Text="Ajustes" Margin="500,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF2ECB00" FocusVisualSecondaryBrush="#994F4F4F" Foreground="#FF9B4600" FontFamily="Maiandra GD" FontSize="50" FontWeight="Bold"/>
+                <TextBlock x:Name="Titulo" Text="Ajustes" Margin="500,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualPrimaryBrush="#FF2ECB00" FocusVisualSecondaryBrush="#994F4F4F" Foreground="#FF9B4600" FontFamily="Maiandra GD" FontSize="50" FontWeight="Bold"/>
             </StackPanel>
         </Viewbox>
 
