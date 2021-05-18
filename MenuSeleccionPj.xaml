@@ -24,7 +24,7 @@
             <ColumnDefinition Width="150*"/>
             <ColumnDefinition Width="150*"/>
         </Grid.ColumnDefinitions>
-
+        <Image Source="/Assets/campoBatalla2.jpg" Stretch="UniformToFill" Grid.ColumnSpan="3" Grid.RowSpan="3"></Image>
         <Viewbox HorizontalAlignment="Left" Grid.ColumnSpan="3">
             <StackPanel Orientation="Horizontal" Width="1400">
                 <Button x:Name="Back" Width="117" Height="84" Background="#33430CFF" HorizontalAlignment="Center" Click="Back_Click">

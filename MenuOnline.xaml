@@ -42,7 +42,7 @@
                 </Grid>
                 <Grid Grid.Column="2">
                     <Button  HorizontalAlignment="Right" Width="80" Click="Click_Ajustes">
-                        <Image Source="/Assets/ajustes.png" Height="90"    />
+                        <Image Source="/Assets/ajustes.png" Height="40"    />
                     </Button>
                 </Grid>
             </Grid>
