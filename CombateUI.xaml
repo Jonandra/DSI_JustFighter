@@ -26,8 +26,8 @@
 
         <Viewbox Stretch="Uniform" StretchDirection="Both" Grid.ColumnSpan="3" Grid.RowSpan="2" Grid.Row="1">
             <StackPanel Orientation="Horizontal" Width="1355">
-                <Image HorizontalAlignment="Center" Grid.Row="1" Source="/Assets/personaje1.png" Margin="200,166,0,154" Grid.RowSpan="2"/>
-                <Image HorizontalAlignment="Center" Grid.Column="3" Grid.Row="1" Source="/Assets/personaje2.png" Margin="500,166,0,154" Grid.RowSpan="2"/>
+                <Image x:Name ="player1" HorizontalAlignment="Center" Grid.Row="1" Source="/Assets/personaje1.png" Margin="200,166,0,154" Grid.RowSpan="2"/>
+                <Image  x:Name ="player2" HorizontalAlignment="Center" Grid.Column="3" Grid.Row="1" Source="/Assets/personaje2.png" Margin="500,166,0,154" Grid.RowSpan="2"/>
             </StackPanel>
         </Viewbox>
         <Button x:Name="Back" Width="105" Height="116"   Click="Button_Click" Grid.Column="2" Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Right">
@@ -69,9 +69,11 @@
 
         <!--Controles-->
         <Viewbox Grid.Column="0" Grid.Row="2">
-            <StackPanel Width="550">
-                <Image Height="75" Width="75" Source="/Assets/botonLucha.png" Margin="-200,0,0,0"/>
-                <Image Height="75" Width="75" Source="/Assets/botonLucha.png" Margin="0,15,0,0"/>
+            <StackPanel Width="550" >
+                <Button Height="94" Width="138" Click="ContentControl_Click" BorderBrush="Transparent">
+                    <Image Source="/Assets/botonLucha.png"/>
+                </Button>
+                <Image Height="86" Width="96" Source="/Assets/botonLucha.png"/>
                 <Image Grid.Column="0" Grid.Row="2" Source="/Assets/cruceta.png" Height="150" Width="150" Margin="-350,-70,0,0"/>
             </StackPanel>
         </Viewbox>

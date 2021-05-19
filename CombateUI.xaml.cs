@@ -67,7 +67,11 @@ namespace DSI_JustFighter
             this.Frame.Navigate(typeof(MenuPrincipal), a);
         }
 
-
-
+        private void ContentControl_Click(object sender, RoutedEventArgs e)
+        {
+            
+                if (player1.Margin.Left < 250) player1.Margin = new Thickness(player1.Margin.Left + 5, 166, 0, 154);
+                else player1.Margin = new Thickness(200, 166, 0, 154);
+        }
     }
 }
