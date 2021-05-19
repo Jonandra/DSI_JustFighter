@@ -52,13 +52,12 @@ namespace DSI_JustFighter
         }
 
         //No se por que no me lo detecta 
-        private void Grid_KeyDown(object sender, KeyRoutedEventArgs e)
+        private void Player_Click(object sender, RoutedEventArgs e)
         {
-            if (e.Key == VirtualKey.B || e.OriginalKey == VirtualKey.GamepadB)
-            {
-                if (Bar2.Value > 0) Bar2.Value -= 5;
-                else Bar2.Value = 60;
-            }
+
+            if (Bar1.Value > 0) Bar1.Value -= 5;
+            else Bar1.Value = 80;
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

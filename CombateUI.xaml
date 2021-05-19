@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid KeyDown="Grid_KeyDown">
+    <Grid >
 
         <Grid.RowDefinitions>
             <RowDefinition  Height="60*" />
@@ -36,16 +36,16 @@
         <Viewbox HorizontalAlignment="Left" Stretch="Uniform" StretchDirection="Both" Grid.ColumnSpan="3" Grid.Row="0">
             <!--Primera Columna-->
             <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" Grid.Row="0">
-                <Button Height="125" Width="146" CornerRadius="10">
-                    <Border CornerRadius="10" Background="Transparent" BorderBrush="Black" BorderThickness="4"  Margin="-10,-15,-10,-13">
-                        <Image x:Name="Perfil" Source="/Assets/avatar1.png" Stretch="Uniform" Margin="-14,-15,-12,-13"/>
+                <Button Height="125" Width="146" CornerRadius="10" Click="Player_Click">
+                    <Border CornerRadius="10" Background="Transparent" BorderBrush="Black" BorderThickness="4"  Margin="-10,-15,-10,-13" >
+                        <Image x:Name="Perfil" Source="/Assets/avatar1.png" Stretch="Uniform" Margin="-14,-15,-12,-13"  />
                     </Border>
 
                 </Button>
 
                 <StackPanel Orientation="Vertical" Grid.Row="0" Grid.ColumnSpan="2">
                     <TextBlock HorizontalAlignment="Left" Margin="0,20,0,0" Text="Lvl. 9" FontSize="30" Foreground="Black"></TextBlock>
-                    <ProgressBar Value="85" Foreground="Red" Width="400" Height="50" Margin="0,10,0,0" BorderBrush="Black" BorderThickness="2"/>
+                    <ProgressBar x:Name="Bar1" Value="85" Foreground="Red" Width="400" Height="50" Margin="0,10,0,0" BorderBrush="Black" BorderThickness="2"/>
                 </StackPanel>
 
                 <!--Segunda Columna-->
