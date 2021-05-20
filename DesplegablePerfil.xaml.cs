@@ -197,8 +197,8 @@ namespace DSI_JustFighter
                     newName = newName + c;
                     NombrePlayer.Text = newName;
                 }
-
-
+            }
+                DependencyObject candidate = null;
                 switch (e.Key)
                 {
 
@@ -210,9 +210,61 @@ namespace DSI_JustFighter
                     case VirtualKey.Enter:
                         GuardarCambios();
                         break;
+                    case VirtualKey.Right:
+                    case VirtualKey.GamepadDPadRight:
+                        // el candidato es el primer objeto al navegar hacia abajo en la lista 
+                        candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Right);
+                        // movemos el foco al siguiente objeto
+                        if (candidate == null)
+                            candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Left);
 
+                        (candidate as Control).Focus(FocusState.Keyboard);
+                        e.Handled = true;
+                        break;
+                    case VirtualKey.Left:
+                    case VirtualKey.GamepadDPadLeft:
+                        // el candidato es el primer objeto al navegar hacia abajo en la lista 
+                        candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Left);
+                        // movemos el foco al siguiente objeto
+                        if (candidate == null)
+                            candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Right);
+
+                        (candidate as Control).Focus(FocusState.Keyboard);
+                        e.Handled = true;
+                        break;
+                    case VirtualKey.Up:
+                    case VirtualKey.GamepadDPadUp:
+                        // el candidato es el primer objeto al navegar hacia abajo en la lista 
+                        candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Up);
+                        // movemos el foco al siguiente objeto
+                        if (candidate == null)
+                            candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Down);
+
+                        (candidate as Control).Focus(FocusState.Keyboard);
+                        e.Handled = true;
+                        break;
+                    case VirtualKey.GamepadMenu:
+                        NavigationInfo a = new NavigationInfo();
+                        a.language = idioma;
+                        this.Frame.Navigate(typeof(MenuPrincipal), a);
+                        break;
+                    case VirtualKey.Down:
+                    case VirtualKey.GamepadDPadDown:
+                        // el candidato es el primer objeto al navegar hacia abajo en la lista
+                        candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Down);
+                        // movemos el foco al siguiente objeto
+                        if (candidate == null)
+                            candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Up);
+
+                        //Casteamos el Objeto que guarda el cambio de foco a un control para establecer eso como foco en focusmanager
+                        (candidate as Control).Focus(FocusState.Keyboard);
+                        e.Handled = true;
+                        break;
+                        //Si`por ejemplo quiero hacerlo para quedesde jugar vaya a salir igualo la variable Candidate al boton en cuestion 
                 }
-            }
+
+
+            
         }
 
 

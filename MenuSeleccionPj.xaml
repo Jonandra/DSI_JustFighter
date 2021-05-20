@@ -11,7 +11,7 @@
 
 
 
-    <Grid>
+    <Grid KeyDown="Grid_KeyDown">
         <!--DIVIDIMOS EL LIENZO-->
         <Grid.RowDefinitions>
             <RowDefinition  Height="18*" />
