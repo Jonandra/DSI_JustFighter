@@ -271,11 +271,6 @@ namespace DSI_JustFighter
                         break;
                         //Si`por ejemplo quiero hacerlo para quedesde jugar vaya a salir igualo la variable Candidate al boton en cuestion 
                 }
-
-
-            
         }
-
-
     }
 }
