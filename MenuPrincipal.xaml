@@ -97,17 +97,19 @@
                             </Grid.RowDefinitions>
                             <Viewbox Stretch="Uniform" StretchDirection="Both" Grid.ColumnSpan="1" Grid.RowSpan="2" Grid.Row="1" Grid.Column="0">
                                 <Button  HorizontalAlignment="Center" Width="125" CornerRadius="100" Click="Click_Online">
-                                    <Image Source="/Assets/botonLucha.png" Height="100"    />
+                                    <Image Source="/Assets/online.png"  Height="100"/>
+
+                                    <!--<Image Source="/Assets/online.png" Height="100"    />-->
                                 </Button>
                             </Viewbox>
                             <Viewbox Stretch="Uniform" StretchDirection="Both" Grid.ColumnSpan="1" Grid.RowSpan="2" Grid.Row="1" Grid.Column="2">
-                                <Button  HorizontalAlignment="Center" Width="125" CornerRadius="100" Click="Click_Tienda">
-                                    <Image Source="/Assets/botonLucha.png" Height="100"    />
+                                <Button  HorizontalAlignment="Center" Width="105" CornerRadius="100" Click="Click_Tienda">
+                                    <Image Source="/Assets/carrito.png" Height="96" Margin="0,0,-2,0"    />
                                 </Button>
                             </Viewbox>
                             <Viewbox Stretch="Uniform" StretchDirection="Both" Grid.ColumnSpan="1" Grid.RowSpan="2" Grid.Row="0" Grid.Column="1">
                                 <Button  HorizontalAlignment="Center" Width="125" CornerRadius="100" Click="Click_Jugar">
-                                    <Image Source="/Assets/botonLucha.png" Height="113" Margin="-16,0,-12,0"    />
+                                    <Image Source="/Assets/PLAY.png" Height="113" Margin="-16,0,-12,0"    />
                                 </Button>
                             </Viewbox>
 

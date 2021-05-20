@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-QTMJR3L</Machine>
-    <WindowsUser>danie</WindowsUser>
+    <Machine>LAPTOP-J2I1ML4V</Machine>
+    <WindowsUser>ARIALBLAK</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,258 +10,258 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>49ad2374-4cff-48bf-8ee1-3cda99fcab32</PackageIdentityName>
     <PackageIdentityPublisher>CN=ARIALBLAK</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\DSI_JustFighter.exe">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\DSI_JustFighter.exe">
       <PackagePath>entrypoint\DSI_JustFighter.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\ajustes.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\ajustes.png">
       <PackagePath>Assets\ajustes.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\amigos.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\amigos.png">
       <PackagePath>Assets\amigos.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\avatar1.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\avatar1.png">
       <PackagePath>Assets\avatar1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\avatar2.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\avatar2.png">
       <PackagePath>Assets\avatar2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\avestruz.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\avestruz.png">
       <PackagePath>Assets\avestruz.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\bigCase.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\bigCase.png">
       <PackagePath>Assets\bigCase.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\BluePoison.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\BluePoison.png">
       <PackagePath>Assets\BluePoison.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\botonLucha.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\botonLucha.png">
       <PackagePath>Assets\botonLucha.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\cruceta.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\cruceta.png">
       <PackagePath>Assets\cruceta.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\hamburguesa.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\hamburguesa.png">
       <PackagePath>Assets\hamburguesa.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\HammerPeng.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\HammerPeng.png">
       <PackagePath>Assets\HammerPeng.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\hexagonp.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\hexagonp.png">
       <PackagePath>Assets\hexagonp.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\leftArrow.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\leftArrow.png">
       <PackagePath>Assets\leftArrow.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\lockLogo.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\lockLogo.png">
       <PackagePath>Assets\lockLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\mediumCase.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\mediumCase.png">
       <PackagePath>Assets\mediumCase.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\Mortal Skin.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\Mortal Skin.png">
       <PackagePath>Assets\Mortal Skin.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\personaje1.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\personaje1.png">
       <PackagePath>Assets\personaje1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\personaje2.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\personaje2.png">
       <PackagePath>Assets\personaje2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\rightarrow.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\rightarrow.png">
       <PackagePath>Assets\rightarrow.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\salir.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\salir.png">
       <PackagePath>Assets\salir.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\silaion.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\silaion.png">
       <PackagePath>Assets\silaion.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\smallCase.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\smallCase.png">
       <PackagePath>Assets\smallCase.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\Timer.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\Timer.png">
       <PackagePath>Assets\Timer.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\backButton.png">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\backButton.png">
       <PackagePath>Assets\backButton.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\avatarLuchador.jpg">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\avatarLuchador.jpg">
       <PackagePath>Assets\avatarLuchador.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\boi.jpg">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\boi.jpg">
       <PackagePath>Assets\boi.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\calico.jpg">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\calico.jpg">
       <PackagePath>Assets\calico.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\campoBatalla.jpg">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\campoBatalla.jpg">
       <PackagePath>Assets\campoBatalla.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\campoBatalla2.jpg">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\campoBatalla2.jpg">
       <PackagePath>Assets\campoBatalla2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\chica.jpg">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\chica.jpg">
       <PackagePath>Assets\chica.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\mosto.jpg">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\mosto.jpg">
       <PackagePath>Assets\mosto.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\pepe.jpg">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\pepe.jpg">
       <PackagePath>Assets\pepe.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\perfil.jpg">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\perfil.jpg">
       <PackagePath>Assets\perfil.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\Zeus.jpg">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\Zeus.jpg">
       <PackagePath>Assets\Zeus.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\boi.jpg">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\boi.jpg">
       <PackagePath>boi.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\monke.jpg">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\monke.jpg">
       <PackagePath>Assets\monke.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\ortega.jpg">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\ortega.jpg">
       <PackagePath>Assets\ortega.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\DSI_JustFighter.xr.xml">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\DSI_JustFighter.xr.xml">
       <PackagePath>DSI_JustFighter.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\Ajustes.xbf">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\Ajustes.xbf">
       <PackagePath>Ajustes.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\CombateUI.xbf">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\CombateUI.xbf">
       <PackagePath>CombateUI.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\DesplegablePerfil.xbf">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\DesplegablePerfil.xbf">
       <PackagePath>DesplegablePerfil.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\MenuOnline.xbf">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\MenuOnline.xbf">
       <PackagePath>MenuOnline.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\MenuPrincipal.xbf">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\MenuPrincipal.xbf">
       <PackagePath>MenuPrincipal.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\MenuSeleccionPj.xbf">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\MenuSeleccionPj.xbf">
       <PackagePath>MenuSeleccionPj.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\SeleccionarImagenPerfil.xbf">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\SeleccionarImagenPerfil.xbf">
       <PackagePath>SeleccionarImagenPerfil.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\Tienda.xbf">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\Tienda.xbf">
       <PackagePath>Tienda.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\Core\DSI_JustFighter.exe">
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\Core\DSI_JustFighter.exe">
       <PackagePath>DSI_JustFighter.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">

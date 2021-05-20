@@ -474,3 +474,8 @@ C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sist
 C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.g.cs
 C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.xaml
 C:\Users\rzk3p\OneDrive\Escritorio\Asignaturas Segundo Cuatri\Desarrollo de Sistemas Interactivos (DSI)\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.xbf
+C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\bin\x86\Debug\SeleccionarImagenPerfil.xbf
+C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.g.i.cs
+C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.g.cs
+C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.xaml
+C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\obj\x86\Debug\SeleccionarImagenPerfil.xbf

@@ -24,7 +24,7 @@
                     <ColumnDefinition Width="25*"/>
                 </Grid.ColumnDefinitions>
                 <Grid Grid.Column="0">
-                   <!--icono jugador-->
+                    <!--icono jugador-->
                     <Border BorderThickness="10" BorderBrush="#FFFFD700" Background="#FFFFFFFF" >
 
                         <StackPanel Orientation="Horizontal">
@@ -95,23 +95,29 @@
                         <Image Source="/Assets/campoBatalla.jpg" Stretch="UniformToFill" Grid.RowSpan="5" Grid.ColumnSpan="5"></Image>
 
                         <Viewbox Stretch="Uniform" StretchDirection="Both"  Grid.Row="3" Grid.Column="1">
-                            <Button  HorizontalAlignment="Center" Width="125" CornerRadius="100">
-                                <Image Source="/Assets/hexagonp.png" Height="100"    />
+                            <Button  HorizontalAlignment="Center" Width="125" CornerRadius="100" Height="60">
+                                <Image Source="/Assets/botonpL.png" Margin="0,0,0,-3"   />
+
                             </Button>
+
                         </Viewbox>
                         <Viewbox Stretch="Uniform" StretchDirection="Both"  Grid.Row="1" Grid.Column="1">
-                            <Button  HorizontalAlignment="Center" Width="125" CornerRadius="100">
-                                <Image Source="/Assets/hexagonp.png" Height="100"    />
+
+                            <Button  HorizontalAlignment="Center" Width="125" CornerRadius="100" Height="54">
+                                <Image Source="/Assets/botonpi.png" Margin="0,0,0,-7"    />
                             </Button>
+
                         </Viewbox>
                         <Viewbox Stretch="Uniform" StretchDirection="Both"  Grid.Row="1" Grid.Column="3">
+
                             <Button  HorizontalAlignment="Center" Width="125" CornerRadius="100">
-                                <Image Source="/Assets/botonLucha.png" Height="100"    />
+                                <Image Source="/Assets/tornep.png" Height="100"    />
                             </Button>
+
                         </Viewbox>
                         <Viewbox Stretch="Uniform" StretchDirection="Both"  Grid.Row="3" Grid.Column="3">
                             <Button  HorizontalAlignment="Center" Width="125" CornerRadius="100">
-                                <Image Source="/Assets/botonLucha.png" Height="100"    />
+                                <Image Source="/Assets/funmode.png" Height="114" Margin="-14,0,-11,0"    />
                             </Button>
                         </Viewbox>
 
@@ -136,7 +142,7 @@
                             </Button> 
                         </Grid>-->
                     </Grid>
-                     <!--barra derecha-->
+                    <!--barra derecha-->
                     <Grid Grid.Column="2" Background="#3372AFB6">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="100*"/>
