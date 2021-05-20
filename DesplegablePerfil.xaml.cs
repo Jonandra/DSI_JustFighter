@@ -18,17 +18,18 @@ using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
 
+
 namespace DSI_JustFighter
 {
-    /// <summary>
+     /// <summary>
     /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
     public sealed partial class DesplegablePerfil : Page
     {
         bool cambiarNombre = false;
-        string lastName = "PLAYER 1";
         string newName = "";
         string idioma;
+        public string lastName = "PLAYER 1";
 
         public DesplegablePerfil()
         {
@@ -45,9 +46,8 @@ namespace DSI_JustFighter
             this.KeyboardAccelerators.Add(AltLeft);
             // ALT routes here
             AltLeft.Modifiers = VirtualKeyModifiers.Menu;
-
-
         }
+
         protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
         {
             //ApplicationLanguages.PrimaryLanguageOverride = "fr";
@@ -72,6 +72,7 @@ namespace DSI_JustFighter
                     TextMisionCorrespondiente.Text = "Misión Correspondiente";
                     TextMisionCorrespondiente2.Text = "Misión Correspondiente";
                     TextMisionCorrespondiente3.Text = "Misión Correspondiente";
+                    TextDesadiosPendientes.Text = "Desafíos Pendientes";
                 }
                 if (a.language == "Ingles")
                 {
@@ -85,6 +86,7 @@ namespace DSI_JustFighter
                     TextMisionCorrespondiente.Text = "Corresponding Mission";
                     TextMisionCorrespondiente2.Text = "Corresponding Mission";
                     TextMisionCorrespondiente3.Text = "Corresponding Mission";
+                    TextDesadiosPendientes.Text = "Challenges Pending";
                 }
                 if (a.language == "Frances")
                 {
@@ -98,9 +100,14 @@ namespace DSI_JustFighter
                     TextMisionCorrespondiente.Text = "Mission correspondante";
                     TextMisionCorrespondiente2.Text = "Mission correspondante";
                     TextMisionCorrespondiente3.Text = "Mission correspondante";
+                    TextDesadiosPendientes.Text = "Défis en attente";
                 }
             }
-
+            if (a.name != null)
+            {
+                lastName = a.name;
+                NombrePlayer.Text = lastName;
+            }
             if (a.source != null) //CARGAR LA IMAGEN DEL PARAMETRO
             {
                 BitmapImage bitimg = a.source as BitmapImage;
@@ -117,6 +124,7 @@ namespace DSI_JustFighter
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
             a.source = IMAGEN.Source;
+            a.name = lastName;
             this.Frame.Navigate(typeof(SeleccionarImagenPerfil), a);
         }
 
@@ -131,6 +139,7 @@ namespace DSI_JustFighter
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
             a.source = IMAGEN.Source;
+            a.name = lastName;
             this.Frame.Navigate(typeof(MenuPrincipal), a);
             //On_BackRequested();
         }
@@ -201,7 +210,6 @@ namespace DSI_JustFighter
                 DependencyObject candidate = null;
                 switch (e.Key)
                 {
-
                     case VirtualKey.Escape:
                         newName = "";
                         NombrePlayer.Text = "";
@@ -246,6 +254,7 @@ namespace DSI_JustFighter
                     case VirtualKey.GamepadMenu:
                         NavigationInfo a = new NavigationInfo();
                         a.language = idioma;
+                        a.name = lastName;
                         this.Frame.Navigate(typeof(MenuPrincipal), a);
                         break;
                     case VirtualKey.Down:

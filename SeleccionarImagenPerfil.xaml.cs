@@ -25,6 +25,7 @@ namespace DSI_JustFighter
     {
         public ImageSource source;
         public string language;
+        public string name;
     }
     /// <summary>
     /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
@@ -33,6 +34,7 @@ namespace DSI_JustFighter
     {
 
         string idioma;
+        string name;
         public SeleccionarImagenPerfil()
         {
             this.InitializeComponent();
@@ -69,6 +71,10 @@ namespace DSI_JustFighter
                 BitmapImage bitimg = a.source as BitmapImage;
                 ImagenSeleccionada.Source = bitimg;
             }
+            if (a.name != null)
+            {
+                name = a.name;
+            }
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
@@ -76,6 +82,7 @@ namespace DSI_JustFighter
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
             a.source = ImagenSeleccionada.Source;
+            a.name = name;
             this.Frame.Navigate(typeof(DesplegablePerfil), a); //DesplegablePerfil
         }
 
@@ -179,6 +186,7 @@ namespace DSI_JustFighter
                 case VirtualKey.GamepadMenu:
                     NavigationInfo a = new NavigationInfo();
                     a.language = idioma;
+                    a.name = name;
                     this.Frame.Navigate(typeof(MenuPrincipal), a);
                     break;
                 case VirtualKey.Down:

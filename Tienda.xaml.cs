@@ -27,6 +27,7 @@ namespace DSI_JustFighter
     public sealed partial class Tienda : Page
     {
         string idioma;
+        string name;
         bool rightPressed = false;
         public Tienda()
         {
@@ -43,6 +44,7 @@ namespace DSI_JustFighter
         {
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
+            a.name = name;
             this.Frame.Navigate(typeof(MenuPrincipal), a);
         }
 
@@ -89,12 +91,15 @@ namespace DSI_JustFighter
                     TextCajaGrande.Text = "Grosse boite - 10.99$";
                 }
             }
+            if (a.name != null)
+            {
+                name = a.name;
+            }
         }
 
         //Flecha Derecha 
         private void RightButtonClick(object sender, RoutedEventArgs e)
         {
-
             if (CanvasBox2.Visibility == Visibility.Visible) //Si estan los personajes visibles 
             {
                 D1Personajes.Text = "OtakoidMan";
@@ -121,12 +126,9 @@ namespace DSI_JustFighter
 
                 rightPressed = true;  //Si pulsamos el boton derecho donde se va a manipular la fuente
 
-
-
             }
             else if (CanvasBox3.Visibility == Visibility.Visible) //Si estan las skins visibles 
             {
-
                 //CAMBIAR
                 D1Skin.Text = "HammerPeng- 7.25$";
                 BitmapImage logo = new BitmapImage();
@@ -151,9 +153,6 @@ namespace DSI_JustFighter
             //C D E -> personajes y skins
             if (CanvasBox2.Visibility == Visibility.Visible) //Si estan los personajes visibles 
             {
-
-
-
                 D1Personajes.Text = "BrickBreaker - 7$";
                 BitmapImage logo = new BitmapImage();
                 logo.UriSource = new Uri(E1Personajes.BaseUri, "/Assets/pepe.jpg");
@@ -264,6 +263,7 @@ namespace DSI_JustFighter
                 case VirtualKey.GamepadMenu:
                     NavigationInfo a = new NavigationInfo();
                     a.language = idioma;
+                    a.name = name;
                     this.Frame.Navigate(typeof(MenuPrincipal), a);
                     break;
                 case VirtualKey.Down:
@@ -279,8 +279,6 @@ namespace DSI_JustFighter
                     e.Handled = true;
                     break;
                     //Si`por ejemplo quiero hacerlo para quedesde jugar vaya a salir igualo la variable Candidate al boton en cuestion 
-
-
 
             }
         }

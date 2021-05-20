@@ -25,6 +25,7 @@ namespace DSI_JustFighter
     public sealed partial class MenuPrincipal : Page
     {
         string idioma;
+        string name;
 
         public MenuPrincipal()
         {
@@ -43,9 +44,18 @@ namespace DSI_JustFighter
                 a = new NavigationInfo();
                 a.language = "Español";
             }
+            if (a.source!= null)
+            {
+                PerfilImagen.Source = a.source;
+            }
             if (!string.IsNullOrWhiteSpace(a.language))
             {
                 idioma = a.language;
+            }
+            if (a.name != null)
+            {
+                name = a.name;
+                NOMBRE.Text = name;
             }
         }
 
@@ -53,6 +63,7 @@ namespace DSI_JustFighter
         {
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
+            a.name = name;
             this.Frame.Navigate(typeof(MenuSeleccionPj), a);
         }
 
@@ -60,6 +71,7 @@ namespace DSI_JustFighter
         {
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
+            a.name = name;
             this.Frame.Navigate(typeof(Tienda), a);
         }
 
@@ -67,6 +79,8 @@ namespace DSI_JustFighter
         {
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
+            a.source = PerfilImagen.Source;
+            a.name = name;
             this.Frame.Navigate(typeof(MenuOnline), a);
         }
 
@@ -74,12 +88,15 @@ namespace DSI_JustFighter
         {
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
+            a.source = PerfilImagen.Source;
+            a.name = name;
             this.Frame.Navigate(typeof(DesplegablePerfil), a);
         }
         private void Click_Ajustes(object sender, RoutedEventArgs e)
         {
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
+            a.name = name;
             this.Frame.Navigate(typeof(Ajustes), a);
         }
         private void Click_Salir(object sender, RoutedEventArgs e)
@@ -128,6 +145,7 @@ namespace DSI_JustFighter
                 case VirtualKey.GamepadMenu:
                     NavigationInfo a = new NavigationInfo();
                     a.language = idioma;
+                    a.name = name;
                     this.Frame.Navigate(typeof(MenuPrincipal), a);
                     break;
                 case VirtualKey.Down:

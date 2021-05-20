@@ -31,6 +31,7 @@ namespace DSI_JustFighter
     public sealed partial class MenuSeleccionPj : Page
     {
         string idioma;
+        string name;
         public MenuSeleccionPj()
         {
             this.InitializeComponent();
@@ -86,6 +87,10 @@ namespace DSI_JustFighter
                     Fight.Content = "Lutte";
                 }
             }
+            if (a.name != null)
+            {
+                name = a.name;
+            }
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
@@ -118,6 +123,7 @@ namespace DSI_JustFighter
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
             a.source = Perfil.Source;
+            a.name = name;
             this.Frame.Navigate(typeof(CombateUI), a); //DesplegablePerfil
         }
 
@@ -237,6 +243,7 @@ namespace DSI_JustFighter
                 case VirtualKey.GamepadMenu:
                     NavigationInfo a = new NavigationInfo();
                     a.language = idioma;
+                    a.name = name;
                     this.Frame.Navigate(typeof(MenuPrincipal), a);
                     break;
                 case VirtualKey.Down:

@@ -29,8 +29,12 @@
 
                         <StackPanel Orientation="Horizontal">
                             <Button  Width="300" Height="102" Click="Click_Perfil">
-                                <Image Source="/Assets/avatar1.png" Height="90" HorizontalAlignment="Left"  Margin="-150,0,0,-1" />
+                                <StackPanel Orientation="Horizontal" Width="300">
+                                    <Image x:Name="PerfilImagen" Stretch="Uniform" Source="/Assets/mosto.jpg" Height="90" HorizontalAlignment="Left"   />
+                                    <TextBlock x:Name="NOMBRE" Margin="10,0" VerticalAlignment="Center" Text="PLAYER1" FontSize="30" Width="156"></TextBlock>
+                                </StackPanel>                                
                             </Button>
+                            
                         </StackPanel>
 
                     </Border>

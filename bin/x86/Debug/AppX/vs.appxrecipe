@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-QTMJR3L</Machine>
-    <WindowsUser>danie</WindowsUser>
+    <Machine>LAPTOP-DLB89AKI</Machine>
+    <WindowsUser>javie</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>49ad2374-4cff-48bf-8ee1-3cda99fcab32</PackageIdentityName>
     <PackageIdentityPublisher>CN=ARIALBLAK</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>65808204B628E3D9A6214812F5F4572E0098D3A0B35BAE5157168277172818D1</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>F469D6637FAACE78CA4CBA474D62B8CCF12E91602C15F7B8C066DD39CE0D53B2</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>49ad2374-4cff-48bf-8ee1-3cda99fcab32_1.0.0.0_x86__1ezks73j2sey4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>49ad2374-4cff-48bf-8ee1-3cda99fcab32_1ezks73j2sey4!App</RegisteredUserModeAppID>
     <RegisteredPackageID>49ad2374-4cff-48bf-8ee1-3cda99fcab32</RegisteredPackageID>
@@ -27,352 +27,352 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-20T08:27:22.028</Modified>
+      <Modified>2021-05-20T14:11:48.587</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\DSI_JustFighter.exe">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\DSI_JustFighter.exe">
       <PackagePath>entrypoint\DSI_JustFighter.exe</PackagePath>
-      <Modified>2021-05-20T08:27:21.627</Modified>
+      <Modified>2021-05-20T14:11:47.957</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-02-27T18:16:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T16:36:56.000</Modified>
+      <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\ajustes.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\ajustes.png">
       <PackagePath>Assets\ajustes.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.471</Modified>
+      <Modified>2021-05-11T13:29:19.931</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\amigos.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\amigos.png">
       <PackagePath>Assets\amigos.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.472</Modified>
+      <Modified>2021-05-11T13:29:19.946</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\avatar1.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\avatar1.png">
       <PackagePath>Assets\avatar1.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.472</Modified>
+      <Modified>2021-05-10T13:20:56.362</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\avatar2.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\avatar2.png">
       <PackagePath>Assets\avatar2.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.473</Modified>
+      <Modified>2021-05-10T13:20:56.363</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\avestruz.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\avestruz.png">
       <PackagePath>Assets\avestruz.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.474</Modified>
+      <Modified>2021-05-15T10:21:06.080</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\bigCase.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\bigCase.png">
       <PackagePath>Assets\bigCase.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.476</Modified>
+      <Modified>2021-05-07T21:16:38.053</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\BluePoison.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\BluePoison.png">
       <PackagePath>Assets\BluePoison.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.462</Modified>
+      <Modified>2021-05-16T11:29:43.005</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\boton1.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\boton1.png">
       <PackagePath>Assets\boton1.png</PackagePath>
-      <Modified>2021-05-20T08:15:44.641</Modified>
+      <Modified>2021-05-20T08:55:06.916</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\botonLucha.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\botonLucha.png">
       <PackagePath>Assets\botonLucha.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.477</Modified>
+      <Modified>2021-05-10T13:20:56.363</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\botonpi.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\botonpi.png">
       <PackagePath>Assets\botonpi.png</PackagePath>
-      <Modified>2021-05-20T08:15:44.673</Modified>
+      <Modified>2021-05-20T08:55:06.924</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\botonpL.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\botonpL.png">
       <PackagePath>Assets\botonpL.png</PackagePath>
-      <Modified>2021-05-20T08:15:44.651</Modified>
+      <Modified>2021-05-20T08:55:06.918</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\carrito.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\carrito.png">
       <PackagePath>Assets\carrito.png</PackagePath>
-      <Modified>2021-05-20T08:15:44.680</Modified>
+      <Modified>2021-05-20T08:55:06.917</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\cruceta.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\cruceta.png">
       <PackagePath>Assets\cruceta.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.499</Modified>
+      <Modified>2021-05-10T13:20:56.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\funmode.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\funmode.png">
       <PackagePath>Assets\funmode.png</PackagePath>
-      <Modified>2021-05-20T08:15:44.688</Modified>
+      <Modified>2021-05-20T08:55:06.917</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\hamburguesa.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\hamburguesa.png">
       <PackagePath>Assets\hamburguesa.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.499</Modified>
+      <Modified>2021-05-11T13:29:19.932</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\HammerPeng.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\HammerPeng.png">
       <PackagePath>Assets\HammerPeng.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.463</Modified>
+      <Modified>2021-05-16T11:29:43.006</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\hexagonp.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\hexagonp.png">
       <PackagePath>Assets\hexagonp.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.499</Modified>
+      <Modified>2021-05-11T13:29:19.932</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\leftArrow.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\leftArrow.png">
       <PackagePath>Assets\leftArrow.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.500</Modified>
+      <Modified>2021-05-07T21:16:38.056</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\lockLogo.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\lockLogo.png">
       <PackagePath>Assets\lockLogo.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.500</Modified>
+      <Modified>2021-05-15T12:02:40.429</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\mediumCase.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\mediumCase.png">
       <PackagePath>Assets\mediumCase.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.501</Modified>
+      <Modified>2021-05-07T21:16:38.054</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\Mortal Skin.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\Mortal Skin.png">
       <PackagePath>Assets\Mortal Skin.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.467</Modified>
+      <Modified>2021-05-15T12:02:40.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\online.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\online.png">
       <PackagePath>Assets\online.png</PackagePath>
-      <Modified>2021-05-20T08:15:44.698</Modified>
+      <Modified>2021-05-20T08:55:06.918</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\online2.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\online2.png">
       <PackagePath>Assets\online2.png</PackagePath>
-      <Modified>2021-05-20T08:15:44.716</Modified>
+      <Modified>2021-05-20T08:55:06.919</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\personaje1.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\personaje1.png">
       <PackagePath>Assets\personaje1.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.507</Modified>
+      <Modified>2021-05-10T13:20:56.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\personaje2.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\personaje2.png">
       <PackagePath>Assets\personaje2.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.508</Modified>
+      <Modified>2021-05-10T13:20:56.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\PLAY.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\PLAY.png">
       <PackagePath>Assets\PLAY.png</PackagePath>
-      <Modified>2021-05-20T08:15:44.634</Modified>
+      <Modified>2021-05-20T08:55:06.919</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\rightarrow.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\rightarrow.png">
       <PackagePath>Assets\rightarrow.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.508</Modified>
+      <Modified>2021-05-07T21:16:38.054</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\salir.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\salir.png">
       <PackagePath>Assets\salir.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.509</Modified>
+      <Modified>2021-05-11T13:29:19.946</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\silaion.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\silaion.png">
       <PackagePath>Assets\silaion.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.510</Modified>
+      <Modified>2021-05-15T12:59:16.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\smallCase.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\smallCase.png">
       <PackagePath>Assets\smallCase.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.510</Modified>
+      <Modified>2021-05-07T21:16:38.055</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\Timer.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\Timer.png">
       <PackagePath>Assets\Timer.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.470</Modified>
+      <Modified>2021-05-11T13:58:32.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\tornep.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\tornep.png">
       <PackagePath>Assets\tornep.png</PackagePath>
-      <Modified>2021-05-20T08:15:44.725</Modified>
+      <Modified>2021-05-20T08:55:06.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.463</Modified>
+      <Modified>2021-05-04T14:32:45.658</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-17T21:00:20.468</Modified>
+      <Modified>2021-05-04T14:32:45.747</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-17T21:00:20.468</Modified>
+      <Modified>2021-05-04T14:32:45.659</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-17T21:00:20.468</Modified>
+      <Modified>2021-05-04T14:32:45.746</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-17T21:00:20.469</Modified>
+      <Modified>2021-05-04T14:32:45.747</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-17T21:00:20.469</Modified>
+      <Modified>2021-05-04T14:32:45.747</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-17T21:00:20.470</Modified>
+      <Modified>2021-05-04T14:32:45.747</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\backButton.png">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\backButton.png">
       <PackagePath>Assets\backButton.png</PackagePath>
-      <Modified>2021-05-17T21:00:20.475</Modified>
+      <Modified>2021-05-07T21:16:38.058</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\avatarLuchador.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\avatarLuchador.jpg">
       <PackagePath>Assets\avatarLuchador.jpg</PackagePath>
-      <Modified>2021-05-18T10:06:54.744</Modified>
+      <Modified>2021-05-18T09:59:50.031</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\boi.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\boi.jpg">
       <PackagePath>Assets\boi.jpg</PackagePath>
-      <Modified>2021-05-17T21:00:20.477</Modified>
+      <Modified>2021-05-15T12:39:21.200</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\calico.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\calico.jpg">
       <PackagePath>Assets\calico.jpg</PackagePath>
-      <Modified>2021-05-17T21:00:20.478</Modified>
+      <Modified>2021-05-15T13:06:11.282</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\campoBatalla.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\campoBatalla.jpg">
       <PackagePath>Assets\campoBatalla.jpg</PackagePath>
-      <Modified>2021-05-17T21:00:20.480</Modified>
+      <Modified>2021-05-10T13:20:56.366</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\campoBatalla2.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\campoBatalla2.jpg">
       <PackagePath>Assets\campoBatalla2.jpg</PackagePath>
-      <Modified>2021-05-18T20:35:12.765</Modified>
+      <Modified>2021-05-19T13:59:59.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\chica.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\chica.jpg">
       <PackagePath>Assets\chica.jpg</PackagePath>
-      <Modified>2021-05-17T21:00:20.481</Modified>
+      <Modified>2021-05-12T08:18:12.818</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\mosto.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\mosto.jpg">
       <PackagePath>Assets\mosto.jpg</PackagePath>
-      <Modified>2021-05-17T21:00:20.502</Modified>
+      <Modified>2021-05-15T10:21:25.691</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\pepe.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\pepe.jpg">
       <PackagePath>Assets\pepe.jpg</PackagePath>
-      <Modified>2021-05-17T21:00:20.506</Modified>
+      <Modified>2021-05-13T14:28:32.869</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\perfil.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\perfil.jpg">
       <PackagePath>Assets\perfil.jpg</PackagePath>
-      <Modified>2021-05-17T21:00:20.506</Modified>
+      <Modified>2021-05-15T10:24:14.514</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\Zeus.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\Zeus.jpg">
       <PackagePath>Assets\Zeus.jpg</PackagePath>
-      <Modified>2021-05-17T21:00:20.471</Modified>
+      <Modified>2021-05-15T12:02:40.432</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\boi.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\boi.jpg">
       <PackagePath>boi.jpg</PackagePath>
-      <Modified>2021-05-17T21:00:20.647</Modified>
+      <Modified>2021-05-15T12:41:22.951</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\monke.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\monke.jpg">
       <PackagePath>Assets\monke.jpg</PackagePath>
-      <Modified>2021-05-17T21:00:20.502</Modified>
+      <Modified>2021-05-15T12:41:23.045</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Assets\ortega.jpg">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Assets\ortega.jpg">
       <PackagePath>Assets\ortega.jpg</PackagePath>
-      <Modified>2021-05-17T21:00:20.504</Modified>
+      <Modified>2021-05-15T12:41:23.049</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-05-17T21:00:20.521</Modified>
+      <Modified>2021-05-04T14:32:45.775</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\DSI_JustFighter.xr.xml">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\DSI_JustFighter.xr.xml">
       <PackagePath>DSI_JustFighter.xr.xml</PackagePath>
-      <Modified>2021-05-19T09:14:06.567</Modified>
+      <Modified>2021-05-19T14:00:00.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-05-20T08:27:21.485</Modified>
+      <Modified>2021-05-20T14:11:47.843</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\Ajustes.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\Ajustes.xbf">
       <PackagePath>Ajustes.xbf</PackagePath>
-      <Modified>2021-05-20T08:27:21.485</Modified>
+      <Modified>2021-05-20T14:11:47.843</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\CombateUI.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\CombateUI.xbf">
       <PackagePath>CombateUI.xbf</PackagePath>
-      <Modified>2021-05-20T08:27:21.485</Modified>
+      <Modified>2021-05-20T14:11:47.844</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\DesplegablePerfil.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\DesplegablePerfil.xbf">
       <PackagePath>DesplegablePerfil.xbf</PackagePath>
-      <Modified>2021-05-20T08:27:21.465</Modified>
+      <Modified>2021-05-20T14:11:47.816</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\MenuOnline.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\MenuOnline.xbf">
       <PackagePath>MenuOnline.xbf</PackagePath>
-      <Modified>2021-05-20T08:27:21.486</Modified>
+      <Modified>2021-05-20T14:11:47.844</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\MenuPrincipal.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\MenuPrincipal.xbf">
       <PackagePath>MenuPrincipal.xbf</PackagePath>
-      <Modified>2021-05-20T08:27:21.486</Modified>
+      <Modified>2021-05-20T14:11:47.844</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\MenuSeleccionPj.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\MenuSeleccionPj.xbf">
       <PackagePath>MenuSeleccionPj.xbf</PackagePath>
-      <Modified>2021-05-20T08:27:21.474</Modified>
+      <Modified>2021-05-20T14:11:47.830</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\SeleccionarImagenPerfil.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\SeleccionarImagenPerfil.xbf">
       <PackagePath>SeleccionarImagenPerfil.xbf</PackagePath>
-      <Modified>2021-05-20T08:27:21.478</Modified>
+      <Modified>2021-05-20T14:11:47.834</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\Tienda.xbf">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\Tienda.xbf">
       <PackagePath>Tienda.xbf</PackagePath>
-      <Modified>2021-05-20T08:27:21.485</Modified>
+      <Modified>2021-05-20T14:11:47.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T15:33:42.000</Modified>
+      <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-05-20T08:16:35.620</Modified>
+      <Modified>2021-05-20T13:33:43.477</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\Desktop\DSIPROYECTO\DSI_JustFighter\bin\x86\Debug\Core\DSI_JustFighter.exe">
+    <AppxPackagedFile Include="C:\Users\javie\Documents\UNI\DSI\DSI_JustFighter\bin\x86\Debug\Core\DSI_JustFighter.exe">
       <PackagePath>DSI_JustFighter.exe</PackagePath>
-      <Modified>2021-05-20T08:27:22.024</Modified>
+      <Modified>2021-05-20T14:11:48.582</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\danie\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\danie\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

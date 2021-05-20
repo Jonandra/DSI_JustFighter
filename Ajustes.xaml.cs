@@ -25,7 +25,7 @@ namespace DSI_JustFighter
     public sealed partial class Ajustes : Page
     {
         string idioma;
-        
+        string name;
         static double volumeAux = 0;
 
         public Ajustes()
@@ -78,12 +78,18 @@ namespace DSI_JustFighter
                     eSonido.Text = "Effets sonores";
                 }
             }
+            if (a.name != null)
+            {
+                name = a.name;
+            }
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
+            a.name = name;
             volumeAux = SliderVolume.Value; //Nos guardamos el volumen 
             this.Frame.Navigate(typeof(MenuPrincipal), a);
         }
@@ -161,6 +167,7 @@ namespace DSI_JustFighter
                 case VirtualKey.GamepadMenu:
                     NavigationInfo a = new NavigationInfo();
                     a.language = idioma;
+                    a.name = name;
                     this.Frame.Navigate(typeof(MenuPrincipal), a);
                     break;
                 case VirtualKey.Down:
@@ -186,8 +193,6 @@ namespace DSI_JustFighter
             else if (e.NewValue == 100) ElementSoundPlayer.Volume = 1;
             else
             {
-
-
                 if (e.NewValue > e.OldValue) //Subir volumen 
                 {
 

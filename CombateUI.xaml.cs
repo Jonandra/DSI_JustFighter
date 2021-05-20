@@ -24,6 +24,7 @@ namespace DSI_JustFighter
     /// </summary>
     public sealed partial class CombateUI : Page
     {
+        string name;
         string idioma;
         public CombateUI()
         {
@@ -43,35 +44,36 @@ namespace DSI_JustFighter
             }
             else
             {
-
                 BitmapImage bitimg = new BitmapImage();
                 bitimg.UriSource = new Uri("/Assets/avatar1.png");
                 Perfil.Source = bitimg;
+            }
 
+            if (a.name != null)
+            {
+                name = a.name;
             }
         }
 
         //No se por que no me lo detecta 
         private void Player_Click(object sender, RoutedEventArgs e)
         {
-
             if (Bar1.Value > 0) Bar1.Value -= 5;
             else Bar1.Value = 80;
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
+            a.name = name;
             this.Frame.Navigate(typeof(MenuPrincipal), a);
         }
 
         private void ContentControl_Click(object sender, RoutedEventArgs e)
-        {
-            
-                if (player1.Margin.Left < 250) player1.Margin = new Thickness(player1.Margin.Left + 5, 166, 0, 154);
-                else player1.Margin = new Thickness(200, 166, 0, 154);
+        {            
+            if (player1.Margin.Left < 250) player1.Margin = new Thickness(player1.Margin.Left + 5, 166, 0, 154);
+            else player1.Margin = new Thickness(200, 166, 0, 154);
         }
     }
 }
