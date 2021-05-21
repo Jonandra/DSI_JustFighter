@@ -101,7 +101,7 @@ namespace DSI_JustFighter
         }
         private void Click_Salir(object sender, RoutedEventArgs e)
         {
-            Application.Current.Exit();
+            salir.Visibility = Visibility.Visible;
         }
 
         private void Grid_KeyDown(object sender, KeyRoutedEventArgs e)
@@ -165,6 +165,16 @@ namespace DSI_JustFighter
 
 
             }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Exit();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            salir.Visibility = Visibility.Collapsed;
         }
     }
 }

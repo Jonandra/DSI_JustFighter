@@ -32,9 +32,9 @@
                                 <StackPanel Orientation="Horizontal" Width="300">
                                     <Image x:Name="PerfilImagen" Stretch="Uniform" Source="/Assets/mosto.jpg" Height="90" HorizontalAlignment="Left"   />
                                     <TextBlock x:Name="NOMBRE" Margin="10,0" VerticalAlignment="Center" Text="PLAYER1" FontSize="30" Width="156"></TextBlock>
-                                </StackPanel>                                
+                                </StackPanel>
                             </Button>
-                            
+
                         </StackPanel>
 
                     </Border>
@@ -116,6 +116,44 @@
                                     <Image Source="/Assets/PLAY.png" Height="113" Margin="-16,0,-12,0"    />
                                 </Button>
                             </Viewbox>
+
+                            <Viewbox Name="salir" Stretch="Uniform" StretchDirection="Both" Grid.ColumnSpan="1" Grid.RowSpan="2" Grid.Row="0" Grid.Column="1" Visibility="Collapsed">
+                                <Canvas Width="100" Height="100" Background="Gray">
+                                    <!--<StackPanel Orientation="Vertical" Height="12" Canvas.Left="10" Width="80">
+                                        <TextBlock Text="¿Seguro que quieres salir?" FontSize="6.5"/>
+
+                                    </StackPanel>-->
+                                    <Grid Width="100" Height="100">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="10*"/>
+                                            <RowDefinition Height="10*"/>
+                                            <RowDefinition Height="10*"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid Grid.Row="0" >
+                                            <Border BorderThickness="2" BorderBrush="Aqua" Background="Bisque" Margin="0,5">                                               
+                                                
+                                                    <TextBlock Text="¿Esta seguro?"  FontFamily="Liberation Mono" FontStyle="Normal" FontSize="12.3" VerticalAlignment="Center" FocusVisualPrimaryBrush="White" Foreground="Black"></TextBlock>
+                                            </Border>
+
+                                        </Grid>
+                                        <Grid Grid.Row="1">
+                                            <Border Width="60" Height="20" BorderThickness="2" BorderBrush="Aqua" Background="Bisque" >
+                                                <Button  HorizontalAlignment="Center"  Width="60" Height="18" Click="Button_Click">
+                                                    <TextBlock FontSize="6" Text="Sí" Width="5" Height="8" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="3,0,0,0"/>
+                                                </Button>
+                                            </Border>
+                                        </Grid>
+                                        <Grid Grid.Row="2">
+                                            <Border Width="60" Height="20" BorderThickness="2" BorderBrush="Aqua" Background="Bisque" >
+                                                <Button  HorizontalAlignment="Center"  Width="60" Height="18" Click="Button_Click_1">
+                                                    <TextBlock FontSize="6" Text="No" Width="5" Height="8" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="3,0,0,0"/>
+                                                </Button>
+                                            </Border>
+                                        </Grid>
+                                    </Grid>
+                                </Canvas>
+                            </Viewbox>
+
 
                         </Grid>
 
