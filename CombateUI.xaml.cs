@@ -26,6 +26,7 @@ namespace DSI_JustFighter
     {
         string name;
         string idioma;
+        bool playing;
         public CombateUI()
         {
             this.InitializeComponent();
@@ -52,7 +53,9 @@ namespace DSI_JustFighter
             if (a.name != null)
             {
                 name = a.name;
-            }
+            }           
+             playing = a.playing;
+            
         }
 
         //No se por que no me lo detecta 
@@ -67,6 +70,7 @@ namespace DSI_JustFighter
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
             a.name = name;
+            a.playing = playing;
             this.Frame.Navigate(typeof(MenuPrincipal), a);
         }
 

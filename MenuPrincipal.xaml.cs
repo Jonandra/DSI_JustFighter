@@ -5,6 +5,8 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Media.Core;
+using Windows.Media.Playback;
 using Windows.System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -24,16 +26,18 @@ namespace DSI_JustFighter
     /// </summary>
     public sealed partial class MenuPrincipal : Page
     {
+        MediaPlayer player;
         string idioma;
         string name;
+        bool playing;
 
         public MenuPrincipal()
         {
             this.InitializeComponent();
-
+            player = new MediaPlayer();
         }
 
-        protected override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
+        protected async override void OnNavigatedTo(NavigationEventArgs e) //EN CASO DE QUE PASES PARAMETROS
         {
             //ApplicationLanguages.PrimaryLanguageOverride = "fr";
             NavigationInfo a = e.Parameter as NavigationInfo;
@@ -44,7 +48,7 @@ namespace DSI_JustFighter
                 a = new NavigationInfo();
                 a.language = "Español";
             }
-            if (a.source!= null)
+            if (a.source != null)
             {
                 PerfilImagen.Source = a.source;
             }
@@ -57,13 +61,31 @@ namespace DSI_JustFighter
                 name = a.name;
                 NOMBRE.Text = name;
             }
+            if(a.playing != null)
+            {
+                playing = a.playing;
+            }
+            Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync(@"Assets");
+            Windows.Storage.StorageFile file = await folder.GetFileAsync("Hahne_-_8bit_Dancer.mp3");
+
+            player.AutoPlay = false;
+            player.Source = MediaSource.CreateFromStorageFile(file);
+
+            if (!a.playing)
+            {
+                player.Play();                
+                playing = true;
+            }
+            else player.Source = null;
         }
+
 
         private void Click_Jugar(object sender, RoutedEventArgs e)
         {
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
             a.name = name;
+            a.playing = playing;
             this.Frame.Navigate(typeof(MenuSeleccionPj), a);
         }
 
@@ -72,6 +94,7 @@ namespace DSI_JustFighter
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
             a.name = name;
+            a.playing = playing;
             this.Frame.Navigate(typeof(Tienda), a);
         }
 
@@ -81,6 +104,7 @@ namespace DSI_JustFighter
             a.language = idioma;
             a.source = PerfilImagen.Source;
             a.name = name;
+            a.playing = playing;
             this.Frame.Navigate(typeof(MenuOnline), a);
         }
 
@@ -90,6 +114,7 @@ namespace DSI_JustFighter
             a.language = idioma;
             a.source = PerfilImagen.Source;
             a.name = name;
+            a.playing = playing;
             this.Frame.Navigate(typeof(DesplegablePerfil), a);
         }
         private void Click_Ajustes(object sender, RoutedEventArgs e)
@@ -97,6 +122,7 @@ namespace DSI_JustFighter
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
             a.name = name;
+            a.playing = playing;
             this.Frame.Navigate(typeof(Ajustes), a);
         }
         private void Click_Salir(object sender, RoutedEventArgs e)

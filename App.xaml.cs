@@ -30,7 +30,7 @@ namespace DSI_JustFighter
         {
             this.InitializeComponent();
             ElementSoundPlayer.State = ElementSoundPlayerState.On;
-            ElementSoundPlayer.Volume=0;
+            ElementSoundPlayer.Volume=1;
             this.Suspending += OnSuspending;
         }
 

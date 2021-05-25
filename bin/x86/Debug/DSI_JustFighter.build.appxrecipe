@@ -199,6 +199,9 @@
     <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\ortega.jpg">
       <PackagePath>Assets\ortega.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Assets\Hahne_-_8bit_Dancer.mp3">
+      <PackagePath>Assets\Hahne_-_8bit_Dancer.mp3</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ARIALBLAK\Desktop\DSI_JustFighter\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

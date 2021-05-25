@@ -32,6 +32,7 @@ namespace DSI_JustFighter
     {
         string idioma;
         string name;
+        bool playing;
         public MenuSeleccionPj()
         {
             this.InitializeComponent();
@@ -91,6 +92,10 @@ namespace DSI_JustFighter
             {
                 name = a.name;
             }
+            if(a.playing != null)
+            {
+                playing = a.playing;
+            }
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
@@ -124,6 +129,7 @@ namespace DSI_JustFighter
             a.language = idioma;
             a.source = Perfil.Source;
             a.name = name;
+            a.playing = playing;
             this.Frame.Navigate(typeof(CombateUI), a); //DesplegablePerfil
         }
 
