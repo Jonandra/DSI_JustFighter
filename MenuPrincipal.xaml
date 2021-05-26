@@ -130,23 +130,23 @@
                                             <RowDefinition Height="10*"/>
                                         </Grid.RowDefinitions>
                                         <Grid Grid.Row="0" >
-                                            <Border BorderThickness="2" BorderBrush="Aqua" Background="Bisque" Margin="0,5">                                               
-                                                
-                                                    <TextBlock Text="¿Esta seguro?"  FontFamily="Liberation Mono" FontStyle="Normal" FontSize="12.3" VerticalAlignment="Center" FocusVisualPrimaryBrush="White" Foreground="Black"></TextBlock>
+                                            <Border BorderThickness="2" BorderBrush="Aqua" Background="Bisque" Margin="0,5">
+
+                                                <TextBlock Text="¿Esta seguro?"  FontFamily="Liberation Mono" FontStyle="Normal" FontSize="12.3" VerticalAlignment="Center" FocusVisualPrimaryBrush="White" Foreground="Black"></TextBlock>
                                             </Border>
 
                                         </Grid>
                                         <Grid Grid.Row="1">
                                             <Border Width="60" Height="20" BorderThickness="2" BorderBrush="Aqua" Background="Bisque" >
                                                 <Button  HorizontalAlignment="Center"  Width="60" Height="18" Click="Button_Click">
-                                                    <TextBlock FontSize="6" Text="Sí" Width="5" Height="8" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="3,0,0,0"/>
+                                                    <TextBlock FontSize="6" Text="Sí" Width="10" Height="8" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="3,0,0,0" Foreground="Black"/>
                                                 </Button>
                                             </Border>
                                         </Grid>
                                         <Grid Grid.Row="2">
                                             <Border Width="60" Height="20" BorderThickness="2" BorderBrush="Aqua" Background="Bisque" >
                                                 <Button  HorizontalAlignment="Center"  Width="60" Height="18" Click="Button_Click_1">
-                                                    <TextBlock FontSize="6" Text="No" Width="5" Height="8" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="3,0,0,0"/>
+                                                    <TextBlock FontSize="6" Text="No" Width="9" Height="8" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="3,0,0,0" Foreground="Black"/>
                                                 </Button>
                                             </Border>
                                         </Grid>

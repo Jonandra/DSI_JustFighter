@@ -26,6 +26,7 @@ namespace DSI_JustFighter
     {
         string idioma;
         string name;
+        bool playing;
         static double volumeAux = 0;
 
         public Ajustes()
@@ -82,6 +83,7 @@ namespace DSI_JustFighter
             {
                 name = a.name;
             }
+            playing = a.playing;
 
         }
 
@@ -90,6 +92,7 @@ namespace DSI_JustFighter
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
             a.name = name;
+            a.playing = playing;
             volumeAux = SliderVolume.Value; //Nos guardamos el volumen 
             this.Frame.Navigate(typeof(MenuPrincipal), a);
         }

@@ -25,6 +25,7 @@ namespace DSI_JustFighter
     {
         string idioma;
         string name;
+        bool playing;
         public MenuOnline()
         {
             this.InitializeComponent();
@@ -54,6 +55,7 @@ namespace DSI_JustFighter
                 name = a.name;
                 NOMBRE.Text = name;
             }
+            playing = a.playing;
         }
 
         private void Click_Perfil(object sender, RoutedEventArgs e)
@@ -62,6 +64,7 @@ namespace DSI_JustFighter
             a.language = idioma;
             a.source = PerfilImagen.Source;
             a.name = name;
+            a.playing = playing;
             this.Frame.Navigate(typeof(DesplegablePerfil), a);
         }
         private void Click_Ajustes(object sender, RoutedEventArgs e)
@@ -69,12 +72,21 @@ namespace DSI_JustFighter
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
             a.name = name;
+            a.playing = playing;
             this.Frame.Navigate(typeof(Ajustes), a);
         }
         private void Click_Salir(object sender, RoutedEventArgs e)
         {
             if (this.Frame.CanGoBack)
-                this.Frame.GoBack();
+            {
+                NavigationInfo a = new NavigationInfo();
+                a.language = idioma;
+                a.name = name;
+                a.playing = playing;
+                this.Frame.Navigate(typeof(MenuPrincipal), a);
+            }
+               
+
         }
 
         private void Grid_KeyDown(object sender, KeyRoutedEventArgs e)

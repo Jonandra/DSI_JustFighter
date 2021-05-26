@@ -29,6 +29,7 @@ namespace DSI_JustFighter
         bool cambiarNombre = false;
         string newName = "";
         string idioma;
+        bool playing;
         public string lastName = "PLAYER 1";
 
         public DesplegablePerfil()
@@ -113,6 +114,7 @@ namespace DSI_JustFighter
                 BitmapImage bitimg = a.source as BitmapImage;
                 IMAGEN.Source = bitimg;
             }
+            playing = a.playing;
         }
 
         private void EditarImagen_Click(object sender, RoutedEventArgs e)
@@ -124,7 +126,7 @@ namespace DSI_JustFighter
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
             a.source = IMAGEN.Source;
-            a.name = lastName;
+            a.name = lastName;            
             this.Frame.Navigate(typeof(SeleccionarImagenPerfil), a);
         }
 
@@ -140,6 +142,7 @@ namespace DSI_JustFighter
             a.language = idioma;
             a.source = IMAGEN.Source;
             a.name = lastName;
+            a.playing = playing;
             this.Frame.Navigate(typeof(MenuPrincipal), a);
             //On_BackRequested();
         }

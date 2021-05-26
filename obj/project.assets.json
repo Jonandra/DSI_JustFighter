@@ -8157,11 +8157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ARIALBLAK\\Desktop\\DSI_JustFighter\\DSI_JustFighter.csproj",
+      "projectUniqueName": "C:\\Users\\ARIALBLAK\\Desktop\\uni\\DSI\\DSI_JustFighter\\DSI_JustFighter.csproj",
       "projectName": "DSI_JustFighter",
-      "projectPath": "C:\\Users\\ARIALBLAK\\Desktop\\DSI_JustFighter\\DSI_JustFighter.csproj",
+      "projectPath": "C:\\Users\\ARIALBLAK\\Desktop\\uni\\DSI\\DSI_JustFighter\\DSI_JustFighter.csproj",
       "packagesPath": "C:\\Users\\ARIALBLAK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ARIALBLAK\\Desktop\\DSI_JustFighter\\obj\\",
+      "outputPath": "C:\\Users\\ARIALBLAK\\Desktop\\uni\\DSI\\DSI_JustFighter\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

@@ -101,6 +101,8 @@ namespace DSI_JustFighter
         private void Back_Click(object sender, RoutedEventArgs e)
         {
             On_BackRequested();
+            //cambiado por la musica
+            //this.Frame.Navigate(typeof(MenuPrincipal),e);
         }
 
         // Handles system-level BackRequested events and page-level back  button Click events
@@ -108,7 +110,13 @@ namespace DSI_JustFighter
         {
             if (this.Frame.CanGoBack)
             {
-                this.Frame.GoBack();
+                NavigationInfo a = new NavigationInfo();
+                a.language = idioma;
+                a.source = Perfil.Source;
+                a.name = name;
+                a.playing = playing;
+                // this.Frame.GoBack();
+                this.Frame.Navigate(typeof(MenuPrincipal), a);
                 return true;
             }
             return false;

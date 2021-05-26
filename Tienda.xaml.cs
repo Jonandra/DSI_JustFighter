@@ -29,6 +29,7 @@ namespace DSI_JustFighter
         string idioma;
         string name;
         bool rightPressed = false;
+        bool playing;
         public Tienda()
         {
             this.InitializeComponent();
@@ -45,6 +46,7 @@ namespace DSI_JustFighter
             NavigationInfo a = new NavigationInfo();
             a.language = idioma;
             a.name = name;
+            a.playing = playing;
             this.Frame.Navigate(typeof(MenuPrincipal), a);
         }
 
@@ -95,6 +97,7 @@ namespace DSI_JustFighter
             {
                 name = a.name;
             }
+            playing = a.playing;
         }
 
         //Flecha Derecha 
