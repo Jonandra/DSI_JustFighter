@@ -498,7 +498,6 @@ C:\Users\ARIALBLAK\Desktop\uni\DSI\DSI_JustFighter\bin\x86\Debug\Core\DSI_JustFi
 C:\Users\ARIALBLAK\Desktop\uni\DSI\DSI_JustFighter\bin\x86\Debug\DSI_JustFighter.build.appxrecipe
 C:\Users\ARIALBLAK\Desktop\uni\DSI\DSI_JustFighter\bin\x86\Debug\System.Runtime.dll
 C:\Users\ARIALBLAK\Desktop\uni\DSI\DSI_JustFighter\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\ARIALBLAK\Desktop\uni\DSI\DSI_JustFighter\obj\x86\Debug\DSI_JustFighter.csprojAssemblyReference.cache
 C:\Users\ARIALBLAK\Desktop\uni\DSI\DSI_JustFighter\obj\x86\Debug\App.g.i.cs
 C:\Users\ARIALBLAK\Desktop\uni\DSI\DSI_JustFighter\obj\x86\Debug\App.g.cs
 C:\Users\ARIALBLAK\Desktop\uni\DSI\DSI_JustFighter\obj\x86\Debug\Ajustes.g.i.cs

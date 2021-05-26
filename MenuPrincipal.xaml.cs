@@ -70,7 +70,7 @@ namespace DSI_JustFighter
 
             player.AutoPlay = false;
             player.Source = MediaSource.CreateFromStorageFile(file);
-
+            player.Volume = 0.5;
             if (!a.playing)
             {
                 player.Play();                
